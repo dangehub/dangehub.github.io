@@ -1,6 +1,6 @@
 # Site settings 配置站点
-title: 'your awesome title'
-description: 'your web description'
+title: '曲淡妙妙屋'
+description: '十分冷淡存知己，一曲微茫度余生'
 keywords: 'your web keywords, another keywords'
 url: 'https://abc.github.io' # your host
 
@@ -14,8 +14,8 @@ nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
 
 # 博主
 author: true
-name: 'your awesome name'
-NickName: 'your awesome nickname'
+name: '曲淡歌'
+NickName: '曲奇～'
 webtitle: 'your awesome webtitle'
 bio: 'your awesome bio'
 about: true
