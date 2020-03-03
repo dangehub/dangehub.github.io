@@ -2,7 +2,7 @@
 title: '曲淡妙妙屋'
 description: '十分冷淡存知己，一曲微茫度余生'
 keywords: 'your web keywords, another keywords'
-url: 'https://abc.github.io' # your host
+url: 'https://dangehub.github.io' # your host
 
 # nav 中文字符空格：&emsp;
 nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
@@ -16,7 +16,7 @@ nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
 author: true
 name: '曲淡歌'
 NickName: '曲奇～'
-webtitle: 'your awesome webtitle'
+webtitle: '曲淡妙妙屋'
 bio: '十分冷淡存知己，一区微芒度余生'
 about: true
 aboutyou: '
