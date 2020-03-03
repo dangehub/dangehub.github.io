@@ -19,7 +19,19 @@ NickName: '曲奇～'
 webtitle: 'your awesome webtitle'
 bio: '十分冷淡存知己，一区微芒度余生'
 about: true
-aboutyou: 'your introduction'
+aboutyou: '
+这里荒芜寸草不生，
+
+后来你来这里走了一遭，
+
+奇迹般万物生长，
+
+这里是我的心。
+
+—————《沙漠》
+
+倒着读也是一样
+'
 portraits: '/assets/profile.jpeg' # your portraits image file path
 
 # SNS
