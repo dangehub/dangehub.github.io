@@ -32,7 +32,7 @@ aboutyou: '
 
 倒着读也是一样
 '
-portraits: '/assets/profile.jpeg' # your portraits image file path
+portraits: '/assets/头像jpeg格式版本.jpg' # your portraits image file path
 
 # SNS
 SNS: true
