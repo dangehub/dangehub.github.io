@@ -1,3 +1,16 @@
+---
+layout: post
+title: 搭建Nginx proxy manager.md
+date: 2022-4-01
+author: 曲淡歌
+color: rgb(2485,195,205)
+cover: 'https://cdn.jsdelivr.net/gh/dangehub/ImgData/27cb10003a58f65a27f36078579b1aca.jpg'
+
+
+
+tags: 反向代理 数码
+---
+
 # 参考资料
 - [Docker系列 搭建密码管理应用bitwarden - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/506369199)
 - [反向代理神器——Nginx Proxy Manager_蒟蒻颖的博客-CSDN博客](https://blog.csdn.net/zy440458/article/details/122090513)
