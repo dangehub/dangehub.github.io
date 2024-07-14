@@ -1,0 +1,38 @@
+---
+share: true
+title: 安卓使用 Thanox 实现安装新应用自动加入 Magisk 的 Denylist（Shamiko 实现）
+tags:
+  - geek
+  - android
+  - magisk
+  - root
+  - 搞机
+categories:
+  - android
+---
+
+
+如果你想在安卓设备上得到最佳体验的话，Root 是必须的，而在现在 Magisk 仍然是最优的 Root 选择，但是目前很多 app 都会对 Root 进行检测，尤其是不少应用在第一次检测到设备上有 Root 的痕迹后便会把设备列入一个名单，因此在安装应用后的第一时间就做好反检测措施是很有必要的。
+
+下面我介绍如何便捷的实现安装新应用后，自动把新应用加入 Magisk 的 Denylist中（Shamiko 实现）。
+
+使用 Thanox 的情景模式，添加如下代码：
+```
+[
+{
+"name": "AutoMagiskHide",
+"description": "新应用安装时，自动MagiskHide（shamiko）",
+"priority": 2,
+"condition": "pkgAdded == true",
+"actions": [
+"ui.showShortToast(\"已添加新应用:\"+pkgName+\",已加入Magisk Denylist:\" + su.exe(\"magisk --denylist add \"+pkgName));"
+]
+}
+]
+```
+
+如果是使用的早期的 Magisk，那就是 Magiskhide，原理类似。
+贴一下新老两个版本的 Magisk 文档，tools 那节就有具体的用法。
+
+Magisk Denylist:[Magisk Tools | Magisk (topjohnwu.github.io)](https://topjohnwu.github.io/Magisk/tools.html)
+Magiskhide: [Magisk Tools — Magisk documentation](https://magisk.readthedocs.io/en/latest/developers/tools.html#magiskhide)
