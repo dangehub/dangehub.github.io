@@ -14,7 +14,7 @@ categories:
 
 更新 n 8 n：1.0.4 更新到 1.44.1
 
-![](assets/Pasted%20image%2020240806214536.png)
+![](https://github.com/dangehub/github2wp/blob/main/_posts/assets/Pasted%20image%2020240806214536.png)
 
 采用这样的结构时，会报错 `Expected to find the prompt in an input field called 'chatInput' (this is what the chat trigger node outputs). To use something else, change the 'Prompt' parameter`
 
@@ -24,7 +24,7 @@ NodeOperationError: No prompt specified at getPromptInputByType (/usr/local/lib/
 ```
 
 后面我发现问题来自于 `prompt` 的设置，原来每个 llm chain 一开始就有一个 prompt 设置，而默认是继承自上一个节点，而我的第一个 llm chain 节点就没设置它。
-![](assets/Pasted%20image%2020240806221817.png)
+![](https://github.com/dangehub/github2wp/blob/main/_posts/assets/Pasted%20image%2020240806221817.png)
 
 搞定后展示一下翻译效果：
 
@@ -117,6 +117,6 @@ openai 格式参考为:
 
 注意，在http  request 中不能使用引号和换行。
 
-在 prompt 中要求不要使用引号，然后用节点来处理换行符，最后得到效果如下：![](assets/Pasted%20image%2020240807013225.png)
+在 prompt 中要求不要使用引号，然后用节点来处理换行符，最后得到效果如下：![](https://github.com/dangehub/github2wp/blob/main/_posts/assets/Pasted%20image%2020240807013225.png)
 
 可以看到这个效果已经相当好了。
