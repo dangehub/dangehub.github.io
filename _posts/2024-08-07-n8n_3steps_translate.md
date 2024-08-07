@@ -9,12 +9,12 @@ categories:
   - geek
 ---
 
-# n8n
+
 用 defy 搭建三步翻译老是报错，想自托管发现 defy 的配置要求很高，于是准备先用之前的 n 8 n 试试。
 
 更新 n 8 n：1.0.4 更新到 1.44.1
 
-![](https://github.com/dangehub/github2wp/blob/main/_posts/assets/Pasted%20image%2020240806214536.png?raw=true)
+![](https://github.com/dangehub/github2wp/blob/main/_posts/assets/Pasted%20image%2020240806214536.png)
 
 采用这样的结构时，会报错 `Expected to find the prompt in an input field called 'chatInput' (this is what the chat trigger node outputs). To use something else, change the 'Prompt' parameter`
 

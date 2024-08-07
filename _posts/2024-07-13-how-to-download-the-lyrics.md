@@ -1,6 +1,6 @@
 ---
 share: true
-title: 下载网易云音乐的双语歌词
+title: 如何下载网易云音乐的普通歌词与双语歌词
 git_title: 2024-07-13-how-to-download-the-lyrics
 tags:
   - geek
@@ -8,13 +8,25 @@ tags:
 categories:
   - 音乐
 ---
+# 下载网易云歌词的办法 
+
+参考资料：[无需下载软件！网易云歌词下载&网站生成SRT字幕方法_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1MD4y1y7oG/?p=1)
+
+简要总结：
+
+F12 打开控制台，搜索 `lrc` 能找到 `lyric?csrf_token=29d51bc21214a2b0039928c8dc704967` 这种格式的网址，然后右键复制响应，把包含歌词的json文件粘贴到一个word文档内，搜索替换换行符 `\n` 为手动分页符（替换的高级功能中手动选择）
+
+然后把格式化完成的歌词放到 `.lrc` 文件中	
+
+# 下载双语歌词
+
 原文地址：[下载网易云音乐的双语歌词](https://umi.im/cloud-music-lrc/
 
 ==网易云音乐==是国内最好的音乐平台，歌曲丰富，而且很多外语歌都有双语歌词。但是==网易云音乐==不提供歌词下载，用手机客户端可以一键获取，但是获取到的歌词并非 LRC 格式的，而且文件名是纯数字，不方便用。
 
 在 PC 端，可以通过一段 JS 脚本直接获取到双语的歌词。
 
-# 使用方法：
+## 使用方法：
 
 - 打开需要下载歌词的歌曲==网易云音乐==链接，通过地址栏 URL 获取到歌曲 ID 。
 
@@ -56,3 +68,6 @@ categories:
 感谢 V2EX 用户 [demo](https://www.v2ex.com/member/demo) 贡献此脚本。
 
 GitHub地址：anonymous/**[concat_163_music_lrc.js](https://gist.github.com/anonymous/a800677393bbb2dd113a)**
+
+
+
