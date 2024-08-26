@@ -1,0 +1,77 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Geek - Category - 我的全新 Hugo 网站</title>
+        <link>http://localhost:1313/categories/geek/</link>
+        <description>Geek - Category - 我的全新 Hugo 网站</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="http://localhost:1313/categories/geek/" rel="self" type="application/rss+xml" /><item>
+    <title>AudioPen：让Ai帮你整理碎碎念，语音转书面化文字的利器</title>
+    <link>http://localhost:1313/posts/2024-07-15-audiopen/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/posts/2024-07-15-audiopen/</guid>
+    <description><![CDATA[AudioPen：让Ai帮你整理碎碎念，口语文字书面化的利器 本文标题又为：除非你比我的独处更迷人 前言你在独处的时候，会自言自语吗？ 你觉得你的]]></description>
+</item><item>
+    <title>obcsapi —— 最好的obsidian工具（需要云部署）</title>
+    <link>http://localhost:1313/posts/2024-07-14-obcsapi/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/posts/2024-07-14-obcsapi/</guid>
+    <description><![CDATA[前言为什么很多人会纠结用notion还是obsidian？因为notion具有强大的在线功能，一旦使用场景超越了单设备，obsidian用户]]></description>
+</item><item>
+    <title>Obsidian 实现复制时自动上传图片到图床</title>
+    <link>http://localhost:1313/posts/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/obsidian-%E5%AE%9E%E7%8E%B0%E5%A4%8D%E5%88%B6%E6%97%B6%E8%87%AA%E5%8A%A8%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E5%88%B0%E5%9B%BE%E5%BA%8A/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/posts/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/obsidian-%E5%AE%9E%E7%8E%B0%E5%A4%8D%E5%88%B6%E6%97%B6%E8%87%AA%E5%8A%A8%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E5%88%B0%E5%9B%BE%E5%BA%8A/</guid>
+    <description><![CDATA[Obsidian 实现复制时自动上传图片到图床【QuickAdd脚本】带图复制-自动上传图片到图床 - 经验分享 - Obsidian 中文论坛 我新开一个库可以用，但是在主力库里就]]></description>
+</item><item>
+    <title>Obsidian 实现复制时自动上传图片到图床</title>
+    <link>http://localhost:1313/posts/2024-08-11-obsidian-pic-upload/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/posts/2024-08-11-obsidian-pic-upload/</guid>
+    <description><![CDATA[Obsidian 实现复制时自动上传图片到图床【QuickAdd脚本】带图复制-自动上传图片到图床 - 经验分享 - Obsidian 中文论坛 我新开一个库可以用，但是在主力库里就]]></description>
+</item><item>
+    <title>wordpress导入rss以同步全平台</title>
+    <link>http://localhost:1313/posts/2024-04-23-wordpress%E5%AF%BC%E5%85%A5rss%E4%BB%A5%E5%90%8C%E6%AD%A5%E5%85%A8%E5%B9%B3%E5%8F%B0/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/posts/2024-04-23-wordpress%E5%AF%BC%E5%85%A5rss%E4%BB%A5%E5%90%8C%E6%AD%A5%E5%85%A8%E5%B9%B3%E5%8F%B0/</guid>
+    <description><![CDATA[使用Feedzy插件，注意两点： rss链接最后跟上/?feed_author=1，最后的数字是wordpress user ID，这样可以指定这个rs]]></description>
+</item><item>
+    <title>安卓端用tasker实现ai总结b站</title>
+    <link>http://localhost:1313/posts/2024-07-13-android_tasker_ai_summary/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/posts/2024-07-13-android_tasker_ai_summary/</guid>
+    <description><![CDATA[前言本文的实现方式受到chrome拓展ChatGPTBox的启发，原理是通过b站的api和cookie获得自动ai字幕，然后用大语言模型（L]]></description>
+</item><item>
+    <title>安卓透明代理，上手 box for magisk</title>
+    <link>http://localhost:1313/posts/2024-07-14-box-for-magisk/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/posts/2024-07-14-box-for-magisk/</guid>
+    <description><![CDATA[前言在使用安卓设备的时候也有科学上网的需求，而直接使用app层级的代理会遇见以下几种问题： 部分app会检测代理：比如soul微调，检测代理的]]></description>
+</item><item>
+    <title>测试在根目录下能否正常倒序显示文章</title>
+    <link>http://localhost:1313/posts/%E6%B5%8B%E8%AF%95%E5%9C%A8%E6%A0%B9%E7%9B%AE%E5%BD%95%E4%B8%8B%E8%83%BD%E5%90%A6%E6%AD%A3%E5%B8%B8%E5%80%92%E5%BA%8F%E6%98%BE%E7%A4%BA%E6%96%87%E7%AB%A0/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/posts/%E6%B5%8B%E8%AF%95%E5%9C%A8%E6%A0%B9%E7%9B%AE%E5%BD%95%E4%B8%8B%E8%83%BD%E5%90%A6%E6%AD%A3%E5%B8%B8%E5%80%92%E5%BA%8F%E6%98%BE%E7%A4%BA%E6%96%87%E7%AB%A0/</guid>
+    <description><![CDATA[测试在根目录下能否正常倒序显示文章]]></description>
+</item><item>
+    <title>用 n8n 实现三步翻译</title>
+    <link>http://localhost:1313/posts/2024-08-07-n8n_3steps_translate/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/posts/2024-08-07-n8n_3steps_translate/</guid>
+    <description><![CDATA[用 defy 搭建三步翻译老是报错，想自托管发现 defy 的配置要求很高，于是准备先用之前的 n 8 n 试试。 更新 n 8 n：1.0.4 更新到 1.44.1 采用这样的结构时，会报错]]></description>
+</item><item>
+    <title>语音笔记AudioPen的“平替”</title>
+    <link>http://localhost:1313/posts/2024-07-16-audiopen-substitute/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/posts/2024-07-16-audiopen-substitute/</guid>
+    <description><![CDATA[前言在b站发出AudioPen的视频后，有网友问有没有能自己部署的项目做平替，那今天就来分析一下如何找到AudioPen的平替。 现有项目Au]]></description>
+</item></channel>
+</rss>

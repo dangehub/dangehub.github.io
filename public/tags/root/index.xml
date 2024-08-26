@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Root - Tag - 我的全新 Hugo 网站</title>
+        <link>http://localhost:1313/tags/root/</link>
+        <description>Root - Tag - 我的全新 Hugo 网站</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="http://localhost:1313/tags/root/" rel="self" type="application/rss+xml" /><item>
+    <title>安卓使用 Thanox 实现安装新应用自动加入 Magisk 的 Denylist（Shamiko 实现）</title>
+    <link>http://localhost:1313/posts/2023-07-07-magisk/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/posts/2023-07-07-magisk/</guid>
+    <description><![CDATA[如果你想在安卓设备上得到最佳体验的话，Root 是必须的，而在现在 Magisk 仍然是最优的 Root 选择，但是目前很多 app 都会对 Root 进行检测，尤其是不少应用在第一次]]></description>
+</item></channel>
+</rss>

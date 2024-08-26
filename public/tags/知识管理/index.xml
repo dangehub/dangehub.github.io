@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>知识管理 - Tag - 我的全新 Hugo 网站</title>
+        <link>http://localhost:1313/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/</link>
+        <description>知识管理 - Tag - 我的全新 Hugo 网站</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="http://localhost:1313/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/" rel="self" type="application/rss+xml" /><item>
+    <title>语音笔记AudioPen的“平替”</title>
+    <link>http://localhost:1313/posts/2024-07-16-audiopen-substitute/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/posts/2024-07-16-audiopen-substitute/</guid>
+    <description><![CDATA[前言在b站发出AudioPen的视频后，有网友问有没有能自己部署的项目做平替，那今天就来分析一下如何找到AudioPen的平替。 现有项目Au]]></description>
+</item></channel>
+</rss>

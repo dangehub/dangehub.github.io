@@ -1,0 +1,7 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>1 - Category - 我的全新 Hugo 网站</title>
+        <link>http://localhost:1313/categories/1/</link>
+        <description>1 - Category - 我的全新 Hugo 网站</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="http://localhost:1313/categories/1/" rel="self" type="application/rss+xml" /></channel>
+</rss>

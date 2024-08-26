@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Gpt - Tag - 我的全新 Hugo 网站</title>
+        <link>http://localhost:1313/tags/gpt/</link>
+        <description>Gpt - Tag - 我的全新 Hugo 网站</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="http://localhost:1313/tags/gpt/" rel="self" type="application/rss+xml" /><item>
+    <title>安卓端用tasker实现ai总结b站</title>
+    <link>http://localhost:1313/posts/2024-07-13-android_tasker_ai_summary/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/posts/2024-07-13-android_tasker_ai_summary/</guid>
+    <description><![CDATA[前言本文的实现方式受到chrome拓展ChatGPTBox的启发，原理是通过b站的api和cookie获得自动ai字幕，然后用大语言模型（L]]></description>
+</item></channel>
+</rss>

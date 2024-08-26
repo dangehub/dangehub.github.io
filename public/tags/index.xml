@@ -1,0 +1,77 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - 我的全新 Hugo 网站</title>
+        <link>http://localhost:1313/tags/</link>
+        <description>Tags - Tag - 我的全新 Hugo 网站</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Ai</title>
+    <link>http://localhost:1313/tags/ai/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/tags/ai/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Android</title>
+    <link>http://localhost:1313/tags/android/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/tags/android/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>GardenEntry</title>
+    <link>http://localhost:1313/tags/gardenentry/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/tags/gardenentry/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Geek</title>
+    <link>http://localhost:1313/tags/geek/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/tags/geek/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Gpt</title>
+    <link>http://localhost:1313/tags/gpt/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/tags/gpt/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>LLM</title>
+    <link>http://localhost:1313/tags/llm/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/tags/llm/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Magisk</title>
+    <link>http://localhost:1313/tags/magisk/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/tags/magisk/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Proxy</title>
+    <link>http://localhost:1313/tags/proxy/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/tags/proxy/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Root</title>
+    <link>http://localhost:1313/tags/root/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/tags/root/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Wordpress</title>
+    <link>http://localhost:1313/tags/wordpress/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/tags/wordpress/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
+</rss>

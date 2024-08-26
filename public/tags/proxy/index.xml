@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Proxy - Tag - 我的全新 Hugo 网站</title>
+        <link>http://localhost:1313/tags/proxy/</link>
+        <description>Proxy - Tag - 我的全新 Hugo 网站</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="http://localhost:1313/tags/proxy/" rel="self" type="application/rss+xml" /><item>
+    <title>安卓透明代理，上手 box for magisk</title>
+    <link>http://localhost:1313/posts/2024-07-14-box-for-magisk/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://localhost:1313/posts/2024-07-14-box-for-magisk/</guid>
+    <description><![CDATA[前言在使用安卓设备的时候也有科学上网的需求，而直接使用app层级的代理会遇见以下几种问题： 部分app会检测代理：比如soul微调，检测代理的]]></description>
+</item></channel>
+</rss>
