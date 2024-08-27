@@ -1,0 +1,8 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Series - Series - 荒原往事</title>
+        <link>http://localhost:10435/series/</link>
+        <description>Series - Series - 荒原往事</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>623009848@qq.com (曲淡歌)</managingEditor>
+            <webMaster>623009848@qq.com (曲淡歌)</webMaster><atom:link href="http://localhost:10435/series/" rel="self" type="application/rss+xml" /></channel>
+</rss>

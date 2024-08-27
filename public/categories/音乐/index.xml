@@ -1,14 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>音乐 - Category - 我的全新 Hugo 网站</title>
-        <link>http://localhost:1313/categories/%E9%9F%B3%E4%B9%90/</link>
-        <description>音乐 - Category - 我的全新 Hugo 网站</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="http://localhost:1313/categories/%E9%9F%B3%E4%B9%90/" rel="self" type="application/rss+xml" /><item>
+        <title>音乐 - Category - 荒原往事</title>
+        <link>http://localhost:10435/categories/%E9%9F%B3%E4%B9%90/</link>
+        <description>音乐 - Category - 荒原往事</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>623009848@qq.com (曲淡歌)</managingEditor>
+            <webMaster>623009848@qq.com (曲淡歌)</webMaster><atom:link href="http://localhost:10435/categories/%E9%9F%B3%E4%B9%90/" rel="self" type="application/rss+xml" /><item>
     <title>如何下载网易云音乐的普通歌词与双语歌词</title>
-    <link>http://localhost:1313/posts/2024-07-13-how-to-download-the-lyrics/</link>
+    <link>http://localhost:10435/posts/2024-07-13-how-to-download-the-lyrics/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/2024-07-13-how-to-download-the-lyrics/</guid>
+        <name>曲淡歌</name>
+    </author><guid>http://localhost:10435/posts/2024-07-13-how-to-download-the-lyrics/</guid>
     <description><![CDATA[下载网易云歌词的办法参考资料：无需下载软件！网易云歌词下载&amp;网站生成SRT字幕方法_哔哩哔哩_bilibili 简要总结： F12 打开控制台]]></description>
 </item></channel>
 </rss>

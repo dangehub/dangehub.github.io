@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Obsidian - Tag - 荒原往事</title>
+        <link>http://localhost:10435/tags/obsidian/</link>
+        <description>Obsidian - Tag - 荒原往事</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>623009848@qq.com (曲淡歌)</managingEditor>
+            <webMaster>623009848@qq.com (曲淡歌)</webMaster><lastBuildDate>Tue, 27 Aug 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:10435/tags/obsidian/" rel="self" type="application/rss+xml" /><item>
+    <title>这是一篇用于测试笔记流程是否完善的笔记</title>
+    <link>http://localhost:10435/posts/001-inbox/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E7%94%A8%E4%BA%8E%E6%B5%8B%E8%AF%95%E7%AC%94%E8%AE%B0%E6%B5%81%E7%A8%8B%E6%98%AF%E5%90%A6%E5%AE%8C%E5%96%84%E7%9A%84%E7%AC%94%E8%AE%B0/</link>
+    <pubDate>Tue, 27 Aug 2024 00:00:00 &#43;0000</pubDate><author>
+        <name>曲淡歌</name>
+    </author><guid>http://localhost:10435/posts/001-inbox/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E7%94%A8%E4%BA%8E%E6%B5%8B%E8%AF%95%E7%AC%94%E8%AE%B0%E6%B5%81%E7%A8%8B%E6%98%AF%E5%90%A6%E5%AE%8C%E5%96%84%E7%9A%84%E7%AC%94%E8%AE%B0/</guid>
+    <description><![CDATA[测试流程是否完善 2333]]></description>
+</item></channel>
+</rss>

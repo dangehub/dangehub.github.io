@@ -1,14 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>效率工具 - Tag - 我的全新 Hugo 网站</title>
-        <link>http://localhost:1313/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/</link>
-        <description>效率工具 - Tag - 我的全新 Hugo 网站</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="http://localhost:1313/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/" rel="self" type="application/rss+xml" /><item>
+        <title>效率工具 - Tag - 荒原往事</title>
+        <link>http://localhost:10435/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/</link>
+        <description>效率工具 - Tag - 荒原往事</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>623009848@qq.com (曲淡歌)</managingEditor>
+            <webMaster>623009848@qq.com (曲淡歌)</webMaster><atom:link href="http://localhost:10435/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/" rel="self" type="application/rss+xml" /><item>
     <title>语音笔记AudioPen的“平替”</title>
-    <link>http://localhost:1313/posts/2024-07-16-audiopen-substitute/</link>
+    <link>http://localhost:10435/posts/2024-07-16-audiopen-substitute/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/2024-07-16-audiopen-substitute/</guid>
+        <name>曲淡歌</name>
+    </author><guid>http://localhost:10435/posts/2024-07-16-audiopen-substitute/</guid>
     <description><![CDATA[前言在b站发出AudioPen的视频后，有网友问有没有能自己部署的项目做平替，那今天就来分析一下如何找到AudioPen的平替。 现有项目Au]]></description>
 </item></channel>
 </rss>

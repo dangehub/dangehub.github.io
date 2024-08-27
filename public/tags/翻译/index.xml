@@ -1,14 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>翻译 - Tag - 我的全新 Hugo 网站</title>
-        <link>http://localhost:1313/tags/%E7%BF%BB%E8%AF%91/</link>
-        <description>翻译 - Tag - 我的全新 Hugo 网站</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="http://localhost:1313/tags/%E7%BF%BB%E8%AF%91/" rel="self" type="application/rss+xml" /><item>
+        <title>翻译 - Tag - 荒原往事</title>
+        <link>http://localhost:10435/tags/%E7%BF%BB%E8%AF%91/</link>
+        <description>翻译 - Tag - 荒原往事</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>623009848@qq.com (曲淡歌)</managingEditor>
+            <webMaster>623009848@qq.com (曲淡歌)</webMaster><atom:link href="http://localhost:10435/tags/%E7%BF%BB%E8%AF%91/" rel="self" type="application/rss+xml" /><item>
     <title>用 n8n 实现三步翻译</title>
-    <link>http://localhost:1313/posts/2024-08-07-n8n_3steps_translate/</link>
+    <link>http://localhost:10435/posts/2024-08-07-n8n_3steps_translate/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/2024-08-07-n8n_3steps_translate/</guid>
+        <name>曲淡歌</name>
+    </author><guid>http://localhost:10435/posts/2024-08-07-n8n_3steps_translate/</guid>
     <description><![CDATA[用 defy 搭建三步翻译老是报错，想自托管发现 defy 的配置要求很高，于是准备先用之前的 n 8 n 试试。 更新 n 8 n：1.0.4 更新到 1.44.1 采用这样的结构时，会报错]]></description>
 </item></channel>
 </rss>

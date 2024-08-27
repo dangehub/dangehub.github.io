@@ -1,79 +1,80 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>我的全新 Hugo 网站</title>
-        <link>http://localhost:1313/</link>
-        <description>我的全新 Hugo 网站</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language>
-            <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <title>荒原往事</title>
+        <link>http://localhost:10435/</link>
+        <description>荒原往事</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>623009848@qq.com (曲淡歌)</managingEditor>
+            <webMaster>623009848@qq.com (曲淡歌)</webMaster><lastBuildDate>Tue, 27 Aug 2024 00:00:00 &#43;0000</lastBuildDate>
+            <atom:link href="http://localhost:10435/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>这是一篇用于测试笔记流程是否完善的笔记</title>
+    <link>http://localhost:10435/posts/001-inbox/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E7%94%A8%E4%BA%8E%E6%B5%8B%E8%AF%95%E7%AC%94%E8%AE%B0%E6%B5%81%E7%A8%8B%E6%98%AF%E5%90%A6%E5%AE%8C%E5%96%84%E7%9A%84%E7%AC%94%E8%AE%B0/</link>
+    <pubDate>Tue, 27 Aug 2024 00:00:00 &#43;0000</pubDate><author>
+        <name>曲淡歌</name>
+    </author><guid>http://localhost:10435/posts/001-inbox/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E7%94%A8%E4%BA%8E%E6%B5%8B%E8%AF%95%E7%AC%94%E8%AE%B0%E6%B5%81%E7%A8%8B%E6%98%AF%E5%90%A6%E5%AE%8C%E5%96%84%E7%9A%84%E7%AC%94%E8%AE%B0/</guid>
+    <description><![CDATA[测试流程是否完善 2333]]></description>
+</item><item>
+    <title>AudioPen：让Ai帮你整理碎碎念，语音转书面化文字的利器</title>
+    <link>http://localhost:10435/posts/2024-07-15-audiopen/</link>
+    <pubDate>Sat, 05 Feb 2022 00:00:00 &#43;0000</pubDate><author>
+        <name>曲淡歌</name>
+    </author><guid>http://localhost:10435/posts/2024-07-15-audiopen/</guid>
+    <description><![CDATA[AudioPen：让Ai帮你整理碎碎念，口语文字书面化的利器 本文标题又为：除非你比我的独处更迷人 前言你在独处的时候，会自言自语吗？ 你觉得你的]]></description>
+</item><item>
     <title></title>
-    <link>http://localhost:1313/posts/101-%E6%97%A5%E8%AE%B0/2024-08-09/</link>
+    <link>http://localhost:10435/posts/101-%E6%97%A5%E8%AE%B0/2024-08-09/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/101-%E6%97%A5%E8%AE%B0/2024-08-09/</guid>
+        <name>曲淡歌</name>
+    </author><guid>http://localhost:10435/posts/101-%E6%97%A5%E8%AE%B0/2024-08-09/</guid>
     <description><![CDATA[1 2024-08-09 1.1 待办任务 1.2 跟踪日志 1.2.1 未完任务 tasks not done path includes 101 日记 hide backlink 1.3 杂记 Eacalidraw更新 2.4.0beta，提供脑图功能 修复了带图复制的脚本[[]]></description>
 </item><item>
     <title></title>
-    <link>http://localhost:1313/posts/101-%E6%97%A5%E8%AE%B0/%E5%88%A9%E7%94%A8-digital-garden-%E6%8F%92%E4%BB%B6%E5%B0%86%E6%88%91%E7%9A%84-ob-%E7%AC%94%E8%AE%B0%E5%8F%91%E5%B8%83%E6%88%90%E5%8D%9A%E5%AE%A2/</link>
+    <link>http://localhost:10435/posts/101-%E6%97%A5%E8%AE%B0/%E5%88%A9%E7%94%A8-digital-garden-%E6%8F%92%E4%BB%B6%E5%B0%86%E6%88%91%E7%9A%84-ob-%E7%AC%94%E8%AE%B0%E5%8F%91%E5%B8%83%E6%88%90%E5%8D%9A%E5%AE%A2/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/101-%E6%97%A5%E8%AE%B0/%E5%88%A9%E7%94%A8-digital-garden-%E6%8F%92%E4%BB%B6%E5%B0%86%E6%88%91%E7%9A%84-ob-%E7%AC%94%E8%AE%B0%E5%8F%91%E5%B8%83%E6%88%90%E5%8D%9A%E5%AE%A2/</guid>
+        <name>曲淡歌</name>
+    </author><guid>http://localhost:10435/posts/101-%E6%97%A5%E8%AE%B0/%E5%88%A9%E7%94%A8-digital-garden-%E6%8F%92%E4%BB%B6%E5%B0%86%E6%88%91%E7%9A%84-ob-%E7%AC%94%E8%AE%B0%E5%8F%91%E5%B8%83%E6%88%90%E5%8D%9A%E5%AE%A2/</guid>
     <description><![CDATA[汇总信息 我的 github 库 dangehub/qlog (github.com) 我的 vervel 网址 我的自定义域名：https://qlog.9udange.top/ 部署记录 如何删除已经构建的笔记？发现一个问题]]></description>
 </item><item>
     <title></title>
-    <link>http://localhost:1313/posts/105-%E6%9E%81%E5%AE%A2/%E7%BD%91%E7%AB%99/%E8%8D%92%E5%8E%9F%E5%BE%80%E4%BA%8B/</link>
+    <link>http://localhost:10435/posts/105-%E6%9E%81%E5%AE%A2/%E7%BD%91%E7%AB%99/%E8%8D%92%E5%8E%9F%E5%BE%80%E4%BA%8B/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/105-%E6%9E%81%E5%AE%A2/%E7%BD%91%E7%AB%99/%E8%8D%92%E5%8E%9F%E5%BE%80%E4%BA%8B/</guid>
+        <name>曲淡歌</name>
+    </author><guid>http://localhost:10435/posts/105-%E6%9E%81%E5%AE%A2/%E7%BD%91%E7%AB%99/%E8%8D%92%E5%8E%9F%E5%BE%80%E4%BA%8B/</guid>
     <description><![CDATA[欢迎来到我的荒原这是互联网上独属于我的角落，我在这里分享我的所思所想，若能博君一笑，那就更好了。]]></description>
 </item><item>
-    <title>AudioPen：让Ai帮你整理碎碎念，语音转书面化文字的利器</title>
-    <link>http://localhost:1313/posts/2024-07-15-audiopen/</link>
-    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/2024-07-15-audiopen/</guid>
-    <description><![CDATA[AudioPen：让Ai帮你整理碎碎念，口语文字书面化的利器 本文标题又为：除非你比我的独处更迷人 前言你在独处的时候，会自言自语吗？ 你觉得你的]]></description>
-</item><item>
     <title>obcsapi —— 最好的obsidian工具（需要云部署）</title>
-    <link>http://localhost:1313/posts/2024-07-14-obcsapi/</link>
+    <link>http://localhost:10435/posts/2024-07-14-obcsapi/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/2024-07-14-obcsapi/</guid>
+        <name>曲淡歌</name>
+    </author><guid>http://localhost:10435/posts/2024-07-14-obcsapi/</guid>
     <description><![CDATA[前言为什么很多人会纠结用notion还是obsidian？因为notion具有强大的在线功能，一旦使用场景超越了单设备，obsidian用户]]></description>
 </item><item>
     <title>Obsidian tar插件实现obsidian内部集成LLM对话</title>
-    <link>http://localhost:1313/posts/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/obsidian-tar%E6%8F%92%E4%BB%B6%E5%AE%9E%E7%8E%B0obsidian%E5%86%85%E9%83%A8%E9%9B%86%E6%88%90llm%E5%AF%B9%E8%AF%9D/</link>
+    <link>http://localhost:10435/posts/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/obsidian-tar%E6%8F%92%E4%BB%B6%E5%AE%9E%E7%8E%B0obsidian%E5%86%85%E9%83%A8%E9%9B%86%E6%88%90llm%E5%AF%B9%E8%AF%9D/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/obsidian-tar%E6%8F%92%E4%BB%B6%E5%AE%9E%E7%8E%B0obsidian%E5%86%85%E9%83%A8%E9%9B%86%E6%88%90llm%E5%AF%B9%E8%AF%9D/</guid>
+        <name>曲淡歌</name>
+    </author><guid>http://localhost:10435/posts/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/obsidian-tar%E6%8F%92%E4%BB%B6%E5%AE%9E%E7%8E%B0obsidian%E5%86%85%E9%83%A8%E9%9B%86%E6%88%90llm%E5%AF%B9%E8%AF%9D/</guid>
     <description><![CDATA[Tars插件简介通过大语言模型（LLM）api，把AI集成到obsidian内部，使用方法为使用ob内部的tag标记触发对应AI即可。# 示例]]></description>
 </item><item>
     <title>Obsidian 实现复制时自动上传图片到图床</title>
-    <link>http://localhost:1313/posts/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/obsidian-%E5%AE%9E%E7%8E%B0%E5%A4%8D%E5%88%B6%E6%97%B6%E8%87%AA%E5%8A%A8%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E5%88%B0%E5%9B%BE%E5%BA%8A/</link>
+    <link>http://localhost:10435/posts/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/obsidian-%E5%AE%9E%E7%8E%B0%E5%A4%8D%E5%88%B6%E6%97%B6%E8%87%AA%E5%8A%A8%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E5%88%B0%E5%9B%BE%E5%BA%8A/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/obsidian-%E5%AE%9E%E7%8E%B0%E5%A4%8D%E5%88%B6%E6%97%B6%E8%87%AA%E5%8A%A8%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E5%88%B0%E5%9B%BE%E5%BA%8A/</guid>
+        <name>曲淡歌</name>
+    </author><guid>http://localhost:10435/posts/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/obsidian-%E5%AE%9E%E7%8E%B0%E5%A4%8D%E5%88%B6%E6%97%B6%E8%87%AA%E5%8A%A8%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E5%88%B0%E5%9B%BE%E5%BA%8A/</guid>
     <description><![CDATA[Obsidian 实现复制时自动上传图片到图床【QuickAdd脚本】带图复制-自动上传图片到图床 - 经验分享 - Obsidian 中文论坛 我新开一个库可以用，但是在主力库里就]]></description>
 </item><item>
     <title>Obsidian 实现复制时自动上传图片到图床</title>
-    <link>http://localhost:1313/posts/2024-08-11-obsidian-pic-upload/</link>
+    <link>http://localhost:10435/posts/2024-08-11-obsidian-pic-upload/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/2024-08-11-obsidian-pic-upload/</guid>
+        <name>曲淡歌</name>
+    </author><guid>http://localhost:10435/posts/2024-08-11-obsidian-pic-upload/</guid>
     <description><![CDATA[Obsidian 实现复制时自动上传图片到图床【QuickAdd脚本】带图复制-自动上传图片到图床 - 经验分享 - Obsidian 中文论坛 我新开一个库可以用，但是在主力库里就]]></description>
 </item><item>
     <title>obsidian发布的探索</title>
-    <link>http://localhost:1313/posts/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/obsidian%E5%8F%91%E5%B8%83%E7%9A%84%E6%8E%A2%E7%B4%A2/</link>
+    <link>http://localhost:10435/posts/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/obsidian%E5%8F%91%E5%B8%83%E7%9A%84%E6%8E%A2%E7%B4%A2/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/obsidian%E5%8F%91%E5%B8%83%E7%9A%84%E6%8E%A2%E7%B4%A2/</guid>
+        <name>曲淡歌</name>
+    </author><guid>http://localhost:10435/posts/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/obsidian%E5%8F%91%E5%B8%83%E7%9A%84%E6%8E%A2%E7%B4%A2/</guid>
     <description><![CDATA[obsidian发布方式汇总 方式汇总 官方publish digital garden petlite github 静态页面 其实目前主流的发布就是两种，一种是通过后端支持实现实时渲染，只需要把o]]></description>
-</item><item>
-    <title>wordpress导入rss以同步全平台</title>
-    <link>http://localhost:1313/posts/2024-04-23-wordpress%E5%AF%BC%E5%85%A5rss%E4%BB%A5%E5%90%8C%E6%AD%A5%E5%85%A8%E5%B9%B3%E5%8F%B0/</link>
-    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/2024-04-23-wordpress%E5%AF%BC%E5%85%A5rss%E4%BB%A5%E5%90%8C%E6%AD%A5%E5%85%A8%E5%B9%B3%E5%8F%B0/</guid>
-    <description><![CDATA[使用Feedzy插件，注意两点： rss链接最后跟上/?feed_author=1，最后的数字是wordpress user ID，这样可以指定这个rs]]></description>
 </item></channel>
 </rss>

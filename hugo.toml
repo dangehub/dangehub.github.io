@@ -1,8 +1,15 @@
 baseURL = 'https://example.org/'
 languageCode = 'zh-cn'
-title = '我的全新 Hugo 网站'
+title = '荒原往事'
 hasCJKLanguage = true
 theme = 'Dolt'
+
+[author]
+  name = "曲淡歌"
+  email = "623009848@qq.com"
+  link = ""
+  avatar = ""
+  gravatarEmail = "623009848@qq.com"
 
 [menu]
   [[menu.main]]
@@ -39,3 +46,91 @@ theme = 'Dolt'
   [markup.highlight]
     # false 是必要的设置 (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
+    
+[taxonomies]
+author = "authors"
+category = "categories"
+tag = "tags"
+series = "series"    
+    
+  [params.home]
+    # DoIt 新增 | 0.2.0 RSS 文章数目
+    rss = 10
+    # 主页个人信息
+    [params.home.profile]
+      enable = true
+      # Gravatar 邮箱, 用于优先在主页显示的头像
+      gravatarEmail = "623009848@qq.com"
+      # 主页显示头像的 URL
+      # 将你的头像文件放置于 static 或者 assets 目录下
+      # 文件路径是相对于 static 或者 assets 目录的
+      avatarURL = "/images/avatar.webp"
+      # 头像的链接指向的 URL
+      avatarLinkURL = ""
+      # DoIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
+      title = "曲淡歌"
+      # 主页显示的网站副标题
+      subtitle = "十分冷淡存知己 一曲微茫度余生"
+      # 是否为副标题显示打字机动画
+      typeit = true
+      # 是否显示社交账号
+      social = true
+      # DoIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
+      disclaimer = ""
+
+  [params.social]
+    GitHub = "https://github.com/dangehub"
+    Zhihu = "https://www.zhihu.com/people/qudange"
+    Wordpress = "https://blogs.qudange.top"
+    Bilibili = "https://space.bilibili.com/680523"
+    QQ = "623009848"
+    Email = "623009848@qq.com"
+    RSS = true # DoIt 新增 | 0.2.0
+    
+  [params.section]
+    # section 页面每页显示文章数量
+    paginate = 20
+    # 日期格式 (月和日)
+    dateFormat = "01-02"
+    # RSS 文章数目
+    rss = 10
+    # DoIt 新增 | 0.2.13 最近更新文章设置
+    [params.section.recentlyUpdated]
+      enable = false
+      rss = true
+      days = 30
+      maxCount = 10    
+
+  [params.page]
+    # 是否启用最后修改时间
+    enableLastMod = true
+    # 是否启用字数统计
+    enableWordCount = true
+    # 是否启用阅读时间估计
+    enableReadingTime = true
+    # DoIt 新增 | 0.2.13 过时文章提示
+    [params.page.outdatedArticleReminder]
+      enable = true
+      # 如果文章最后更新于 90 天之前，显示提醒
+      reminder = 90
+      # 如果文章最后更新于 180 天之前，显示警告
+      warning = 180
+      
+    [params.page.toc]
+      # 是否使用目录
+      enable = true
+      # DoIt 新增 | 0.2.9 是否保持使用文章前面的静态目录
+      keepStatic = true
+      # 是否使侧边目录自动折叠展开
+      auto = true
+
+    [params.page.comment]
+      enable = true
+      # DoIt 新增 | 0.2.12 Vssue 评论系统设置
+      [params.page.comment.vssue]
+        enable = true
+        platform = "github" # ("bitbucket", "gitea", "gitee", "github", "gitlab")
+        owner = "dangehub"
+        repo = "Vssue"
+        clientId = "Ov23liwcwsaQbUyVjKWb"
+        clientSecret = "7ac1e6c4b97f26a88d5fc72d19156f2f15de74e9"

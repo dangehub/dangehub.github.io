@@ -1,14 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>GardenEntry - Tag - 我的全新 Hugo 网站</title>
-        <link>http://localhost:1313/tags/gardenentry/</link>
-        <description>GardenEntry - Tag - 我的全新 Hugo 网站</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="http://localhost:1313/tags/gardenentry/" rel="self" type="application/rss+xml" /><item>
+        <title>GardenEntry - Tag - 荒原往事</title>
+        <link>http://localhost:10435/tags/gardenentry/</link>
+        <description>GardenEntry - Tag - 荒原往事</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>623009848@qq.com (曲淡歌)</managingEditor>
+            <webMaster>623009848@qq.com (曲淡歌)</webMaster><atom:link href="http://localhost:10435/tags/gardenentry/" rel="self" type="application/rss+xml" /><item>
     <title></title>
-    <link>http://localhost:1313/posts/105-%E6%9E%81%E5%AE%A2/%E7%BD%91%E7%AB%99/%E8%8D%92%E5%8E%9F%E5%BE%80%E4%BA%8B/</link>
+    <link>http://localhost:10435/posts/105-%E6%9E%81%E5%AE%A2/%E7%BD%91%E7%AB%99/%E8%8D%92%E5%8E%9F%E5%BE%80%E4%BA%8B/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/105-%E6%9E%81%E5%AE%A2/%E7%BD%91%E7%AB%99/%E8%8D%92%E5%8E%9F%E5%BE%80%E4%BA%8B/</guid>
+        <name>曲淡歌</name>
+    </author><guid>http://localhost:10435/posts/105-%E6%9E%81%E5%AE%A2/%E7%BD%91%E7%AB%99/%E8%8D%92%E5%8E%9F%E5%BE%80%E4%BA%8B/</guid>
     <description><![CDATA[欢迎来到我的荒原这是互联网上独属于我的角落，我在这里分享我的所思所想，若能博君一笑，那就更好了。]]></description>
 </item></channel>
 </rss>

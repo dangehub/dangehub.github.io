@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.min.css",
-	"sourceRoot": "C:/Users/62300/Documents/GitHub/dangehugo",
+	"sourceRoot": "C:/Users/62300/Documents/GitHub/dangehub.github.io",
 	"sources": [
 		"themes/Dolt/assets/css/style.scss",
 		"themes/Dolt/assets/css/_variables.scss",
