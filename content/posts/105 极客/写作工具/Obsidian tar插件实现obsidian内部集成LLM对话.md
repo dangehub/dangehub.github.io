@@ -1,5 +1,5 @@
 ---
-{"title":"Obsidian tar插件实现obsidian内部集成LLM对话","git_title":"2024-08-11-obsidian-tars","tags":["geek"],"categories":["Github"],"dg-publish":true,"permalink":"/105 极客/写作工具/Obsidian tar插件实现obsidian内部集成LLM对话/","dgPassFrontmatter":true,"noteIcon":""}
+{"share":true,"title":"Obsidian tar插件实现obsidian内部集成LLM对话","git_title":"2024-08-11-obsidian-tars","tags":["geek"],"categories":["Github"],"dg-publish":true,"permalink":"/105 极客/写作工具/Obsidian tar插件实现obsidian内部集成LLM对话/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # Tars插件简介
