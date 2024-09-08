@@ -6,5 +6,7 @@
 
 你好，欢迎来到独属于我的罅隙。
 
+这是一个使用obsidian-digital-garden实现的博客，我很推荐它，如果你对这种实现方式感兴趣的话，可以查看这个链接
+-  [数字花园 - 免费发布黑曜石笔记 --- Digital Garden - Publish Obsidian Notes For Free](https://dg-docs.ole.dev/)
 
-
+我是一个笔记爱好者，或许你可以看看我的笔记分享。
