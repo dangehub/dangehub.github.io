@@ -67,7 +67,6 @@
 
 ## 脚本使用说明
 
-
 ### 下载
 
 你可以在我的Github下载：[dangehub/aqu_ob_share: Share my Obsidian techniques](https://github.com/dangehub/aqu_ob_share)
