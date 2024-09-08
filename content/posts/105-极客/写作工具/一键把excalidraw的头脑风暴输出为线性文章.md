@@ -56,7 +56,7 @@
 本脚本的全名应该叫 `excalidraw线性输出到同名笔记`，它的功能也很简单，一言以蔽之：通过识别规定格式的文本，把与文本组合的内容以excalidraw的嵌入链接形式输出到对应笔记的指定标题下。
 
 如下图所示：
-![assets/Pasted image 20240907152957.png](/img/user/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/assets/Pasted%20image%2020240907152957.png)
+![assets/Pasted image 20240907152957.png](/1.png)
 
 本脚本通过识别形如 `#1 标题` 的文本，解析为 `标题`，并将该文本所属的组合（优先级分别为：Frame>Group>Element）引用链接插入到标题之后。
 
