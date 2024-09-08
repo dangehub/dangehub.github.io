@@ -1,4 +1,4 @@
-baseURL = 'https://dangehub.github.io/'
+baseURL = 'https://github.com/dangehub/dangehub.github.io/blob/main/content/'
 languageCode = 'zh-cn'
 title = '荒原往事'
 hasCJKLanguage = true
