@@ -8,7 +8,7 @@
 
 我新开一个库可以用，但是在主力库里就不行，报错为
 
-![assets/Pasted image 20240808164552.png](/img/user/105%20%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/assets/Pasted%20image%2020240808164552.png)
+![assets/Pasted image 20240808164552.png](/img/user/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/assets/Pasted%20image%2020240808164552.png)
 
 ```
 QuickAdd: (ERROR) failed to run user script 带
