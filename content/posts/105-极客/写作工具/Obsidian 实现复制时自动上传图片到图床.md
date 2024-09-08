@@ -1,5 +1,5 @@
 ---
-{"share":true,"title":"Obsidian 实现复制时自动上传图片到图床","git_title":"2024-08-11-obsidian-pic-upload","tags":["geek"],"categories":["geek"],"dg-publish":true,"permalink":"/105 极客/写作工具/Obsidian 实现复制时自动上传图片到图床/","dgPassFrontmatter":true,"noteIcon":""}
+{"title":"Obsidian 实现复制时自动上传图片到图床","git_title":"2024-08-11-obsidian-pic-upload","tags":["geek"],"categories":["geek"],"dg-publish":true,"permalink":"/105 极客/写作工具/Obsidian 实现复制时自动上传图片到图床/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # Obsidian 实现复制时自动上传图片到图床
