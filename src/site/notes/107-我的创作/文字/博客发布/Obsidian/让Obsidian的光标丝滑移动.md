@@ -1,5 +1,5 @@
 ---
-{"uid":20250124130303,"title":"让Obsidian的光标丝滑移动","tags":["Obsidian美化","obsidian","CSS"],"description":null,"author":"曲淡歌","draft":false,"editable":false,"modified":20250124133146,"dg-publish":true,"dg-path":"Obsidian/让Obsidian的光标丝滑移动.md","permalink":"/Obsidian/让Obsidian的光标丝滑移动/","dgPassFrontmatter":true,"noteIcon":""}
+{"uid":20250124130303,"title":"让Obsidian的光标丝滑移动","tags":["Obsidian美化","Obsidian","CSS"],"description":null,"author":"曲淡歌","draft":false,"editable":false,"modified":20250124133146,"dg-publish":true,"created":"2025-04-17T18:43","updated":"2025-04-17T18:43","dg-path":"Obsidian/让Obsidian的光标丝滑移动.md","permalink":"/Obsidian/让Obsidian的光标丝滑移动/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

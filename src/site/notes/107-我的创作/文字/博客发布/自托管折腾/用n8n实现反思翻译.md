@@ -1,5 +1,5 @@
 ---
-{"uid":20241230193952,"title":"用 n8n 实现反思翻译","tags":["geek","翻译","大语言模型","LLM","反思翻译法"],"description":null,"author":"曲淡歌","modified":20250206222311,"dg-publish":true,"git_title":"2024-08-07-n8n_3steps_translate","categories":["geek"],"关联笔记":"[[LLM翻译长字幕]]","dg-path":"自托管折腾/用n8n实现反思翻译.md","permalink":"/自托管折腾/用n8n实现反思翻译/","dgPassFrontmatter":true,"noteIcon":""}
+{"uid":20241230193952,"title":"用 n8n 实现反思翻译","tags":["geek","翻译","大语言模型","LLM","反思翻译法"],"description":null,"author":"曲淡歌","modified":20250206222311,"dg-publish":true,"git_title":"2024-08-07-n8n_3steps_translate","categories":["geek"],"关联笔记":"[[LLM翻译长字幕]]","created":"2025-03-08T11:35","updated":"2025-04-15T21:50","dg-path":"自托管折腾/用n8n实现反思翻译.md","permalink":"/自托管折腾/用n8n实现反思翻译/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

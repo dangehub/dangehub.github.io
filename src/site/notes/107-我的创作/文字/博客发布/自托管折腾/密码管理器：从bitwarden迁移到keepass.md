@@ -1,5 +1,5 @@
 ---
-{"title":"密码管理器：从bitwarden迁移到keepass","date":"2024-04-24","lastmod":"2024-12-16","creation date":"2024-04-24 19:19","modification date":"星期一 2024 十二月16日 12:25:42","tags":["自托管"],"categories":["geek"],"alases":null,"dg-publish":true,"dg-path":"自托管折腾/密码管理器：从bitwarden迁移到keepass.md","permalink":"/自托管折腾/密码管理器：从bitwarden迁移到keepass/","dgPassFrontmatter":true,"noteIcon":""}
+{"title":"密码管理器：从bitwarden迁移到keepass","date":"2024-04-24","lastmod":"2024-12-16","creation date":"2024-04-24 19:19","modification date":"星期一 2024 十二月16日 12:25:42","tags":["自托管"],"categories":["geek"],"alases":null,"dg-publish":true,"created":"2025-03-08T11:35","updated":"2025-04-15T21:50","dg-path":"自托管折腾/密码管理器：从bitwarden迁移到keepass.md","permalink":"/自托管折腾/密码管理器：从bitwarden迁移到keepass/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

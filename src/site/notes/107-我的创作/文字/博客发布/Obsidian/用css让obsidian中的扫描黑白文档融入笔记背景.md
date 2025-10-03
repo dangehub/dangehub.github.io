@@ -1,5 +1,5 @@
 ---
-{"title":"用css让obsidian中的扫描黑白文档融入笔记背景","date":"2025-01-06","lastmod":"2025-01-06","creation date":"2025-01-06 21:14","modification date":"星期一 2025 一月6日 21:18:28","categories":null,"tags":["CSS","obsidian","美化"],"alases":null,"dg-publish":true,"cssclasses":["has-scan"],"dg-path":"Obsidian/用css让obsidian中的扫描黑白文档融入笔记背景.md","permalink":"/Obsidian/用css让obsidian中的扫描黑白文档融入笔记背景/","dgPassFrontmatter":true,"noteIcon":""}
+{"title":"用css让obsidian中的扫描黑白文档融入笔记背景","date":"2025-01-06","lastmod":"2025-01-06","creation date":"2025-01-06 21:14","modification date":"星期一 2025 一月6日 21:18:28","categories":null,"tags":["CSS","obsidian","美化"],"alases":null,"dg-publish":true,"cssclasses":["has-scan"],"created":"2025-04-17T18:43","updated":"2025-04-17T18:43","dg-path":"Obsidian/用css让obsidian中的扫描黑白文档融入笔记背景.md","permalink":"/Obsidian/用css让obsidian中的扫描黑白文档融入笔记背景/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

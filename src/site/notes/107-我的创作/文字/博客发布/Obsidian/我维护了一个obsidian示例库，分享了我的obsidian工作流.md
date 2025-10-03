@@ -1,5 +1,5 @@
 ---
-{"title":"我维护了一个obsidian示例库，分享了我的obsidian工作流","date":"2024-12-16","lastmod":"2024-12-16","creation date":"2024-12-16 19:30","modification date":"星期一 2024 十二月16日 19:30:14","tags":["obsidian","笔记软件"],"categories":null,"alases":null,"dg-publish":true,"dg-path":"Obsidian/我维护了一个obsidian示例库，分享了我的obsidian工作流.md","permalink":"/Obsidian/我维护了一个obsidian示例库，分享了我的obsidian工作流/","dgPassFrontmatter":true,"noteIcon":""}
+{"title":"我维护了一个obsidian示例库，分享了我的obsidian工作流","date":"2024-12-16","lastmod":"2024-12-16","creation date":"2024-12-16 19:30","modification date":"星期一 2024 十二月16日 19:30:14","tags":["Obsidian","笔记软件"],"categories":null,"alases":null,"dg-publish":true,"created":"2025-04-17T18:43","updated":"2025-04-17T18:43","dg-path":"Obsidian/我维护了一个obsidian示例库，分享了我的obsidian工作流.md","permalink":"/Obsidian/我维护了一个obsidian示例库，分享了我的obsidian工作流/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 我使用obsidian也有很长时间了，有时候也有朋友会问我，你是如何使用obsidian的，于是我制作了这个示例库，里面有我的一些常用插件与脚本，如果你还没有总结出独属于你的obsidian工作流，或许它会有一点价值。

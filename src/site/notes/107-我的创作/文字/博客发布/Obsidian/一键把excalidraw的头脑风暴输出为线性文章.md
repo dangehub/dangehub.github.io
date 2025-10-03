@@ -1,5 +1,5 @@
 ---
-{"uid":20241230193952,"title":"发散性思考与线性输出","tags":["obsidian","excalidraw","脚本"],"description":null,"author":"曲淡歌","type":"other","draft":false,"editable":false,"modified":20250108131100,"categories":["obsidian","geek"],"alases":null,"dg-publish":true,"dg-path":"Obsidian/一键把excalidraw的头脑风暴输出为线性文章.md","permalink":"/Obsidian/一键把excalidraw的头脑风暴输出为线性文章/","dgPassFrontmatter":true,"noteIcon":""}
+{"uid":20241230193952,"title":"发散性思考与线性输出","tags":["Obsidian","excalidraw","脚本"],"description":null,"author":"曲淡歌","type":"other","draft":false,"editable":false,"modified":20250108131100,"categories":["obsidian","geek"],"alases":null,"dg-publish":true,"created":"2025-04-17T18:43","updated":"2025-04-17T18:43","dg-path":"Obsidian/一键把excalidraw的头脑风暴输出为线性文章.md","permalink":"/Obsidian/一键把excalidraw的头脑风暴输出为线性文章/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

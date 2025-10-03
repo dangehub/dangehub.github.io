@@ -1,5 +1,5 @@
 ---
-{"uid":20250117163348,"title":"在移动端设备上管理Obsidian待办和备忘的方法探讨","tags":["obsidian","obsidian同步","移动端"],"description":null,"author":"曲淡歌","draft":false,"editable":false,"modified":20250121185659,"dg-publish":true,"dg-path":"Obsidian/在移动端设备上管理Obsidian待办的方法探讨.md","permalink":"/Obsidian/在移动端设备上管理Obsidian待办的方法探讨/","dgPassFrontmatter":true,"noteIcon":""}
+{"uid":20250117163348,"title":"在移动端设备上管理Obsidian待办和备忘的方法探讨","tags":["obsidian","obsidian同步","移动端"],"description":null,"author":"曲淡歌","draft":false,"editable":false,"modified":20250121185659,"dg-publish":true,"created":"2025-04-17T18:43","updated":"2025-04-17T18:43","dg-path":"Obsidian/在移动端设备上管理Obsidian待办的方法探讨.md","permalink":"/Obsidian/在移动端设备上管理Obsidian待办的方法探讨/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
