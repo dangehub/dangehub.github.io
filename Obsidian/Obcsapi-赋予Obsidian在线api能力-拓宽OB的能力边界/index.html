@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-<title>Anyblock插件入门</title>
+<title>Obcsapi：一个赋予Obsidian在线api能力，再次拓宽OB的能力边界的超级工具</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -91,11 +91,11 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><a data-note-icon="" style="text-decoration:none" class="filename" href="/Obsidian/Anyblock插件入门/">Anyblock插件入门 </a>
+<div @click.stop class="notelink"><a data-note-icon="" style="text-decoration:none" class="filename" href="/Obsidian/Anyblock插件入门/">Anyblock插件入门 </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><a data-note-icon="" style="text-decoration:none" class="filename" href="/Obsidian/Obcsapi-赋予Obsidian在线api能力-拓宽OB的能力边界/">Obcsapi：一个赋予Obsidian在线api能力，再次拓宽OB的能力边界的超级工具 </a>
+<div @click.stop class="notelink active-note"><a data-note-icon="" style="text-decoration:none" class="filename" href="/Obsidian/Obcsapi-赋予Obsidian在线api能力-拓宽OB的能力边界/">Obcsapi：一个赋予Obsidian在线api能力，再次拓宽OB的能力边界的超级工具 </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -237,92 +237,132 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-10-03T09:46:19.010Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-10-03T09:46:19.010Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-10-03T09:46:19.010Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">Anyblock插件入门</h1>
+<h1 data-note-icon="">Obcsapi：一个赋予Obsidian在线api能力，再次拓宽OB的能力边界的超级工具</h1>
 <div class="header-meta">
 <div class="header-tags">
 <a class="tag" onclick="toggleTagSearch(this)">
+#geek
+</a>
+<a class="tag" onclick="toggleTagSearch(this)">
 #obsidian插件
+</a>
+<a class="tag" onclick="toggleTagSearch(this)">
+#obsidian
+</a>
+<a class="tag" onclick="toggleTagSearch(this)">
+#obsidian同步
+</a>
+<a class="tag" onclick="toggleTagSearch(this)">
+#memos
 </a>
 </div>
 <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-03-08T11:35"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-04-15T21:50"></span></div></div></div>
 </header>
-<h1 id="插件简介" tabindex="-1">插件简介</h1>
-<p>Anyblock是一个【无语法、可扩展、灵活强大、多平台】 的 Markdown 块扩展渲染插件。能实现无语法入侵的前提下，为obsidian实现更多渲染效果，例如表格、折叠、滚动、思维导图等。</p>
-<h1 id="官方文档" tabindex="-1">官方文档</h1>
-<p>作者的博客： <a href="https://linczero.github.io/MdNote_Public/ProductDoc/AnyBlock/README.show.html" target="_blank" class="external-link">README | Linc 的小站</a></p>
-<p>作者自荐的帖子：<a href="https://forum-zh.obsidian.md/t/topic/38352" target="_blank" class="external-link">列表转表格、树目录、思维导图、时间线、表格合并 —— Any Block V3（Ob/Md-it/VuePress/VitePress通用） - 经验分享 - Obsidian 中文论坛</a></p>
-<p>插件的开源地址：<a href="https://github.com/LincZero/obsidian-any-block" target="_blank" class="external-link">LincZero/obsidian-any-block.</a></p>
-<h1 id="使用说明" tabindex="-1">使用说明</h1>
-<p>使用info语法召唤说明文档，如果你想看到渲染后的效果，应该在安装插件后，输入下面这段文字：</p>
-<pre><code>[info]
-- 这是any block的文档
-</code></pre>
-<p>然后应该会渲染出下面的效果：</p>
-<p><img src="/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/Obsidian/assets/Pasted%20image%2020241003193747.png" alt="assets/Pasted image 20241003193747.png"></p>
-<h2 id="各效果器展示" tabindex="-1">各效果器展示</h2>
-<p>我只会在这里展示我常用的效果，更多内容参见插件自身的文档。</p>
-<h3 id="文件树" tabindex="-1">文件树</h3>
-<h4 id="技巧 ：" tabindex="-1">技巧 ：</h4>
+<h1 id="前言" tabindex="-1">前言</h1>
+<p>为什么很多人会纠结用 notion 还是 obsidian？因为 notion 具有强大的在线功能，一旦使用场景超越了单设备，obsidian 用户就不得不面临诸如“同步”、“发布”和“跨设备”的问题。</p>
+<p>我使用 obsidian 三年有余，尝试了几乎所有同步方式，最终得出结论：目前现成的解决方法不可能得到完美体验（指对标原生在线的笔记应用，如 notion）。</p>
+<p>因此首先需要厘清自己的需求，再因地制宜去改造 obsidian，这也是 obsidian 最大的优点：客制化潜力巨大（来源于它使用 md 格式文件和它繁荣的插件社区）。</p>
+<p>比如我的工作流包括以下场景：</p>
 <ol>
-<li>分隔左右侧的逗号是中文逗号</li>
-<li>逗号后有一个空格</li>
+<li>在 pc 上使用 obsidian 客户端写笔记</li>
+<li>在手机上看 b 站视频、浏览器网页的时候想要分享我看的东西</li>
+<li>在手机上记录 memos</li>
+<li>在手机上查看我的 obsidian 笔记库并编辑</li>
 </ol>
-<h4 id="源代码 ：" tabindex="-1">源代码 ：</h4>
-<pre><code>[list2dt]
-
-- vue-demo/
-  - build/， 项目构建(webpack)相关代码
-  - config/， 配置目录，包括端口号等。我们初学可以使用默认的
-  - node_modules/， npm 加载的项目依赖模块
-  - src/， 这里是我们要开发的目录
-    - assets/， 放置一些图片，如logo等
-    - components， 目录里面放了一个组件文件，可以不用
-    - App.vue， 项目入口文件，我们也可以直接将组件写这里，而不使用 components 目录
-    - main.js， 项目的核心文件。
-  - static/， 静态资源目录，如图片、字体等
-  - test/， 初始测试目录，可删除
-  - .eslintignore
-  - .gitignore， git配置
-  - .index.html， 首页入口文件，你可以添加一些 meta 信息或统计代码啥的
-  - package.json， 项目配置文件
-  - READED.md， 项目的说明文档，markdown 格式&lt;br&gt;手动换行测试&lt;br&gt;自动换行测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试k
-  - ...
+<p>其中最麻烦的事是如何在手机上得到良好体验，obsidian 虽然有官方的 app，但是体验不佳。而且在手机端进行复杂编辑还想要好体验本身就是一个伪命题（除非外接显示器和键盘），因此我选择使用网页（当然这里做出了妥协，即放弃了 ob 各种强大的功能，网页上只做简单的文字编辑），这样直接解决了跨平台的问题。</p>
+<p>通过上面的分析后，拆解我的工作流来分析需求，可以得到三个版块</p>
+<ol>
+<li>同步</li>
+<li>信息输入</li>
+<li>web 发布</li>
+</ol>
+<p>而 <a href="https://github.com/kkbt0/obcsapi-go" target="_blank" class="external-link">obcsapi</a> 几乎完美的符合了我的需求，下面我将正式开始介绍 obcsapi 这个开源项目。</p>
+<p>obcsapi 是由中国 obsidian 用户 <a href="https://github.com/kkbt0" target="_blank" class="external-link">恐咖兵糖</a> 开发的一款 obsidian 工具，其官方介绍如下：</p>
+<blockquote>
+<p>基于 Obsidian S3 存储， CouchDb ，本地存储和 WebDAV 的后端 API ,可借助 Obsidian 插件 Remotely-Save 插件，或者 Self-hosted LiveSync (ex:Obsidian-livesync) 插件 CouchDb 方式，保存消息到 Obsidian 库。或者支持本地文件夹的文本编辑器。特点</p>
+<ul>
+<li>前端添加 Memos / 简答编辑 ， 支持指令模式，有黑暗主题 ，是 PWA 应用</li>
+<li>微信测试号 微信到 Obsidian</li>
+<li>支持简悦 SimpRead Webook 裁剪网页文章</li>
+<li>支持 fv 悬浮球文字图片分享保存</li>
+<li>静读天下 MoonReader 高亮标注 仿 ReadWise API</li>
+<li>通用 http api</li>
+<li>使用 Lua &amp; Bash 拓展功能。用户可以处理任何请求</li>
+<li>WebDAV 服务</li>
+<li>一个简易图床，附带命令行上传工具。</li>
+<li>云函数 或者 Dokcer 部署</li>
+</ul>
+</blockquote>
+<p>可以看到 obcsapi 的使用前提是需要自己部署，我个人是采用自租 vps 部署，当然也可以使用云函数 + 对象存储，Nas+ 内网穿透等方法。</p>
+<p>它可以做到包括但不限于如下功能：</p>
+<ul>
+<li>部署一个 web 页面，可以访问、搜索并修改 obsidian 整个库
+<ul>
+<li>web 页面类 memos，可以快速记录灵感想法 <img src="https://github.com/kkbt0/obcsapi-go/raw/master/obcsapi-docs/docs/images/Snipaste_2023-05-09_21-21-34.png" alt="图片"></li>
+</ul>
+</li>
+<li>支持 api 输入，可以使用任何支持 http quest 的工具集成，如 fv 悬浮球/静读天下/简悦/ios 的捷径/tasker/Windows Quicker 等</li>
+<li>支持微信公众号测试号、企业微信，可以从微信端传入信息</li>
+<li>自带 webdav 服务，可以把 obsidian 库作为 webdav 的目录，这样就能与 remotely-save 等插件集成，进行同步</li>
+<li>支持 couchDB，可与 livesync 插件联动</li>
+<li>自带图床，web 上传图片自动存到图床并插入笔记</li>
+<li>支持分钟级待办提醒（微信推送、邮件提醒），邮件提醒可以自动识别最近三天日记中的所有待办并且每天早上发送邮件提醒，即每日提醒功能</li>
+</ul>
+<p>还有更多功能见文档 <a href="https://www.ftls.xyz/docs/obcsapi/" target="_blank" class="external-link">Obcsapi使用说明</a></p>
+<p>最后实际的使用效果见我的 b 站视频：<a href="https://www.bilibili.com/video/BV1iT421k7aq/" target="_blank" class="external-link">Obcsapi：如何让obsidian和notion打擂台？【元知识】_哔哩哔哩_bilibili</a></p>
+<h2 id="功能展示" tabindex="-1">功能展示</h2>
+<h3 id="同步功能" tabindex="-1">同步功能</h3>
+<h4 id="remotely-save" tabindex="-1">remotely-save 联动</h4>
+<h4 id="livesync" tabindex="-1">livesync 联动</h4>
+<h3 id="api" tabindex="-1">api与各种软件联动</h3>
+<h3 id="邮件提醒" tabindex="-1">邮件提醒</h3>
+<h3 id="web-obsidian" tabindex="-1">web 页面，随时随地使用 Obsidian</h3>
+<h3 id="企业微信" tabindex="-1">企业微信</h3>
+<p><img src="/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/Obsidian/assets/img-20250212223540293.png" alt="assets/img-20250212223540293.png|assets/Pasted image 20241219204451.png"></p>
+<h1 id="bug" tabindex="-1">现有 Bug 记录</h1>
+<h2 id="101-707" tabindex="-1">101 被识别为 707</h2>
+<p>obcsapi 设置选项中的 <code>Obsidian Daily 设置</code>，如果把文件夹名称设置为 <code>101 日记</code>，最后的实际效果是 <code>707 日记</code>，这个 bug 很奇怪</p>
+<h2 id="微信待办提醒文档有误" tabindex="-1">微信待办提醒文档有误</h2>
+<p><a href="https://www.ftls.xyz/docs/obcsapi/md/go-version/4-%E5%8A%9F%E8%83%BD%E4%BD%BF%E7%94%A8.html" target="_blank" class="external-link">4. 功能使用 | Obcsapi</a></p>
+<blockquote>
+<p><a href="https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&amp;t=sandbox/index" target="_blank" class="external-link">登录微信测试号</a>,模板消息接口新增测试模板，标题随意。内容处包含 <code>\{\{content.DATA\}\}</code> 即可。如</p>
+<p>plain</p>
+<pre><code>待办任务： \{\{content.DATA\}\}
 </code></pre>
-<h4 id="效果展示 ：" tabindex="-1">效果展示 ：</h4>
-<p><img src="/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/Obsidian/assets/Pasted%20image%2020241003193848.png" alt="assets/Pasted image 20241003193848.png"></p>
-<h3 id="超出折叠" tabindex="-1">超出折叠</h3>
-<h4 id="300" tabindex="-1">技巧 ：使用(300)这样的参数控制显示范围</h4>
-<h4 id="源代码：" tabindex="-1">源代码：</h4>
-<pre><code>[overfold(300)]
-- 1
-- 2
-- 3
-- 4
-- 5
-- 6
-- 7
-- 8
-- 9
-- 10
+<p>创建完成后，模板 ID 复制到配置文件，作为 <code>wechat_template_id</code> 的值。</p>
+</blockquote>
+<p>测试日期 2024 年 07 月 16 日，微信测试号的内容变量要求为 <code>待办任务：{{content.DATA}}</code>，如果加入斜杠会导致模板失效。</p>
+<p>这一点在配置文件中是正确的，但是项目文档还没改</p>
+<h2 id="微信语音转文字失效" tabindex="-1">微信语音转文字失效</h2>
+<p><a href="https://www.ftls.xyz/docs/obcsapi/md/go-version/4-%E5%8A%9F%E8%83%BD%E4%BD%BF%E7%94%A8.html" target="_blank" class="external-link">4. 功能使用 | Obcsapi</a></p>
+<blockquote>
+<h4 id="微信公众号说明" tabindex="-1">微信公众号说明</h4>
+<ul>
+<li>支持消息类型: 文字，图片，链接 (收藏中的)，地图位置，语音消息 (直接调用微信转文字存储)</li>
+</ul>
+</blockquote>
+<p>实测语音转文字功能失效，昨天请教过作者，即便打开测试号的 <code>接收语音识别结果</code> 功能再重启也无法启效。</p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" id="cbx_0" checked="true" disabled="true"><label for="cbx_0"> 换一个测试号测试 ✅ 2024-07-16<br>
+我换了一个测试号，换了一个微信号测试依然无法识别</label></li>
+</ul>
+<h2 id="api-web" tabindex="-1">通过 api 发送的图片无法在 web 中显示</h2>
+<p>web 直接上传图片，图片会上传到图床</p>
+<p>通过 api 发送会放到 ob 库中，以 <code>!()[]</code> 格式引用，在 ob 中正常显示，但在 web 中无法显示</p>
+<h2 id="文档中关于企业微信配置有误" tabindex="-1">文档中关于企业微信配置有误</h2>
+<p>配置文件中有这样一段：</p>
+<pre><code># work wechat 企业微信自建应用
+work_wechat_receiverid: xxxxxxxxxxxxxx # 企业ID
+work_wechat_corpid: xxxxxxxxxxxxxx <a class="tag" onclick="toggleTagSearch(this)" data-content="#企业ID">#企业ID</a>
 </code></pre>
-<h4 id="img-src-img-user-107-e6-88-91-e7-9-a-84-e5-88-9-b-e4-bd-9-c-e6-96-87-e5-ad-97-e5-8-d-9-a-e5-ae-a2-e5-8-f-91-e5-b8-83-obsidian-assets-pasted-20image-2020241003193954-png-alt-assets-pasted-image-20241003193954-png" tabindex="-1">效果展示：<img src="/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/Obsidian/assets/Pasted%20image%2020241003193954.png" alt="assets/Pasted image 20241003193954.png"></h4>
-<h3 id="滚动" tabindex="-1">滚动</h3>
-<h4 id="300-1" tabindex="-1">技巧：滚动也适用(300)这样的长度控制参数</h4>
-<h4 id="源代码：-1" tabindex="-1">源代码：</h4>
-<pre><code>[scroll(300)]
-
-- 1
-- 2
-- 3
-- 4
-- 5
-- 6
-- 7
-- 8
-- 9
-- 10
-</code></pre>
-<h4 id="img-src-img-user-107-e6-88-91-e7-9-a-84-e5-88-9-b-e4-bd-9-c-e6-96-87-e5-ad-97-e5-8-d-9-a-e5-ae-a2-e5-8-f-91-e5-b8-83-obsidian-assets-pasted-20image-2020241003194039-png-alt-assets-pasted-image-20241003194039-png" tabindex="-1">效果展示：<img src="/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/Obsidian/assets/Pasted%20image%2020241003194039.png" alt="assets/Pasted image 20241003194039.png"></h4>
+<p>可以看到第一个 <code>receiverid</code> 的备注也是企业 id，这明显是错误的，实际上这一行不应该被配置，而是要被注释留空，原因是见此文：<a href="https://developer.work.weixin.qq.com/community/question/detail?content_id=16321548993000405078" target="_blank" class="external-link">个人开发者的receiveid填什么？ - 开发者社区 - 企业微信开发者中心</a>，即</p>
+<blockquote>
+<p>个人主体的第三方应用的 ReceiveId 是一个空字符串</p>
+<p><a href="https://developer.work.weixin.qq.com/document/path/91144#%E9%99%84%E6%B3%A8%EF%BC%9Areceiveid-%E5%90%AB%E4%B9%89" target="_blank" class="external-link">https://developer.work.weixin.qq.com/document/path/91144#附注：receiveid-含义</a></p>
+</blockquote>
+<p>同时文档中也没有给出回调 api 的地址，而它应该这么填写</p>
+<p><img src="/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/Obsidian/assets/img-20250212223540415.png" alt="assets/img-20250212223540415.png|assets/Pasted image 20241219201940.png"></p>
+<p>即 <code>obcsapi地址/api/workwechat</code></p>
 </main>
 <aside>
 <div class="sidebar">
@@ -364,45 +404,45 @@ On this page
 <div class="toc-container">
 <nav class="toc">
 <ol>
-<li><a href="#插件简介">插件简介</a>
-</li>
-<li><a href="#官方文档">官方文档</a>
-</li>
-<li><a href="#使用说明">使用说明</a>
+<li><a href="#前言">前言</a>
 <ol>
-<li><a href="#各效果器展示">各效果器展示</a>
+<li><a href="#功能展示">功能展示</a>
 <ol>
-<li><a href="#文件树">文件树</a>
+<li><a href="#同步功能">同步功能</a>
 <ol>
-<li><a href="#技巧 ：">技巧 ：</a>
+<li><a href="#remotely-save">remotely-save 联动</a>
 </li>
-<li><a href="#源代码 ：">源代码 ：</a>
-</li>
-<li><a href="#效果展示 ：">效果展示 ：</a>
+<li><a href="#livesync">livesync 联动</a>
 </li>
 </ol>
 </li>
-<li><a href="#超出折叠">超出折叠</a>
-<ol>
-<li><a href="#300">技巧 ：使用(300)这样的参数控制显示范围</a>
+<li><a href="#api">api与各种软件联动</a>
 </li>
-<li><a href="#源代码：">源代码：</a>
+<li><a href="#邮件提醒">邮件提醒</a>
 </li>
-<li><a href="#img-src-img-user-107-e6-88-91-e7-9-a-84-e5-88-9-b-e4-bd-9-c-e6-96-87-e5-ad-97-e5-8-d-9-a-e5-ae-a2-e5-8-f-91-e5-b8-83-obsidian-assets-pasted-20image-2020241003193954-png-alt-assets-pasted-image-20241003193954-png">效果展示：</a>
+<li><a href="#web-obsidian">web 页面，随时随地使用 Obsidian</a>
 </li>
-</ol>
-</li>
-<li><a href="#滚动">滚动</a>
-<ol>
-<li><a href="#300-1">技巧：滚动也适用(300)这样的长度控制参数</a>
-</li>
-<li><a href="#源代码：-1">源代码：</a>
-</li>
-<li><a href="#img-src-img-user-107-e6-88-91-e7-9-a-84-e5-88-9-b-e4-bd-9-c-e6-96-87-e5-ad-97-e5-8-d-9-a-e5-ae-a2-e5-8-f-91-e5-b8-83-obsidian-assets-pasted-20image-2020241003194039-png-alt-assets-pasted-image-20241003194039-png">效果展示：</a>
+<li><a href="#企业微信">企业微信</a>
 </li>
 </ol>
 </li>
 </ol>
+</li>
+<li><a href="#bug">现有 Bug 记录</a>
+<ol>
+<li><a href="#101-707">101 被识别为 707</a>
+</li>
+<li><a href="#微信待办提醒文档有误">微信待办提醒文档有误</a>
+</li>
+<li><a href="#微信语音转文字失效">微信语音转文字失效</a>
+<ol>
+<li><a href="#微信公众号说明">微信公众号说明</a>
+</li>
+</ol>
+</li>
+<li><a href="#api-web">通过 api 发送的图片无法在 web 中显示</a>
+</li>
+<li><a href="#文档中关于企业微信配置有误">文档中关于企业微信配置有误</a>
 </li>
 </ol>
 </li>

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-<title>Anyblock插件入门</title>
+<title>边看视频边做Obsidian笔记，试试HoverNotes</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -91,7 +91,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><a data-note-icon="" style="text-decoration:none" class="filename" href="/Obsidian/Anyblock插件入门/">Anyblock插件入门 </a>
+<div @click.stop class="notelink"><a data-note-icon="" style="text-decoration:none" class="filename" href="/Obsidian/Anyblock插件入门/">Anyblock插件入门 </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -173,7 +173,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><a data-note-icon="" style="text-decoration:none" class="filename" href="/效率工具/边看视频边做Obsidian笔记，试试HoverNotes/">边看视频边做Obsidian笔记，试试HoverNotes </a>
+<div @click.stop class="notelink active-note"><a data-note-icon="" style="text-decoration:none" class="filename" href="/效率工具/边看视频边做Obsidian笔记，试试HoverNotes/">边看视频边做Obsidian笔记，试试HoverNotes </a>
 </div>
 </div>
 </div>
@@ -237,92 +237,19 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-10-03T09:46:19.010Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-10-03T09:46:19.010Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-10-03T09:46:19.010Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">Anyblock插件入门</h1>
+<h1 data-note-icon="">边看视频边做Obsidian笔记，试试HoverNotes</h1>
 <div class="header-meta">
 <div class="header-tags">
-<a class="tag" onclick="toggleTagSearch(this)">
-#obsidian插件
-</a>
 </div>
-<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-03-08T11:35"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-04-15T21:50"></span></div></div></div>
+<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-03-08T11:35"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-10-03T17:12"></span></div></div></div>
 </header>
-<h1 id="插件简介" tabindex="-1">插件简介</h1>
-<p>Anyblock是一个【无语法、可扩展、灵活强大、多平台】 的 Markdown 块扩展渲染插件。能实现无语法入侵的前提下，为obsidian实现更多渲染效果，例如表格、折叠、滚动、思维导图等。</p>
-<h1 id="官方文档" tabindex="-1">官方文档</h1>
-<p>作者的博客： <a href="https://linczero.github.io/MdNote_Public/ProductDoc/AnyBlock/README.show.html" target="_blank" class="external-link">README | Linc 的小站</a></p>
-<p>作者自荐的帖子：<a href="https://forum-zh.obsidian.md/t/topic/38352" target="_blank" class="external-link">列表转表格、树目录、思维导图、时间线、表格合并 —— Any Block V3（Ob/Md-it/VuePress/VitePress通用） - 经验分享 - Obsidian 中文论坛</a></p>
-<p>插件的开源地址：<a href="https://github.com/LincZero/obsidian-any-block" target="_blank" class="external-link">LincZero/obsidian-any-block.</a></p>
-<h1 id="使用说明" tabindex="-1">使用说明</h1>
-<p>使用info语法召唤说明文档，如果你想看到渲染后的效果，应该在安装插件后，输入下面这段文字：</p>
-<pre><code>[info]
-- 这是any block的文档
-</code></pre>
-<p>然后应该会渲染出下面的效果：</p>
-<p><img src="/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/Obsidian/assets/Pasted%20image%2020241003193747.png" alt="assets/Pasted image 20241003193747.png"></p>
-<h2 id="各效果器展示" tabindex="-1">各效果器展示</h2>
-<p>我只会在这里展示我常用的效果，更多内容参见插件自身的文档。</p>
-<h3 id="文件树" tabindex="-1">文件树</h3>
-<h4 id="技巧 ：" tabindex="-1">技巧 ：</h4>
-<ol>
-<li>分隔左右侧的逗号是中文逗号</li>
-<li>逗号后有一个空格</li>
-</ol>
-<h4 id="源代码 ：" tabindex="-1">源代码 ：</h4>
-<pre><code>[list2dt]
-
-- vue-demo/
-  - build/， 项目构建(webpack)相关代码
-  - config/， 配置目录，包括端口号等。我们初学可以使用默认的
-  - node_modules/， npm 加载的项目依赖模块
-  - src/， 这里是我们要开发的目录
-    - assets/， 放置一些图片，如logo等
-    - components， 目录里面放了一个组件文件，可以不用
-    - App.vue， 项目入口文件，我们也可以直接将组件写这里，而不使用 components 目录
-    - main.js， 项目的核心文件。
-  - static/， 静态资源目录，如图片、字体等
-  - test/， 初始测试目录，可删除
-  - .eslintignore
-  - .gitignore， git配置
-  - .index.html， 首页入口文件，你可以添加一些 meta 信息或统计代码啥的
-  - package.json， 项目配置文件
-  - READED.md， 项目的说明文档，markdown 格式&lt;br&gt;手动换行测试&lt;br&gt;自动换行测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试k
-  - ...
-</code></pre>
-<h4 id="效果展示 ：" tabindex="-1">效果展示 ：</h4>
-<p><img src="/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/Obsidian/assets/Pasted%20image%2020241003193848.png" alt="assets/Pasted image 20241003193848.png"></p>
-<h3 id="超出折叠" tabindex="-1">超出折叠</h3>
-<h4 id="300" tabindex="-1">技巧 ：使用(300)这样的参数控制显示范围</h4>
-<h4 id="源代码：" tabindex="-1">源代码：</h4>
-<pre><code>[overfold(300)]
-- 1
-- 2
-- 3
-- 4
-- 5
-- 6
-- 7
-- 8
-- 9
-- 10
-</code></pre>
-<h4 id="img-src-img-user-107-e6-88-91-e7-9-a-84-e5-88-9-b-e4-bd-9-c-e6-96-87-e5-ad-97-e5-8-d-9-a-e5-ae-a2-e5-8-f-91-e5-b8-83-obsidian-assets-pasted-20image-2020241003193954-png-alt-assets-pasted-image-20241003193954-png" tabindex="-1">效果展示：<img src="/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/Obsidian/assets/Pasted%20image%2020241003193954.png" alt="assets/Pasted image 20241003193954.png"></h4>
-<h3 id="滚动" tabindex="-1">滚动</h3>
-<h4 id="300-1" tabindex="-1">技巧：滚动也适用(300)这样的长度控制参数</h4>
-<h4 id="源代码：-1" tabindex="-1">源代码：</h4>
-<pre><code>[scroll(300)]
-
-- 1
-- 2
-- 3
-- 4
-- 5
-- 6
-- 7
-- 8
-- 9
-- 10
-</code></pre>
-<h4 id="img-src-img-user-107-e6-88-91-e7-9-a-84-e5-88-9-b-e4-bd-9-c-e6-96-87-e5-ad-97-e5-8-d-9-a-e5-ae-a2-e5-8-f-91-e5-b8-83-obsidian-assets-pasted-20image-2020241003194039-png-alt-assets-pasted-image-20241003194039-png" tabindex="-1">效果展示：<img src="/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/Obsidian/assets/Pasted%20image%2020241003194039.png" alt="assets/Pasted image 20241003194039.png"></h4>
+<p>分享一个我最近在用的视频笔记工具 Chrome拓展【HoverNotes】</p>
+<p><img src="/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/assets/75706_1.png" alt="assets/75706_1.png"></p>
+<p>先说缺点是需要登录，但免费账号可以免费在YouTube与哔哩哔哩上使用除了ai以外的功能，够用了，支持大部分视频平台，也支持本地视频。</p>
+<p>使用方法很简单，第一次使用配置笔记保存的位置，后续笔记就会以md格式保存到本地，实现与obsidian的无缝联动。</p>
+<p>插件识别到网页中在浏览视频时，视频左上角会一个悬浮按钮，点击之后就能打开一个嵌入视频的编辑器，可以一边播放一边写笔记，有快速插入当前画面与时间点的按钮，还能自动生成笔记的属性（标题、简介、作者、来源、创建时间）</p>
+<p>另外还可以切换成悬浮窗模式，这样就可以查看评论区或者使用原网页的功能</p>
+<p><img src="/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/assets/74552_1.png" alt="assets/74552_1.png"><img src="/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/assets/86970_1.png" alt="assets/86970_1.png"></p>
 </main>
 <aside>
 <div class="sidebar">
@@ -353,61 +280,6 @@ CTRL + K
 <div x-effect="window.graph = renderLocalGraph(graphData, depth, fullScreen)" id="link-graph"></div>
 <div x-show="showFullGraph" id="full-graph" class="show" style="display:none">
 <span id="full-graph-close" x-on:click="fullGraph = closefullGraph(fullGraph); showFullGraph = false;"><i icon-name="x" aria-hidden="true"></i></span><div id="full-graph-container"></div>
-</div>
-</div>
-<div class="toc">
-<div class="toc-title-container">
-<div class="toc-title">
-On this page
-</div>
-</div>
-<div class="toc-container">
-<nav class="toc">
-<ol>
-<li><a href="#插件简介">插件简介</a>
-</li>
-<li><a href="#官方文档">官方文档</a>
-</li>
-<li><a href="#使用说明">使用说明</a>
-<ol>
-<li><a href="#各效果器展示">各效果器展示</a>
-<ol>
-<li><a href="#文件树">文件树</a>
-<ol>
-<li><a href="#技巧 ：">技巧 ：</a>
-</li>
-<li><a href="#源代码 ：">源代码 ：</a>
-</li>
-<li><a href="#效果展示 ：">效果展示 ：</a>
-</li>
-</ol>
-</li>
-<li><a href="#超出折叠">超出折叠</a>
-<ol>
-<li><a href="#300">技巧 ：使用(300)这样的参数控制显示范围</a>
-</li>
-<li><a href="#源代码：">源代码：</a>
-</li>
-<li><a href="#img-src-img-user-107-e6-88-91-e7-9-a-84-e5-88-9-b-e4-bd-9-c-e6-96-87-e5-ad-97-e5-8-d-9-a-e5-ae-a2-e5-8-f-91-e5-b8-83-obsidian-assets-pasted-20image-2020241003193954-png-alt-assets-pasted-image-20241003193954-png">效果展示：</a>
-</li>
-</ol>
-</li>
-<li><a href="#滚动">滚动</a>
-<ol>
-<li><a href="#300-1">技巧：滚动也适用(300)这样的长度控制参数</a>
-</li>
-<li><a href="#源代码：-1">源代码：</a>
-</li>
-<li><a href="#img-src-img-user-107-e6-88-91-e7-9-a-84-e5-88-9-b-e4-bd-9-c-e6-96-87-e5-ad-97-e5-8-d-9-a-e5-ae-a2-e5-8-f-91-e5-b8-83-obsidian-assets-pasted-20image-2020241003194039-png-alt-assets-pasted-image-20241003194039-png">效果展示：</a>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-</nav>
 </div>
 </div>
 <div class="backlinks">
