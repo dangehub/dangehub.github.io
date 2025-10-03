@@ -3,14 +3,14 @@
     <title>阿曲的荒原</title>
     <link href="https://blog.qudange.top/feed.xml" rel="self" //>
     <link href="https://blog.qudange.top" //>
-    <updated>2025-10-03T09:40:54Z</updated>
+    <updated>2025-10-03T09:44:05Z</updated>
     <id>https://blog.qudange.top</id>
         <entry>
             <title>
                 README
                 
             </title>
-            <updated>2025-10-03T09:40:39Z</updated>
+            <updated>2025-10-03T09:43:52Z</updated>
             <id>https://blog.qudange.top/</id>
             <content type="html">
                 &lt;h1 id=&quot;十分冷淡存知己 一曲微茫度余生&quot; tabindex=&quot;-1&quot;&gt;十分冷淡存知己 一曲微茫度余生&lt;/h1&gt;
@@ -160,7 +160,7 @@
                 迈向爱折腾的geek的第一步——学会提问、学会查资料
                 
             </title>
-            <updated>2025-10-03T09:40:39Z</updated>
+            <updated>2025-10-03T09:43:52Z</updated>
             <id>https://blog.qudange.top/迈向爱折腾的geek的第一步——学会提问、学会查资料/</id>
             <content type="html">
                 &lt;h1 id=&quot;geek&quot; tabindex=&quot;-1&quot;&gt;迈向爱折腾的 geek 的第一步：学会提问、学会查资料&lt;/h1&gt;
@@ -258,7 +258,7 @@
                 用n8n实现反思翻译
                 
             </title>
-            <updated>2025-10-03T09:40:39Z</updated>
+            <updated>2025-10-03T09:43:52Z</updated>
             <id>https://blog.qudange.top/自托管折腾/用n8n实现反思翻译/</id>
             <content type="html">
                 &lt;p&gt;用 defy 搭建三步翻译老是报错，想自托管发现 defy 的配置要求很高，于是准备先用之前的 n 8 n 试试。&lt;/p&gt;
@@ -376,7 +376,7 @@ Edit: I actually think this is why I lose interest in this game so quickly. In t
                 follow认证文件
                 
             </title>
-            <updated>2025-10-03T09:40:39Z</updated>
+            <updated>2025-10-03T09:43:52Z</updated>
             <id>https://blog.qudange.top/自托管折腾/follow认证文件/</id>
             <content type="html">
                 &lt;p&gt;This message is used to verify that this feed (feedId:105271225522095104) belongs to me (userId:72208719763571712). Join me in enjoying the next generation information browser &lt;a href=&quot;https://follow.is/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://follow.is&lt;/a&gt;.&lt;/p&gt;
@@ -392,7 +392,7 @@ Edit: I actually think this is why I lose interest in this game so quickly. In t
                 用反思翻译法提升大语言模型翻译的质量
                 
             </title>
-            <updated>2025-10-03T09:40:39Z</updated>
+            <updated>2025-10-03T09:43:52Z</updated>
             <id>https://blog.qudange.top/效率工具/用反思翻译法提升大语言模型翻译的质量/</id>
             <content type="html">
                 &lt;h1 id=&quot;前言&quot; tabindex=&quot;-1&quot;&gt;前言&lt;/h1&gt;
@@ -590,7 +590,7 @@ Edit: I actually think this is why I lose interest in this game so quickly. In t
                 ollama离线运行AI模型-反思翻译法-沉浸式翻译-免费又好用的翻译
                 
             </title>
-            <updated>2025-10-03T09:40:39Z</updated>
+            <updated>2025-10-03T09:43:52Z</updated>
             <id>https://blog.qudange.top/效率工具/ollama离线运行AI模型-反思翻译法-沉浸式翻译-免费又好用的翻译/</id>
             <content type="html">
                 &lt;h1 id=&quot;前言&quot; tabindex=&quot;-1&quot;&gt;前言&lt;/h1&gt;
@@ -664,7 +664,7 @@ It seems to me that any uncensored LLM run locally can be used to generate illeg
                 让Obsidian的光标丝滑移动
                 
             </title>
-            <updated>2025-10-03T09:40:39Z</updated>
+            <updated>2025-10-03T09:43:52Z</updated>
             <id>https://blog.qudange.top/Obsidian/让Obsidian的光标丝滑移动/</id>
             <content type="html">
                 &lt;h1 id=&quot;前言&quot; tabindex=&quot;-1&quot;&gt;前言&lt;/h1&gt;
@@ -745,7 +745,7 @@ body:has(.x-cursor) * {
                 在移动端设备上管理Obsidian待办的方法探讨
                 
             </title>
-            <updated>2025-10-03T09:40:39Z</updated>
+            <updated>2025-10-03T09:43:52Z</updated>
             <id>https://blog.qudange.top/Obsidian/在移动端设备上管理Obsidian待办的方法探讨/</id>
             <content type="html">
                 &lt;h1 id=&quot;前言&quot; tabindex=&quot;-1&quot;&gt;前言&lt;/h1&gt;
@@ -844,7 +844,7 @@ body:has(.x-cursor) * {
                 一键把excalidraw的头脑风暴输出为线性文章
                 
             </title>
-            <updated>2025-10-03T09:40:39Z</updated>
+            <updated>2025-10-03T09:43:52Z</updated>
             <id>https://blog.qudange.top/Obsidian/一键把excalidraw的头脑风暴输出为线性文章/</id>
             <content type="html">
                 &lt;h1 id=&quot;发散性思考与线性输出&quot; tabindex=&quot;-1&quot;&gt;发散性思考与线性输出&lt;/h1&gt;
@@ -1651,7 +1651,7 @@ new Notice(`✅ Excalidraw 内容已更新到文件：${outputPath}`, 2000);
                 Thino与Mac软件popclip联动-实现系统级全局划词摘录
                 
             </title>
-            <updated>2025-10-03T09:40:39Z</updated>
+            <updated>2025-10-03T09:43:52Z</updated>
             <id>https://blog.qudange.top/Obsidian/Thino与Mac软件popclip联动-实现系统级全局划词摘录/</id>
             <content type="html">
                 &lt;p&gt;简单介绍一下 popclip：&lt;/p&gt;
@@ -1676,7 +1676,7 @@ new Notice(`✅ Excalidraw 内容已更新到文件：${outputPath}`, 2000);
                 Obsidian轻量级PPT教程
                 
             </title>
-            <updated>2025-10-03T09:40:39Z</updated>
+            <updated>2025-10-03T09:43:52Z</updated>
             <id>https://blog.qudange.top/Obsidian/Obsidian轻量级PPT教程/</id>
             <content type="html">
                 &lt;h1 id=&quot;前言&quot; tabindex=&quot;-1&quot;&gt;前言&lt;/h1&gt;
@@ -1800,7 +1800,7 @@ new Notice(`✅ Excalidraw 内容已更新到文件：${outputPath}`, 2000);
                 Obsidian插件测评-i18n-汉化插件、翻译词典编辑器、云端共享词典、内置沉浸式翻译
                 
             </title>
-            <updated>2025-10-03T09:40:39Z</updated>
+            <updated>2025-10-03T09:43:52Z</updated>
             <id>https://blog.qudange.top/Obsidian/Obsidian插件测评/Obsidian插件测评-i18n-汉化插件、翻译词典编辑器、云端共享词典、内置沉浸式翻译/</id>
             <content type="html">
                 &lt;h1 id=&quot;插件简介&quot; tabindex=&quot;-1&quot;&gt;插件简介&lt;/h1&gt;
@@ -2197,7 +2197,7 @@ console.error(&#39;清理过程中出错:&#39;, error);
                 Obsidian插件测评-BetterPluginsManager-插件分组、标签管理，插件备注，延迟启动
                 
             </title>
-            <updated>2025-10-03T09:40:39Z</updated>
+            <updated>2025-10-03T09:43:52Z</updated>
             <id>https://blog.qudange.top/Obsidian/Obsidian插件测评/Obsidian插件测评-BetterPluginsManager-插件分组、标签管理，插件备注，延迟启动/</id>
             <content type="html">
                 &lt;h1 id=&quot;插件简介&quot; tabindex=&quot;-1&quot;&gt;插件简介&lt;/h1&gt;
@@ -2257,7 +2257,7 @@ console.error(&#39;清理过程中出错:&#39;, error);
                 Obsidian技巧之用maoxian插件剪藏网络文章，同时把图片下载到本地
                 
             </title>
-            <updated>2025-10-03T09:40:39Z</updated>
+            <updated>2025-10-03T09:43:52Z</updated>
             <id>https://blog.qudange.top/Obsidian/Obsidian技巧之用maoxian插件剪藏网络文章，同时把图片下载到本地/</id>
             <content type="html">
                 &lt;h1 id=&quot;前言&quot; tabindex=&quot;-1&quot;&gt;前言&lt;/h1&gt;
@@ -2519,7 +2519,7 @@ console.error(&#39;清理过程中出错:&#39;, error);
                 Obsidian实现复制时自动上传图片到图床
                 
             </title>
-            <updated>2025-10-03T09:40:39Z</updated>
+            <updated>2025-10-03T09:43:52Z</updated>
             <id>https://blog.qudange.top/Obsidian/Obsidian实现复制时自动上传图片到图床/</id>
             <content type="html">
                 &lt;h1 id=&quot;obsidian&quot; tabindex=&quot;-1&quot;&gt;Obsidian 实现复制时自动上传图片到图床&lt;/h1&gt;
