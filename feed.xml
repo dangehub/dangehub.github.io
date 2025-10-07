@@ -3,7 +3,7 @@
     <title>阿曲的荒原</title>
     <link href="https://blog.qudange.top/feed.xml" rel="self" />
     <link href="https://blog.qudange.top" />
-    <updated>2025-10-07T10:41:46Z</updated>
+    <updated>2025-10-07T10:41:50Z</updated>
     <id>https://blog.qudange.top</id>
         <entry>
             <title>
@@ -766,105 +766,6 @@ body:has(.x-cursor) * {
 
             </content>
             <link href="https://blog.qudange.top/Obsidian/让Obsidian的光标丝滑移动/" />
-        </entry>
-        <entry>
-            <title>
-                在移动端设备上管理Obsidian待办的方法探讨
-                
-            </title>
-            <updated>2025-04-17T18:43:00.000Z</updated>
-            <id>https://blog.qudange.top/Obsidian/在移动端设备上管理Obsidian待办的方法探讨/</id>
-            <content type="html">
-                &lt;h1 id=&quot;前言&quot; tabindex=&quot;-1&quot;&gt;前言&lt;/h1&gt;
-&lt;p&gt;虽然我不提倡 all in one，但是我一直希望能使用 Obsidian 管理我的待办。虽然可以用 tasks、reminder 之类的插件来实现 Obsidian 内部的待办管理，但是对于普通人来说，手机才是真正有提醒功能的终端，而移动端 Obsidian 不能调用系统级的通知，即便它能，也会受到启动缓慢且无法常驻后台的短板的制约，因此我们需要更轻量而稳定的实现方法。&lt;/p&gt;
-&lt;p&gt;好在 Obsidian 是基于 md 开放格式的软件，我们完全可以用其他软件来读取笔记，然后按照对应规则来解析笔记的待办。除了自行实现外，我也发现了一些应用在努力完成这样的目标。后文会介绍现有的第三方应用与自行实现的方法，宥于个人能力与精力的有限，难以做到全面准确，如有错漏，欢迎批评指正。&lt;/p&gt;
-&lt;h1 id=&quot;自行实现&quot; tabindex=&quot;-1&quot;&gt;自行实现&lt;/h1&gt;
-&lt;h2 id=&quot;原理分析&quot; tabindex=&quot;-1&quot;&gt;原理分析&lt;/h2&gt;
-&lt;p&gt;首先我们要知道自行实现的原理：用 markdown 格式记录的待办就如同你用纸笔在便签上写下“明天记得买菜”，只需要让软件把“明天”和“买菜”这两个信息分别读取为时间与事项内容就好了。&lt;/p&gt;
-&lt;h1 id=&quot;第三方应用&quot; tabindex=&quot;-1&quot;&gt;第三方应用&lt;/h1&gt;
-&lt;h2 id=&quot;notifian-2025-01-17&quot; tabindex=&quot;-1&quot;&gt;notifian（2025-01-17 更新）&lt;/h2&gt;
-&lt;p&gt;支持平台：android&lt;/p&gt;
-&lt;p&gt;下载地址：&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.notifian&amp;amp;hl=en&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Google play 商店&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;功能介绍：扫描本地的 Obsidian 库，提取其中的待办提醒，然后在对应时间点发起提醒。&lt;/p&gt;
-&lt;p&gt;[fold]&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;img src=&quot;https://blog.qudange.top/img/user/101-%E6%97%A5%E8%AE%B0/assets/Pasted%20image%2020250117193514.png&quot; alt=&quot;assets/Pasted image 20250117193514.png&quot; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;细节：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;支持两种待办格式
-&lt;ul&gt;
-&lt;li&gt;frontmatter
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;remind at&lt;/code&gt; 为提醒时间，支持精确到分钟&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;repeat&lt;/code&gt; 为重复规则，支持
-&lt;ul&gt;
-&lt;li&gt;每月的第 x 天&lt;/li&gt;
-&lt;li&gt;每 x 分钟/小时/天/周&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;兼容 tasks 语法（因此只支持到按天提醒，不能精确到小时分钟）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;obsi-2025-01-17&quot; tabindex=&quot;-1&quot;&gt;obsi（2025-01-17 更新）&lt;/h2&gt;
-&lt;p&gt;支持平台 ：android&lt;/p&gt;
-&lt;p&gt;下载地址：&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.scanworks.obsi&amp;amp;hl=en&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Google play商店&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;功能介绍：扫描本地的 Obsidian 库，提取其中的待办提醒，将其渲染为可视化 todo，同时可以用图形 UI 创建新的待办，支持设置截止日期、属性和种类。&lt;/p&gt;
-&lt;p&gt;[fold]&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;img src=&quot;https://blog.qudange.top/img/user/101-%E6%97%A5%E8%AE%B0/assets/Pasted%20image%2020250117193049.png&quot; alt=&quot;assets/Pasted image 20250117193049.png&quot; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;细节：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;通过 &lt;code&gt;obsi&lt;/code&gt; app 创建的待办都会被放到 &lt;code&gt;obsi.md&lt;/code&gt; 文件中，目前无法分散保存待办&lt;/li&gt;
-&lt;li&gt;目前无法发出提醒，只能由用户自行查看&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;obsidian-android-widget&quot; tabindex=&quot;-1&quot;&gt;ObsidianAndroidWidget&lt;/h2&gt;
-&lt;p&gt;支持平台：android&lt;/p&gt;
-&lt;p&gt;下载地址：&lt;a href=&quot;https://github.com/Irony95/ObsidianAndroidWidget&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;GitHub仓库&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;功能介绍：&lt;/p&gt;
-&lt;p&gt;细节：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;只能手动选定链接的文件，无法按照一定的规则自动切换文件（比如根据当天日期切换当天的日记）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;quick-md-capture&quot; tabindex=&quot;-1&quot;&gt;QuickMDCapture&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/ObsidianMD/comments/1flev91/adding_notes_through_a_widget_on_the_android_home/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;通过 Android 主屏幕上的小部件添加注释：r/ObsidianMD --- Adding notes through a widget on the Android home screen : r/ObsidianMD&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;kvaesitso&quot; tabindex=&quot;-1&quot;&gt;Kvaesitso&lt;/h2&gt;
-&lt;p&gt;支持平台：android&lt;/p&gt;
-&lt;p&gt;下载地址：&lt;a href=&quot;https://github.com/MM2-0/Kvaesitso&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;GitHub仓库&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;功能介绍：这是一个开源的安卓桌面 app，它有一个自带的小组件，可以链接到一个 md 文件，然后就可以在桌面编辑这个 md 文件&lt;/p&gt;
-&lt;p&gt;[fold]&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;img src=&quot;https://blog.qudange.top/img/user/101-%E6%97%A5%E8%AE%B0/assets/Screenshot_20250117_234412_Kvaesitso.jpg&quot; alt=&quot;assets/Screenshot_20250117_234412_Kvaesitso.jpg&quot; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;细节：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;只能手动选定链接的文件，而且这个文件必须由这 app 新建（当然可以手动替换）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&quot;自行实现-1&quot; tabindex=&quot;-1&quot;&gt;自行实现&lt;/h1&gt;
-&lt;h2 id=&quot;tasker&quot; tabindex=&quot;-1&quot;&gt;使用 tasker&lt;/h2&gt;
-&lt;h3 id=&quot;网友分享的思路&quot; tabindex=&quot;-1&quot;&gt;网友分享的思路&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/ObsidianMD/comments/qj7nct/quick_add_note_from_android/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;来自 Android 的快速添加注释：r/ObsidianMD --- Quick add note from Android : r/ObsidianMD&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/Guy-92/QuickNote&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Guy-92/QuickNote: A way to take Quick Notes in Obsidian on Android&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;另一个网友以此为基础进行了修改&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/ObsidianMD/comments/1h9tgqh/using_tasker_to_create_an_instant_note_widget_for/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;使用 Tasker 为 Android 创建“即时笔记”小部件：r/ObsidianMD --- Using Tasker To Create An &amp;quot;Instant Note&amp;quot; Widget For Android : r/ObsidianMD&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;一个网友分享的 tasker 创建的思路，但是没有分享具体文件 &lt;a href=&quot;https://www.reddit.com/r/ObsidianMD/comments/1h9tgqh/using_tasker_to_create_an_instant_note_widget_for/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;使用 Tasker 为 Android 创建“即时笔记”小部件：r/ObsidianMD --- Using Tasker To Create An &amp;quot;Instant Note&amp;quot; Widget For Android : r/ObsidianMD&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;tasker-widget&quot; tabindex=&quot;-1&quot;&gt;我的 tasker widget&lt;/h3&gt;
-&lt;h2 id=&quot;ios&quot; tabindex=&quot;-1&quot;&gt;使用 ios 捷径&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/ObsidianMD/comments/1i4zpom/ios_shortcut/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;iOS 快捷方式 ： r/ObsidianMD --- iOS Shortcut : r/ObsidianMD&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;fv&quot; tabindex=&quot;-1&quot;&gt;fv 悬浮球记笔记（偏题）&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://forum-zh.obsidian.md/t/topic/5687/2&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;安卓利用FV悬浮球实现不打开ob进行文本快捷输入（包括图片自动上传图床后的外链） - 经验分享 - Obsidian 中文论坛&lt;/a&gt;&lt;/p&gt;
-
-            </content>
-            <link href="https://blog.qudange.top/Obsidian/在移动端设备上管理Obsidian待办的方法探讨/" />
         </entry>
         <entry>
             <title>
