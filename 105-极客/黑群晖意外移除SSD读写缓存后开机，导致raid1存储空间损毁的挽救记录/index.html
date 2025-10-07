@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-<title>follow认证文件</title>
+<title>黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -108,7 +108,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><a data-note-icon="" style="text-decoration:none" class="filename" href="/105-极客/黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录/">黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录 </a>
+<div @click.stop class="notelink active-note"><a data-note-icon="" style="text-decoration:none" class="filename" href="/105-极客/黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录/">黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录 </a>
 </div>
 </div>
 </div>
@@ -229,7 +229,7 @@ CTRL + K
 <span class="foldername">自托管折腾</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><a data-note-icon="" style="text-decoration:none" class="filename" href="/自托管折腾/follow认证文件/">follow认证文件 </a>
+<div @click.stop class="notelink"><a data-note-icon="" style="text-decoration:none" class="filename" href="/自托管折腾/follow认证文件/">follow认证文件 </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -280,16 +280,52 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-10-07T10:41:43.799Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-10-07T10:41:43.799Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-10-07T10:41:43.799Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">follow认证文件</h1>
+<h1 data-note-icon="">黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录</h1>
 <div class="header-meta">
 <div class="header-tags">
 </div>
 <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-03-08T11:35"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-04-15T22:25"></span></div></div></div>
 </header>
-<p>This message is used to verify that this feed (feedId:105271225522095104) belongs to me (userId:72208719763571712). Join me in enjoying the next generation information browser <a href="https://follow.is" target="_blank" class="external-link">https://follow.is</a>.</p>
-<p>![[assets/obsidian-icon-ico.ico]]</p>
-<p><img src="/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/%E8%87%AA%E6%89%98%E7%AE%A1%E6%8A%98%E8%85%BE/assets/obsidian-icon-png.png" alt="assets/obsidian-icon-png.png"></p>
-<p><svg id="custom-logo" width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" style="height:100%;width:100%"> <defs> <radialGradient id="b" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-48 -185 123 -32 179 429.7)"> <stop stop-color="#fff" stop-opacity=".4"></stop> <stop offset="1" stop-opacity=".1"></stop> </radialGradient> <radialGradient id="c" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(41 -310 229 30 341.6 351.3)"> <stop stop-color="#fff" stop-opacity=".6"></stop> <stop offset="1" stop-color="#fff" stop-opacity=".1"></stop> </radialGradient> <radialGradient id="d" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(57 -261 178 39 190.5 296.3)"> <stop stop-color="#fff" stop-opacity=".8"></stop> <stop offset="1" stop-color="#fff" stop-opacity=".4"></stop> </radialGradient> <radialGradient id="e" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-79 -133 153 -90 321.4 464.2)"> <stop stop-color="#fff" stop-opacity=".3"></stop> <stop offset="1" stop-opacity=".3"></stop> </radialGradient> <radialGradient id="f" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-29 136 -92 -20 300.7 149.9)"> <stop stop-color="#fff" stop-opacity="0"></stop> <stop offset="1" stop-color="#fff" stop-opacity=".2"></stop> </radialGradient> <radialGradient id="g" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(72 73 -155 153 137.8 225.2)"> <stop stop-color="#fff" stop-opacity=".2"></stop> <stop offset="1" stop-color="#fff" stop-opacity=".4"></stop> </radialGradient> <radialGradient id="h" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(20 118 -251 43 215.1 273.7)"> <stop stop-color="#fff" stop-opacity=".1"></stop> <stop offset="1" stop-color="#fff" stop-opacity=".3"></stop> </radialGradient> <radialGradient id="i" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-162 -85 268 -510 374.4 371.7)"> <stop stop-color="#fff" stop-opacity=".2"></stop> <stop offset=".5" stop-color="#fff" stop-opacity=".2"></stop> <stop offset="1" stop-color="#fff" stop-opacity=".3"></stop> </radialGradient> <filter id="a" x="80.1" y="37" width="351.1" height="443.2" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"> <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood> <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend> <feGaussianBlur stdDeviation="6.5" result="effect1_foregroundBlur_744_9191"></feGaussianBlur> </filter> </defs> <rect id="logo-bg" fill="#262626" width="512" height="512" rx="100"></rect> <g filter="url(#a)"> <path d="M359.2 437.5c-2.6 19-21.3 33.9-40 28.7-26.5-7.2-57.2-18.6-84.8-20.7l-42.4-3.2a28 28 0 0 1-18-8.3l-73-74.8a27.7 27.7 0 0 1-5.4-30.7s45-98.6 46.8-103.7c1.6-5.1 7.8-49.9 11.4-73.9a28 28 0 0 1 9-16.5L249 57.2a28 28 0 0 1 40.6 3.4l72.6 91.6a29.5 29.5 0 0 1 6.2 18.3c0 17.3 1.5 53 11.2 76a301.3 301.3 0 0 0 35.6 58.2 14 14 0 0 1 1 15.6c-6.3 10.7-18.9 31.3-36.6 57.6a142.2 142.2 0 0 0-20.5 59.6Z" fill="#000" fill-opacity=".3"></path> </g> <path id="arrow" d="M359.9 434.3c-2.6 19.1-21.3 34-40 28.9-26.4-7.3-57-18.7-84.7-20.8l-42.3-3.2a27.9 27.9 0 0 1-18-8.4l-73-75a27.9 27.9 0 0 1-5.4-31s45.1-99 46.8-104.2c1.7-5.1 7.8-50 11.4-74.2a28 28 0 0 1 9-16.6l86.2-77.5a28 28 0 0 1 40.6 3.5l72.5 92a29.7 29.7 0 0 1 6.2 18.3c0 17.4 1.5 53.2 11.1 76.3a303 303 0 0 0 35.6 58.5 14 14 0 0 1 1.1 15.7c-6.4 10.8-18.9 31.4-36.7 57.9a143.3 143.3 0 0 0-20.4 59.8Z" fill="#6C31E3"></path> <path d="M182.7 436.4c33.9-68.7 33-118 18.5-153-13.2-32.4-37.9-52.8-57.3-65.5-.4 1.9-1 3.7-1.8 5.4L96.5 324.8a27.9 27.9 0 0 0 5.5 31l72.9 75c2.3 2.3 5 4.2 7.8 5.6Z" fill="url(#b)"></path> <path d="M274.9 297c9.1.9 18 2.9 26.8 6.1 27.8 10.4 53.1 33.8 74 78.9 1.5-2.6 3-5.1 4.6-7.5a1222 1222 0 0 0 36.7-57.9 14 14 0 0 0-1-15.7 303 303 0 0 1-35.7-58.5c-9.6-23-11-58.9-11.1-76.3 0-6.6-2.1-13.1-6.2-18.3l-72.5-92-1.2-1.5c5.3 17.5 5 31.5 1.7 44.2-3 11.8-8.6 22.5-14.5 33.8-2 3.8-4 7.7-5.9 11.7a140 140 0 0 0-15.8 58c-1 24.2 3.9 54.5 20 95Z" fill="url(#c)"></path> <path d="M274.8 297c-16.1-40.5-21-70.8-20-95 1-24 8-42 15.8-58l6-11.7c5.8-11.3 11.3-22 14.4-33.8a78.5 78.5 0 0 0-1.7-44.2 28 28 0 0 0-39.4-2l-86.2 77.5a28 28 0 0 0-9 16.6L144.2 216c0 .7-.2 1.3-.3 2 19.4 12.6 44 33 57.3 65.3 2.6 6.4 4.8 13.1 6.4 20.4a200 200 0 0 1 67.2-6.8Z" fill="url(#d)"></path> <path d="M320 463.2c18.6 5.1 37.3-9.8 39.9-29a153 153 0 0 1 15.9-52.2c-21-45.1-46.3-68.5-74-78.9-29.5-11-61.6-7.3-94.2.6 7.3 33.1 3 76.4-24.8 132.7 3.1 1.6 6.6 2.5 10.1 2.8l43.9 3.3c23.8 1.7 59.3 14 83.2 20.7Z" fill="url(#e)"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M255 200.5c-1.1 24 1.9 51.4 18 91.8l-5-.5c-14.5-42.1-17.7-63.7-16.6-88 1-24.3 8.9-43 16.7-59 2-4 6.6-11.5 8.6-15.3 5.8-11.3 9.7-17.2 13-27.5 4.8-14.4 3.8-21.2 3.2-28 3.7 24.5-10.4 45.8-21 67.5a145 145 0 0 0-17 59Z" fill="url(#f)"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M206 285.1c2 4.4 3.7 8 4.9 13.5l-4.3 1c-1.7-6.4-3-11-5.5-16.5-14.6-34.3-38-52-57-65 23 12.4 46.7 31.9 61.9 67Z" fill="url(#g)"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M211.1 303c8 37.5-1 85.2-27.5 131.6 22.2-46 33-90.1 24-131l3.5-.7Z" fill="url(#h)"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M302.7 299.5c43.5 16.3 60.3 52 72.8 81.9-15.5-31.2-37-65.7-74.4-78.5-28.4-9.8-52.4-8.6-93.5.7l-.9-4c43.6-10 66.4-11.2 96 0Z" fill="url(#i)"></path></svg></p>
+<h1 id="参考文章" tabindex="-1">参考文章</h1>
+<ul>
+<li><a href="https://kb.synology.cn/zh-cn/DSM/tutorial/How_can_I_recover_data_from_my_DiskStation_using_a_PC" target="_blank" class="external-link">当 Synology NAS 出现故障时，如何使用计算机恢复数据？ - Synology 知识中心</a></li>
+<li><a href="https://roov.org/2017/11/btrfs-repair/" target="_blank" class="external-link">群晖存储空间损毁 Btrfs 数据恢复教程 | reizhi (roov.org)</a></li>
+</ul>
+<h1 id="过程记录" tabindex="-1">过程记录</h1>
+<ul>
+<li>下载官方提供的 ubuntu 镜像，用 unraid 虚拟机安装</li>
+<li>在执行 <code>apt-get update</code> 报错，需要执行 <code>sudo apt-get remove libappstream4</code> （这一步上网去查说要卸载 xxxstream3，但是尝试卸载发现这个版本的系统里没有 3, 所以试了试 4，果然是版本号变了）</li>
+<li>然后按教程安装需要的软件，安装完成后关闭虚拟机</li>
+<li>编辑虚拟机，把之前群晖的硬盘全挂载到 ubuntu 虚拟机上 ，重新开机</li>
+<li><code>/dev/vg1/volume 1</code></li>
+<li><code>btrfs-find-root /dev/vg1/volume 1 &amp;&gt; /tmp/root.txt</code></li>
+<li><img src="http://save.qudange.top/pic/2023/03/5b81a3d8d7c846128f6915a409605d34.png" alt="Pasted image 20221231002135"></li>
+<li>尝试恢复失败，为了防止对原盘产生破坏，打算先装一块盘试试能不能恢复</li>
+<li>后面发现必须要将之前组 raid 的四块硬盘同时插入时才能恢复成功，于是立马下单了一块 16T 的矿盘</li>
+<li>2022-01-02 17:50~20: 20，用时一个半小时，完成了大概 1.5T 的数据恢复，进度喜人，但是马上遇见了 unraid 自动重启，不知道是为什么（在恢复开始前我就很担心预期 30~70 小时的恢复过程一旦被打断，会不会发生什么问题）</li>
+<li>刚刚系统重启的原因找到了 <img src="http://save.qudange.top/pic/2023/03/818f9be6ee363b1c85d39a827574b239.png" alt="Pasted image 20230102203617">
+<ul>
+<li>原来是之前 lexar 的那块硬盘又掉盘了，这个问题之前我也遇见过，很恼火，本来以为组了双 ssd 缓存就没问题了，不知道为什么刚刚还是掉盘了。这次为了解决问题，打算直接把 lexar 这块硬盘去掉。</li>
+</ul>
+</li>
+<li>如果需要恢复特定文件，可以参考这篇文章 <a href="https://www.thegeekdiary.com/btrfs-restore-command-examples-in-linux/#:~:text=The%20btrfs%20restore%20command%20is%20a%20command-line%20utility,time%20and%20then%20restore%20it%20later%20if%20needed." target="_blank" class="external-link">btrfs restore Linux 中的命令示例 – 极客日记 (thegeekdiary.com)</a></li>
+<li>在恢复过程中发现多次报错 <img src="http://save.qudange.top/pic/2023/03/56804341f93189b6b3a51639009dedf8.png" alt="Pasted image 20230103201816">
+<ul>
+<li>这些报错需要手动处理，中途如果没有及时发现就耽搁大量时间</li>
+<li>去 github 上找文档 <a href="https://btrfs.readthedocs.io/en/latest/btrfs-restore.html" target="_blank" class="external-link">btrfs-restore（8） — btrfs 文档</a></li>
+<li>发现可以用<code>-i|--ignore-errors</code>来做忽略进程中的错误</li>
+<li><code>-v|--verbose</code> 可以打印恢复明细</li>
+</ul>
+</li>
+</ul>
+<p>2023-01-09 14: 20，终于完成了绝大部分的数据恢复工作，耗时 165h，恢复文件 506919 个，共计 15.1TB</p>
+<p>接下来的工作：</p>
+<ol>
+<li>检查重要数据是否恢复，如个人照片</li>
+<li>将原来的 4 个盘格式化，安装到群晖上</li>
+<li>把数据拷回去</li>
+<li>把新的16T清空后做为pt专用盘</li>
+</ol>
 </main>
 <aside>
 <div class="sidebar">
@@ -322,9 +358,27 @@ CTRL + K
 <span id="full-graph-close" x-on:click="fullGraph = closefullGraph(fullGraph); showFullGraph = false;"><i icon-name="x" aria-hidden="true"></i></span><div id="full-graph-container"></div>
 </div>
 </div>
+<div class="toc">
+<div class="toc-title-container">
+<div class="toc-title">
+On this page
+</div>
+</div>
+<div class="toc-container">
+<nav class="toc">
+<ol>
+<li><a href="#参考文章">参考文章</a>
+</li>
+<li><a href="#过程记录">过程记录</a>
+</li>
+</ol>
+</nav>
+</div>
+</div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><i icon-name="link"></i><a href="/" data-note-icon="" class="backlink">阿曲的荒原</a>
+<div class="backlink-list"><div class="backlink-card">
+<span class="no-backlinks-message">No other pages mentions this page</span>
 </div></div>
 </div>
 </div>

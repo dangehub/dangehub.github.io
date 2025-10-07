@@ -3,7 +3,7 @@
     <title>阿曲的荒原</title>
     <link href="https://blog.qudange.top/feed.xml" rel="self" />
     <link href="https://blog.qudange.top" />
-    <updated>2025-10-03T10:48:03Z</updated>
+    <updated>2025-10-07T10:41:44Z</updated>
     <id>https://blog.qudange.top</id>
         <entry>
             <title>
@@ -49,6 +49,10 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.qudange.top/404&quot; target=&quot;&quot;&gt;可更新模板的模板插件，Blueprint&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;2025-10-05&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.qudange.top/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/%E8%BE%B9%E7%9C%8B%E8%A7%86%E9%A2%91%E8%BE%B9%E5%81%9AObsidian%E7%AC%94%E8%AE%B0%EF%BC%8C%E8%AF%95%E8%AF%95HoverNotes/&quot;&gt;边看视频边做Obsidian笔记，试试HoverNotes&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;2025-10-03&lt;/td&gt;
 &lt;/tr&gt;
@@ -81,10 +85,6 @@
 &lt;td&gt;2025-04-17&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.qudange.top/404&quot; target=&quot;&quot;&gt;在移动端设备上管理Obsidian待办的方法探讨&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;2025-04-17&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.qudange.top/Obsidian/%E7%94%A8css%E8%AE%A9obsidian%E4%B8%AD%E7%9A%84%E6%89%AB%E6%8F%8F%E9%BB%91%E7%99%BD%E6%96%87%E6%A1%A3%E8%9E%8D%E5%85%A5%E7%AC%94%E8%AE%B0%E8%83%8C%E6%99%AF/&quot;&gt;用css让obsidian中的扫描黑白文档融入笔记背景&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;2025-04-17&lt;/td&gt;
 &lt;/tr&gt;
@@ -103,6 +103,10 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.qudange.top/Obsidian/Obsidian%E6%8F%92%E4%BB%B6%E6%B5%8B%E8%AF%84/Obsidian%E6%8F%92%E4%BB%B6%E6%B5%8B%E8%AF%84-i18n-%E6%B1%89%E5%8C%96%E6%8F%92%E4%BB%B6%E3%80%81%E7%BF%BB%E8%AF%91%E8%AF%8D%E5%85%B8%E7%BC%96%E8%BE%91%E5%99%A8%E3%80%81%E4%BA%91%E7%AB%AF%E5%85%B1%E4%BA%AB%E8%AF%8D%E5%85%B8%E3%80%81%E5%86%85%E7%BD%AE%E6%B2%89%E6%B5%B8%E5%BC%8F%E7%BF%BB%E8%AF%91/&quot;&gt;Obsidian插件测评-i18n-汉化插件、翻译词典编辑器、云端共享词典、内置沉浸式翻译&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;2025-04-17&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.qudange.top/Obsidian/%E5%9C%A8%E7%A7%BB%E5%8A%A8%E7%AB%AF%E8%AE%BE%E5%A4%87%E4%B8%8A%E7%AE%A1%E7%90%86Obsidian%E5%BE%85%E5%8A%9E%E5%92%8C%E5%A4%87%E5%BF%98%E7%9A%84%E6%96%B9%E6%B3%95%E6%8E%A2%E8%AE%A8/&quot;&gt;在移动端设备上管理Obsidian待办和备忘的方法探讨&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;2025-04-15&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.qudange.top/%E8%87%AA%E6%89%98%E7%AE%A1%E6%8A%98%E8%85%BE/follow%E8%AE%A4%E8%AF%81%E6%96%87%E4%BB%B6/&quot;&gt;follow认证文件&lt;/a&gt;&lt;/td&gt;
@@ -262,7 +266,7 @@
                 用n8n实现反思翻译
                 
             </title>
-            <updated>2025-04-15T21:50:00.000Z</updated>
+            <updated>2025-10-05T19:21:00.000Z</updated>
             <id>https://blog.qudange.top/自托管折腾/用n8n实现反思翻译/</id>
             <content type="html">
                 &lt;p&gt;用 defy 搭建三步翻译老是报错，想自托管发现 defy 的配置要求很高，于是准备先用之前的 n 8 n 试试。&lt;/p&gt;
@@ -380,7 +384,7 @@ Edit: I actually think this is why I lose interest in this game so quickly. In t
                 follow认证文件
                 
             </title>
-            <updated>2025-04-15T21:50:00.000Z</updated>
+            <updated>2025-04-15T22:25:00.000Z</updated>
             <id>https://blog.qudange.top/自托管折腾/follow认证文件/</id>
             <content type="html">
                 &lt;p&gt;This message is used to verify that this feed (feedId:105271225522095104) belongs to me (userId:72208719763571712). Join me in enjoying the next generation information browser &lt;a href=&quot;https://follow.is/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://follow.is&lt;/a&gt;.&lt;/p&gt;
@@ -396,7 +400,7 @@ Edit: I actually think this is why I lose interest in this game so quickly. In t
                 边看视频边做Obsidian笔记，试试HoverNotes
                 
             </title>
-            <updated>2025-10-03T17:12:00.000Z</updated>
+            <updated>2025-10-03T17:13:00.000Z</updated>
             <id>https://blog.qudange.top/效率工具/边看视频边做Obsidian笔记，试试HoverNotes/</id>
             <content type="html">
                 &lt;p&gt;分享一个我最近在用的视频笔记工具 Chrome拓展【HoverNotes】&lt;/p&gt;
@@ -765,11 +769,11 @@ body:has(.x-cursor) * {
         </entry>
         <entry>
             <title>
-                在移动端设备上管理Obsidian待办的方法探讨
+                在移动端设备上管理Obsidian待办和备忘的方法探讨
                 
             </title>
-            <updated>2025-04-17T18:43:00.000Z</updated>
-            <id>https://blog.qudange.top/Obsidian/在移动端设备上管理Obsidian待办的方法探讨/</id>
+            <updated>2025-10-07T18:04:00.000Z</updated>
+            <id>https://blog.qudange.top/Obsidian/在移动端设备上管理Obsidian待办和备忘的方法探讨/</id>
             <content type="html">
                 &lt;h1 id=&quot;前言&quot; tabindex=&quot;-1&quot;&gt;前言&lt;/h1&gt;
 &lt;p&gt;虽然我不提倡 all in one，但是我一直希望能使用 Obsidian 管理我的待办。虽然可以用 tasks、reminder 之类的插件来实现 Obsidian 内部的待办管理，但是对于普通人来说，手机才是真正有提醒功能的终端，而移动端 Obsidian 不能调用系统级的通知，即便它能，也会受到启动缓慢且无法常驻后台的短板的制约，因此我们需要更轻量而稳定的实现方法。&lt;/p&gt;
@@ -778,13 +782,44 @@ body:has(.x-cursor) * {
 &lt;h2 id=&quot;原理分析&quot; tabindex=&quot;-1&quot;&gt;原理分析&lt;/h2&gt;
 &lt;p&gt;首先我们要知道自行实现的原理：用 markdown 格式记录的待办就如同你用纸笔在便签上写下“明天记得买菜”，只需要让软件把“明天”和“买菜”这两个信息分别读取为时间与事项内容就好了。&lt;/p&gt;
 &lt;h1 id=&quot;第三方应用&quot; tabindex=&quot;-1&quot;&gt;第三方应用&lt;/h1&gt;
-&lt;h2 id=&quot;notifian-2025-01-17&quot; tabindex=&quot;-1&quot;&gt;notifian（2025-01-17 更新）&lt;/h2&gt;
+&lt;h2 id=&quot;quick-capture-for-obsidian&quot; tabindex=&quot;-1&quot;&gt;QuickCapture-forObsidian&lt;/h2&gt;
+&lt;p&gt;支持平台：ios&lt;/p&gt;
+&lt;h2 id=&quot;supasend&quot; tabindex=&quot;-1&quot;&gt;Supasend&lt;/h2&gt;
+&lt;p&gt;支持平台：ios&lt;/p&gt;
+&lt;h2 id=&quot;quick-draft&quot; tabindex=&quot;-1&quot;&gt;Quick Draft&lt;/h2&gt;
+&lt;p&gt;支持平台：ios&lt;/p&gt;
+&lt;h2 id=&quot;task-forge&quot; tabindex=&quot;-1&quot;&gt;TaskForge&lt;/h2&gt;
+&lt;p&gt;支持平台：ios&lt;/p&gt;
+&lt;h2 id=&quot;obsidian&quot; tabindex=&quot;-1&quot;&gt;Obsidian小部件&lt;/h2&gt;
+&lt;p&gt;支持平台：ios&lt;/p&gt;
+&lt;h2 id=&quot;sriptable&quot; tabindex=&quot;-1&quot;&gt;Sriptable&lt;/h2&gt;
+&lt;p&gt;支持平台：ios&lt;/p&gt;
+&lt;h2 id=&quot;markdown-widget&quot; tabindex=&quot;-1&quot;&gt;MarkdownWidget&lt;/h2&gt;
+&lt;p&gt;支持平台：ios&lt;/p&gt;
+&lt;h2 id=&quot;capsidian&quot; tabindex=&quot;-1&quot;&gt;Capsidian&lt;/h2&gt;
+&lt;p&gt;支持平台：android&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.devindie.keepsidian&amp;amp;pli=1&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Google play商店&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;功能介绍：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;读写笔记中的任务&lt;/li&gt;
+&lt;li&gt;写日记&lt;/li&gt;
+&lt;li&gt;使用语音写日记
+&lt;ul&gt;
+&lt;li&gt;使用离线模型转录并写入日记，还能保存时间轴（但是只支持英文和某外语）&lt;/li&gt;
+&lt;li&gt;同一天记两次，会生成两个日记&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;支持拍照OCR（离线），但是也不支持中文&lt;/li&gt;
+&lt;li&gt;日记路径不支持我常用的 &lt;code&gt;yyyy/yyyy-MM-dd&lt;/code&gt;，也就是目录路径不支持变量&lt;/li&gt;
+&lt;li&gt;不知道为什么，一天输入两次笔记都会创建两个文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;notifian&quot; tabindex=&quot;-1&quot;&gt;notifian&lt;/h2&gt;
 &lt;p&gt;支持平台：android&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.notifian&amp;amp;hl=en&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Google play 商店&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;功能介绍：扫描本地的 Obsidian 库，提取其中的待办提醒，然后在对应时间点发起提醒。&lt;/p&gt;
 &lt;p&gt;[fold]&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;img src=&quot;https://blog.qudange.top/img/user/101-%E6%97%A5%E8%AE%B0/assets/Pasted%20image%2020250117193514.png&quot; alt=&quot;assets/Pasted image 20250117193514.png&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;https://blog.qudange.top/img/user/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/Obsidian/assets/Pasted%20image%2020250117193514.png&quot; alt=&quot;../../../../105-极客/写作工具/Obsidian/assets/Pasted image 20250117193514.png&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;细节：&lt;/p&gt;
 &lt;ul&gt;
@@ -805,13 +840,13 @@ body:has(.x-cursor) * {
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;obsi-2025-01-17&quot; tabindex=&quot;-1&quot;&gt;obsi（2025-01-17 更新）&lt;/h2&gt;
+&lt;h2 id=&quot;obsi&quot; tabindex=&quot;-1&quot;&gt;obsi&lt;/h2&gt;
 &lt;p&gt;支持平台 ：android&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.scanworks.obsi&amp;amp;hl=en&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Google play商店&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;功能介绍：扫描本地的 Obsidian 库，提取其中的待办提醒，将其渲染为可视化 todo，同时可以用图形 UI 创建新的待办，支持设置截止日期、属性和种类。&lt;/p&gt;
 &lt;p&gt;[fold]&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;img src=&quot;https://blog.qudange.top/img/user/101-%E6%97%A5%E8%AE%B0/assets/Pasted%20image%2020250117193049.png&quot; alt=&quot;assets/Pasted image 20250117193049.png&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;https://blog.qudange.top/img/user/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/Obsidian/assets/Pasted%20image%2020250117193049.png&quot; alt=&quot;../../../../105-极客/写作工具/Obsidian/assets/Pasted image 20250117193049.png&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;细节：&lt;/p&gt;
 &lt;ul&gt;
@@ -834,7 +869,7 @@ body:has(.x-cursor) * {
 &lt;p&gt;功能介绍：这是一个开源的安卓桌面 app，它有一个自带的小组件，可以链接到一个 md 文件，然后就可以在桌面编辑这个 md 文件&lt;/p&gt;
 &lt;p&gt;[fold]&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;img src=&quot;https://blog.qudange.top/img/user/101-%E6%97%A5%E8%AE%B0/assets/Screenshot_20250117_234412_Kvaesitso.jpg&quot; alt=&quot;assets/Screenshot_20250117_234412_Kvaesitso.jpg&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;https://blog.qudange.top/img/user/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/Obsidian/assets/Screenshot_20250117_234412_Kvaesitso.jpg&quot; alt=&quot;../../../../105-极客/写作工具/Obsidian/assets/Screenshot_20250117_234412_Kvaesitso.jpg&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;细节：&lt;/p&gt;
 &lt;ul&gt;
@@ -860,7 +895,7 @@ body:has(.x-cursor) * {
 &lt;p&gt;&lt;a href=&quot;https://forum-zh.obsidian.md/t/topic/5687/2&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;安卓利用FV悬浮球实现不打开ob进行文本快捷输入（包括图片自动上传图床后的外链） - 经验分享 - Obsidian 中文论坛&lt;/a&gt;&lt;/p&gt;
 
             </content>
-            <link href="https://blog.qudange.top/Obsidian/在移动端设备上管理Obsidian待办的方法探讨/" />
+            <link href="https://blog.qudange.top/Obsidian/在移动端设备上管理Obsidian待办和备忘的方法探讨/" />
         </entry>
         <entry>
             <title>
@@ -1674,7 +1709,7 @@ new Notice(`✅ Excalidraw 内容已更新到文件：${outputPath}`, 2000);
                 obsidian技巧之用maoxian插件剪藏网络文章，同时把图片下载到本地
                 
             </title>
-            <updated>2025-10-03T10:47:47Z</updated>
+            <updated>2025-10-05T23:57:00.000Z</updated>
             <id>https://blog.qudange.top/Obsidian/obsidian技巧之用maoxian插件剪藏网络文章，同时把图片下载到本地/</id>
             <content type="html">
                 &lt;h1 id=&quot;前言&quot; tabindex=&quot;-1&quot;&gt;前言&lt;/h1&gt;
@@ -1936,7 +1971,7 @@ new Notice(`✅ Excalidraw 内容已更新到文件：${outputPath}`, 2000);
                 Thino与Mac软件popclip联动-实现系统级全局划词摘录
                 
             </title>
-            <updated>2025-04-17T18:43:00.000Z</updated>
+            <updated>2025-10-06T18:07:00.000Z</updated>
             <id>https://blog.qudange.top/Obsidian/Thino与Mac软件popclip联动-实现系统级全局划词摘录/</id>
             <content type="html">
                 &lt;p&gt;简单介绍一下 popclip：&lt;/p&gt;
@@ -2542,7 +2577,7 @@ console.error(&#39;清理过程中出错:&#39;, error);
                 Obsidian实现复制时自动上传图片到图床
                 
             </title>
-            <updated>2025-04-15T21:50:00.000Z</updated>
+            <updated>2025-04-15T22:25:00.000Z</updated>
             <id>https://blog.qudange.top/Obsidian/Obsidian实现复制时自动上传图片到图床/</id>
             <content type="html">
                 &lt;h1 id=&quot;obsidian&quot; tabindex=&quot;-1&quot;&gt;Obsidian 实现复制时自动上传图片到图床&lt;/h1&gt;
@@ -2702,7 +2737,7 @@ function copyToClipboard(extrTexts) {
                 Obcsapi-赋予Obsidian在线api能力-拓宽OB的能力边界
                 
             </title>
-            <updated>2025-04-15T21:50:00.000Z</updated>
+            <updated>2025-04-15T22:24:00.000Z</updated>
             <id>https://blog.qudange.top/Obsidian/Obcsapi-赋予Obsidian在线api能力-拓宽OB的能力边界/</id>
             <content type="html">
                 &lt;h1 id=&quot;前言&quot; tabindex=&quot;-1&quot;&gt;前言&lt;/h1&gt;
@@ -2813,6 +2848,101 @@ work_wechat_corpid: xxxxxxxxxxxxxx &lt;a class=&quot;tag&quot; onclick=&quot;tog
 
             </content>
             <link href="https://blog.qudange.top/Obsidian/Obcsapi-赋予Obsidian在线api能力-拓宽OB的能力边界/" />
+        </entry>
+        <entry>
+            <title>
+                黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录
+                
+            </title>
+            <updated>2025-04-15T22:25:00.000Z</updated>
+            <id>https://blog.qudange.top/105-极客/黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录/</id>
+            <content type="html">
+                &lt;h1 id=&quot;参考文章&quot; tabindex=&quot;-1&quot;&gt;参考文章&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://kb.synology.cn/zh-cn/DSM/tutorial/How_can_I_recover_data_from_my_DiskStation_using_a_PC&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;当 Synology NAS 出现故障时，如何使用计算机恢复数据？ - Synology 知识中心&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://roov.org/2017/11/btrfs-repair/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;群晖存储空间损毁 Btrfs 数据恢复教程 | reizhi (roov.org)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;过程记录&quot; tabindex=&quot;-1&quot;&gt;过程记录&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;下载官方提供的 ubuntu 镜像，用 unraid 虚拟机安装&lt;/li&gt;
+&lt;li&gt;在执行 &lt;code&gt;apt-get update&lt;/code&gt; 报错，需要执行 &lt;code&gt;sudo apt-get remove libappstream4&lt;/code&gt; （这一步上网去查说要卸载 xxxstream3，但是尝试卸载发现这个版本的系统里没有 3, 所以试了试 4，果然是版本号变了）&lt;/li&gt;
+&lt;li&gt;然后按教程安装需要的软件，安装完成后关闭虚拟机&lt;/li&gt;
+&lt;li&gt;编辑虚拟机，把之前群晖的硬盘全挂载到 ubuntu 虚拟机上 ，重新开机&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/dev/vg1/volume 1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;btrfs-find-root /dev/vg1/volume 1 &amp;amp;&amp;gt; /tmp/root.txt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://save.qudange.top/pic/2023/03/5b81a3d8d7c846128f6915a409605d34.png&quot; alt=&quot;Pasted image 20221231002135&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;尝试恢复失败，为了防止对原盘产生破坏，打算先装一块盘试试能不能恢复&lt;/li&gt;
+&lt;li&gt;后面发现必须要将之前组 raid 的四块硬盘同时插入时才能恢复成功，于是立马下单了一块 16T 的矿盘&lt;/li&gt;
+&lt;li&gt;2022-01-02 17:50~20: 20，用时一个半小时，完成了大概 1.5T 的数据恢复，进度喜人，但是马上遇见了 unraid 自动重启，不知道是为什么（在恢复开始前我就很担心预期 30~70 小时的恢复过程一旦被打断，会不会发生什么问题）&lt;/li&gt;
+&lt;li&gt;刚刚系统重启的原因找到了 &lt;img src=&quot;http://save.qudange.top/pic/2023/03/818f9be6ee363b1c85d39a827574b239.png&quot; alt=&quot;Pasted image 20230102203617&quot; /&gt;
+&lt;ul&gt;
+&lt;li&gt;原来是之前 lexar 的那块硬盘又掉盘了，这个问题之前我也遇见过，很恼火，本来以为组了双 ssd 缓存就没问题了，不知道为什么刚刚还是掉盘了。这次为了解决问题，打算直接把 lexar 这块硬盘去掉。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;如果需要恢复特定文件，可以参考这篇文章 &lt;a href=&quot;https://www.thegeekdiary.com/btrfs-restore-command-examples-in-linux/#:~:text=The%20btrfs%20restore%20command%20is%20a%20command-line%20utility,time%20and%20then%20restore%20it%20later%20if%20needed.&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;btrfs restore Linux 中的命令示例 – 极客日记 (thegeekdiary.com)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;在恢复过程中发现多次报错 &lt;img src=&quot;http://save.qudange.top/pic/2023/03/56804341f93189b6b3a51639009dedf8.png&quot; alt=&quot;Pasted image 20230103201816&quot; /&gt;
+&lt;ul&gt;
+&lt;li&gt;这些报错需要手动处理，中途如果没有及时发现就耽搁大量时间&lt;/li&gt;
+&lt;li&gt;去 github 上找文档 &lt;a href=&quot;https://btrfs.readthedocs.io/en/latest/btrfs-restore.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;btrfs-restore（8） — btrfs 文档&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;发现可以用&lt;code&gt;-i|--ignore-errors&lt;/code&gt;来做忽略进程中的错误&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-v|--verbose&lt;/code&gt; 可以打印恢复明细&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2023-01-09 14: 20，终于完成了绝大部分的数据恢复工作，耗时 165h，恢复文件 506919 个，共计 15.1TB&lt;/p&gt;
+&lt;p&gt;接下来的工作：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;检查重要数据是否恢复，如个人照片&lt;/li&gt;
+&lt;li&gt;将原来的 4 个盘格式化，安装到群晖上&lt;/li&gt;
+&lt;li&gt;把数据拷回去&lt;/li&gt;
+&lt;li&gt;把新的16T清空后做为pt专用盘&lt;/li&gt;
+&lt;/ol&gt;
+
+            </content>
+            <link href="https://blog.qudange.top/105-极客/黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录/" />
+        </entry>
+        <entry>
+            <title>
+                自托管的类youtube产品——peertube，视频网站
+                
+            </title>
+            <updated>2025-04-17T18:43:00.000Z</updated>
+            <id>https://blog.qudange.top/105-极客/自托管的类youtube产品——peertube，视频网站/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.qudange.top/404&quot; target=&quot;&quot;&gt;peertube&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;部署记录&quot; tabindex=&quot;-1&quot;&gt;部署记录&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;使用官方镜像需要修改 &lt;code&gt;docker-compose.yml&lt;/code&gt; 和 &lt;code&gt;.env&lt;/code&gt; 里面的网段，否则就会报错 &lt;code&gt;It does not belong to any of this network&#39;s subnets&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;自带 docker-compose. yml 文件不能自动初始化数据库，要注意用户名与密码&lt;/li&gt;
+&lt;li&gt;走ip访问是不能登录的，必须解析成域名。&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://blog.qudange.top/105-极客/自托管的类youtube产品——peertube，视频网站/" />
+        </entry>
+        <entry>
+            <title>
+                数字花园发布
+                
+            </title>
+            <updated>2025-10-03T17:12:00.000Z</updated>
+            <id>https://blog.qudange.top/000-模板/数字花园发布/</id>
+            <content type="html">
+                
+            </content>
+            <link href="https://blog.qudange.top/000-模板/数字花园发布/" />
+        </entry>
+        <entry>
+            <title>
+                github2wordpress模板
+                
+            </title>
+            <updated>2025-04-15T22:26:00.000Z</updated>
+            <id>https://blog.qudange.top/000-模板/github2wordpress模板/</id>
+            <content type="html">
+                
+            </content>
+            <link href="https://blog.qudange.top/000-模板/github2wordpress模板/" />
         </entry>
         <entry>
             <title>
@@ -2936,7 +3066,7 @@ cssclasses: has-scan
                 Anyblock插件入门
                 
             </title>
-            <updated>2025-04-15T21:50:00.000Z</updated>
+            <updated>2025-04-15T22:25:00.000Z</updated>
             <id>https://blog.qudange.top/Obsidian/Anyblock插件入门/</id>
             <content type="html">
                 &lt;h1 id=&quot;插件简介&quot; tabindex=&quot;-1&quot;&gt;插件简介&lt;/h1&gt;
@@ -3025,7 +3155,7 @@ cssclasses: has-scan
                 把Obsidian发布为网页的各种方式探索
                 
             </title>
-            <updated>2025-04-17T18:43:00.000Z</updated>
+            <updated>2025-10-05T21:18:00.000Z</updated>
             <id>https://blog.qudange.top/Obsidian/把Obsidian发布为网页的各种方式探索/</id>
             <content type="html">
                 &lt;h1 id=&quot;obsidian&quot; tabindex=&quot;-1&quot;&gt;Obsidian发布方式汇总&lt;/h1&gt;
@@ -3128,6 +3258,12 @@ cssclasses: has-scan
 &lt;h2 id=&quot;obcsapi-publish&quot; tabindex=&quot;-1&quot;&gt;Obcsapi-publish功能&lt;/h2&gt;
 &lt;p&gt;obcsapi自带一个简易的publish页面，可以把指定目录的下笔记暴露在公开网络上。不过这个功能我并没有成功启动，暂时先记在这里。&lt;/p&gt;
 &lt;p&gt;据说能配合lua脚本。&lt;/p&gt;
+&lt;h2 id=&quot;obsiflask&quot; tabindex=&quot;-1&quot;&gt;Obsiflask&lt;/h2&gt;
+&lt;div class=&quot;transclusion internal-embed is-loaded&quot;&gt;&lt;div class=&quot;markdown-embed&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;13:54 &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#Obsidian插件&quot;&gt;#Obsidian插件&lt;/a&gt;  一个把Obsidian发布到网上的新工具，类似obcsapi ， &lt;a href=&quot;https://github.com/bahleg/OBSIFLASK&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;bahleg/OBSIFLASK: Simple web service for Obsidian vaults&lt;/a&gt;，目前主打功能是编辑、搜索、支持excalidraw&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/div&gt;
 &lt;h1 id=&quot;采用第三方服务&quot; tabindex=&quot;-1&quot;&gt;采用第三方服务&lt;/h1&gt;
 &lt;p&gt;如果能接受把上述两种方案的幕后工作交与第三方进行，我们也可以使用一些方案，但是请注意，你使用其他人提供的免费服务，可能面临对方突然停止服务或数据丢失（如果发布后本地不再留档）的风险，因此我只建议将这些方式作为临时发布方案。&lt;/p&gt;
 &lt;p&gt;已上架官方市场的插件：&lt;/p&gt;
@@ -3144,10 +3280,121 @@ cssclasses: has-scan
         </entry>
         <entry>
             <title>
+                如何在安卓设备上用tasker实现ai总结b站视频（ios同理）
+                
+            </title>
+            <updated>2025-04-17T18:43:00.000Z</updated>
+            <id>https://blog.qudange.top/105-极客/安卓/如何在安卓设备上用tasker实现ai总结b站视频（ios同理）/</id>
+            <content type="html">
+                &lt;h1 id=&quot;前言&quot; tabindex=&quot;-1&quot;&gt;前言&lt;/h1&gt;
+&lt;p&gt;本文中提到的实现方式受到chrome拓展&lt;a href=&quot;https://chromewebstore.google.com/detail/chatgptbox/eobbhoofkanlmddnplfhnmkfbnlhpbbo&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;ChatGPTBox&lt;/a&gt;的启发。&lt;/p&gt;
+&lt;p&gt;原理是通过b站的api获取自动生成的字幕，然后用大语言模型（LLM）来总结字幕，从而获得视频的总结。&lt;/p&gt;
+&lt;p&gt;本工具可以帮助用户总结视频内容，以提高信息获取的速度。&lt;/p&gt;
+&lt;p&gt;诚然，b站自己也推出了ai总结功能，但是那个功能很不稳定，有时候对一个视频能做出详细而结构化的总结，有时却只能得到一句话的概括，即便LLM已经火了两三年了，b站仍没有在这块投入过多，因此只能自己动手，丰衣足食。&lt;/p&gt;
+&lt;p&gt;本工具的缺点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;无法总结没有字幕的视频（但是像bibigpt和b站官方的ai总结有时候能总结没有字幕的视频，我怀疑是有其他途径获取字幕，抑或字幕的显示存在延迟）&lt;/li&gt;
+&lt;li&gt;对视频内容和音频内容非强相关的视频无效（例如一个ASMR催眠视频，如果只用声音来判断，可能整个视频都是没有意义的。我们期待在未来多模态的ai能解决这个问题）&lt;/li&gt;
+&lt;li&gt;需要使用b站的cookie才能获取视频字幕，而cookie是动态变化的，因此需要cookie刷新机制，我的处理办法是使用cookiecloud（需要自己的服务器/托管在别人的服务器上）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&quot;tasker-ai-b&quot; tabindex=&quot;-1&quot;&gt;安卓端利用tasker实现ai总结b站&lt;/h1&gt;
+&lt;h2 id=&quot;工作原理&quot; tabindex=&quot;-1&quot;&gt;工作原理&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;如果视频是手机分享的短链接形式（&lt;a href=&quot;https://b23.tv/xxxxx&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://b23.tv/xxxxx&lt;/a&gt; ），则通过域名重定向获取bid（BVxxxxxx）&lt;/li&gt;
+&lt;li&gt;已知bid后，获取cid &lt;code&gt;https://api.bilibili.com/x/web-interface/view?bvid=%bid&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;已知bid和cid后，获取包含字幕链接subtitle_url的信息&lt;code&gt;https://api.bilibili.com/x/player/v2?cid=%cid&amp;amp;bvid=%bid&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;将字幕发送通过api发送给ai，让ai总结&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;案例：&quot; tabindex=&quot;-1&quot;&gt;案例：&lt;/h2&gt;
+&lt;p&gt;以视频&lt;a href=&quot;https://www.bilibili.com/video/BV1DC411J7Wy/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;【游戏试玩】杀戮尖塔+娃娃机=抓抓地牢？游戏实况&lt;/a&gt; 为例，如果采用安卓端国内版bilibili应用分享链接，得到的链接为&lt;code&gt;【【游戏试玩】杀戮尖塔+娃娃机=抓抓地牢？-哔哩哔哩】 https://b23.tv/jpcq7rz&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;（隐藏的第一步为获取最新的cookie，因为实现方法不唯一，在下一章节介绍）&lt;/p&gt;
+&lt;p&gt;因此第一步是要从文字中提取出链接，一般采用正则&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;(https?|ftp|file)://[-A-Za-z0-9+&amp;amp;@#/%?=~_|!:,.;]+[-A-Za-z0-9+&amp;amp;@#/%=~_|]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;得到结果为&lt;code&gt;https://b23.tv/jpcq7rz&lt;/code&gt;，然后我们需要将短链接转为长链接，最简单的办法就是使用浏览器的重定向功能，最终将得到&lt;code&gt;https://www.bilibili.com/video/BV1DC411J7Wy/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;然后使用正则提取出bid，正则如下：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;BV([^/?]+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;即得到&lt;code&gt;BV1DC411J7Wy&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;然后执行&lt;code&gt;http get&lt;/code&gt;  &lt;code&gt;https://api.bilibili.com/x/web-interface/view?bvid=BV1DC411J7Wy&lt;/code&gt; 可以获取一个json文件，需要从中提取cid，因此执行两次正则&lt;/p&gt;
+&lt;p&gt;正则1（先匹配cid）:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;quot;cid&amp;quot;:(&#92;d+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;得到：&lt;code&gt;&amp;quot;cid&amp;quot;:1524209082&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;正则2（提取cid的值）：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;(&#92;d+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;得到&lt;code&gt;1524209082&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;然后获取字幕url，执行&lt;code&gt;http get&lt;/code&gt; &lt;code&gt;https://api.bilibili.com/x/player/v2?cid=1524209082&amp;amp;bvid=BV1DC411J7Wy&lt;/code&gt;&lt;br /&gt;
+注意，header中需要加入cookie，如&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-headers&quot;&gt;User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Cookie:%cookieString
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后会获得一个包含键为&lt;code&gt;subtitle_url&lt;/code&gt;的json文件（前提是视频有字幕），因此这里为了避免不存在字幕产生的误会，需要做一个有无的判断&lt;/p&gt;
+&lt;p&gt;用正则进行匹配&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;//[-A-Za-z0-9+&amp;amp;@#/%?=~_|!:,.;]+[-A-Za-z0-9+&amp;amp;@#/%=~_|]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如果不匹配，则提示此视频无字幕，若满足则进行下一步&lt;/p&gt;
+&lt;p&gt;对&lt;code&gt;subtitle_url&lt;/code&gt;执行&lt;code&gt;http get&lt;/code&gt;，获得json，提取键&lt;code&gt;content&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;然后把&lt;code&gt;content&lt;/code&gt;的内容&lt;code&gt;http post&lt;/code&gt;给LLM&lt;/p&gt;
+&lt;p&gt;headers：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-headers&quot;&gt;Authorization: Bearer %api_key
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;body：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{
+    &amp;quot;model&amp;quot;: &amp;quot;%llm_model&amp;quot;,
+    &amp;quot;messages&amp;quot;: [
+        {
+            &amp;quot;role&amp;quot;: &amp;quot;user&amp;quot;,
+            &amp;quot;content&amp;quot;: &amp;quot;用尽量简练的语言,采用markdown语法书写（不要用代码块包裹），联系视频标题,对视频进行内容摘要,同时仍要保留重要细节和标题信息,视频标题为:%bili_name,字幕内容为:%subtitle&amp;quot;
+        }
+    ],
+    &amp;quot;use_search&amp;quot;: true,
+    &amp;quot;stream&amp;quot;: false
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后就能获得ai总结的内容了&lt;/p&gt;
+&lt;p&gt;这里我附上我的tasker任务&lt;/p&gt;
+&lt;h2 id=&quot;cookie&quot; tabindex=&quot;-1&quot;&gt;同步cookie&lt;/h2&gt;
+&lt;p&gt;我选择使用开源项目&lt;a href=&quot;https://github.com/easychen/CookieCloud&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;CookieCloud&lt;/a&gt;实现cookie的同步&lt;/p&gt;
+&lt;p&gt;变量解释：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;%cookiecloud_url&lt;/code&gt;：&lt;code&gt;cookiecloud服务器域名&lt;/code&gt;，例如：&lt;code&gt;https://cookiecloud.25wz.cn/&lt;/code&gt;，注意，结尾没有&lt;code&gt;/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;%cookiecloud_uuid&lt;/code&gt;：见cookiecloud插件文档&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;%cookiecloud_key&lt;/code&gt;：见cookiecloud插件文档&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;步骤详解：&lt;/p&gt;
+&lt;p&gt;执行&lt;code&gt;http get&lt;/code&gt; &lt;code&gt;%cookiecloud_url/get/%cookiecloud_uuid&lt;/code&gt;&lt;br /&gt;
+请求的body如下：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;password%cookiecloud_key
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这一步会获得解码后的json，包括cookie和localdata&lt;/p&gt;
+&lt;p&gt;然后通过JavaScriptlet来格式化cookie&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-JavaScript&quot;&gt;var jsonData = JSON.parse(local(&#39;%http_data&#39;));
+var cookies = jsonData.cookie_data[&amp;quot;.bilibili.com&amp;quot;];
+var result = [];
+
+for (var i = 0; i &amp;lt; cookies.length; i++) {
+    var name = cookies[i].name;
+    var value = cookies[i].value;
+    result.push(name + &amp;quot;=&amp;quot; + value);
+}
+
+// 将结果存储在Tasker的全局变量中
+setGlobal(&#39;cookieString&#39;, result.join(&#39;;&#39;));
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;注：其实这一步理论上只需要&lt;code&gt;SESSDATA&lt;/code&gt;，我为了省事这么写了。&lt;br /&gt;
+格式化得到&lt;code&gt;a=1,b=2,c=3&lt;/code&gt;格式的cookie信息，然后参见上一章完成目标即可。&lt;/p&gt;
+
+            </content>
+            <link href="https://blog.qudange.top/105-极客/安卓/如何在安卓设备上用tasker实现ai总结b站视频（ios同理）/" />
+        </entry>
+        <entry>
+            <title>
                 密码管理器：从bitwarden迁移到keepass
                 
             </title>
-            <updated>2025-04-15T21:50:00.000Z</updated>
+            <updated>2025-04-15T22:25:00.000Z</updated>
             <id>https://blog.qudange.top/自托管折腾/密码管理器：从bitwarden迁移到keepass/</id>
             <content type="html">
                 &lt;h1 id=&quot;bitwarden-keepass&quot; tabindex=&quot;-1&quot;&gt;bitwarden到keepass的迁移&lt;/h1&gt;
@@ -3242,7 +3489,7 @@ rsync -av --delete &amp;quot;$DESTINATION_DIR/&amp;quot; &amp;quot;$SOURCE_DIR/&
                 在wordpress通过RSS来备份任何平台的信息，打造个人媒体枢纽
                 
             </title>
-            <updated>2025-04-15T21:50:00.000Z</updated>
+            <updated>2025-04-15T22:24:00.000Z</updated>
             <id>https://blog.qudange.top/自托管折腾/在wordpress通过RSS来备份任何平台的信息，打造个人媒体枢纽/</id>
             <content type="html">
                 &lt;h1 id=&quot;前言&quot; tabindex=&quot;-1&quot;&gt;前言&lt;/h1&gt;

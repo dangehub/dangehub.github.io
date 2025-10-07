@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-<title>follow认证文件</title>
+<title>在移动端设备上管理Obsidian待办和备忘的方法探讨</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -166,7 +166,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><a data-note-icon="" style="text-decoration:none" class="filename" href="/Obsidian/在移动端设备上管理Obsidian待办和备忘的方法探讨/">在移动端设备上管理Obsidian待办和备忘的方法探讨 </a>
+<div @click.stop class="notelink active-note"><a data-note-icon="" style="text-decoration:none" class="filename" href="/Obsidian/在移动端设备上管理Obsidian待办和备忘的方法探讨/">在移动端设备上管理Obsidian待办和备忘的方法探讨 </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -229,7 +229,7 @@ CTRL + K
 <span class="foldername">自托管折腾</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><a data-note-icon="" style="text-decoration:none" class="filename" href="/自托管折腾/follow认证文件/">follow认证文件 </a>
+<div @click.stop class="notelink"><a data-note-icon="" style="text-decoration:none" class="filename" href="/自托管折腾/follow认证文件/">follow认证文件 </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -280,16 +280,142 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-10-07T10:41:43.799Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-10-07T10:41:43.799Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-10-07T10:41:43.799Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">follow认证文件</h1>
+<h1 data-note-icon="">在移动端设备上管理Obsidian待办和备忘的方法探讨</h1>
 <div class="header-meta">
 <div class="header-tags">
+<a class="tag" onclick="toggleTagSearch(this)">
+#Obsidian
+</a>
+<a class="tag" onclick="toggleTagSearch(this)">
+#android
+</a>
+<a class="tag" onclick="toggleTagSearch(this)">
+#ios
+</a>
+<a class="tag" onclick="toggleTagSearch(this)">
+#笔记软件
+</a>
 </div>
-<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-03-08T11:35"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-04-15T22:25"></span></div></div></div>
+<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-03-08T11:35"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-10-07T18:04"></span></div></div></div>
 </header>
-<p>This message is used to verify that this feed (feedId:105271225522095104) belongs to me (userId:72208719763571712). Join me in enjoying the next generation information browser <a href="https://follow.is" target="_blank" class="external-link">https://follow.is</a>.</p>
-<p>![[assets/obsidian-icon-ico.ico]]</p>
-<p><img src="/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/%E8%87%AA%E6%89%98%E7%AE%A1%E6%8A%98%E8%85%BE/assets/obsidian-icon-png.png" alt="assets/obsidian-icon-png.png"></p>
-<p><svg id="custom-logo" width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" style="height:100%;width:100%"> <defs> <radialGradient id="b" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-48 -185 123 -32 179 429.7)"> <stop stop-color="#fff" stop-opacity=".4"></stop> <stop offset="1" stop-opacity=".1"></stop> </radialGradient> <radialGradient id="c" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(41 -310 229 30 341.6 351.3)"> <stop stop-color="#fff" stop-opacity=".6"></stop> <stop offset="1" stop-color="#fff" stop-opacity=".1"></stop> </radialGradient> <radialGradient id="d" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(57 -261 178 39 190.5 296.3)"> <stop stop-color="#fff" stop-opacity=".8"></stop> <stop offset="1" stop-color="#fff" stop-opacity=".4"></stop> </radialGradient> <radialGradient id="e" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-79 -133 153 -90 321.4 464.2)"> <stop stop-color="#fff" stop-opacity=".3"></stop> <stop offset="1" stop-opacity=".3"></stop> </radialGradient> <radialGradient id="f" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-29 136 -92 -20 300.7 149.9)"> <stop stop-color="#fff" stop-opacity="0"></stop> <stop offset="1" stop-color="#fff" stop-opacity=".2"></stop> </radialGradient> <radialGradient id="g" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(72 73 -155 153 137.8 225.2)"> <stop stop-color="#fff" stop-opacity=".2"></stop> <stop offset="1" stop-color="#fff" stop-opacity=".4"></stop> </radialGradient> <radialGradient id="h" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(20 118 -251 43 215.1 273.7)"> <stop stop-color="#fff" stop-opacity=".1"></stop> <stop offset="1" stop-color="#fff" stop-opacity=".3"></stop> </radialGradient> <radialGradient id="i" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-162 -85 268 -510 374.4 371.7)"> <stop stop-color="#fff" stop-opacity=".2"></stop> <stop offset=".5" stop-color="#fff" stop-opacity=".2"></stop> <stop offset="1" stop-color="#fff" stop-opacity=".3"></stop> </radialGradient> <filter id="a" x="80.1" y="37" width="351.1" height="443.2" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"> <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood> <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend> <feGaussianBlur stdDeviation="6.5" result="effect1_foregroundBlur_744_9191"></feGaussianBlur> </filter> </defs> <rect id="logo-bg" fill="#262626" width="512" height="512" rx="100"></rect> <g filter="url(#a)"> <path d="M359.2 437.5c-2.6 19-21.3 33.9-40 28.7-26.5-7.2-57.2-18.6-84.8-20.7l-42.4-3.2a28 28 0 0 1-18-8.3l-73-74.8a27.7 27.7 0 0 1-5.4-30.7s45-98.6 46.8-103.7c1.6-5.1 7.8-49.9 11.4-73.9a28 28 0 0 1 9-16.5L249 57.2a28 28 0 0 1 40.6 3.4l72.6 91.6a29.5 29.5 0 0 1 6.2 18.3c0 17.3 1.5 53 11.2 76a301.3 301.3 0 0 0 35.6 58.2 14 14 0 0 1 1 15.6c-6.3 10.7-18.9 31.3-36.6 57.6a142.2 142.2 0 0 0-20.5 59.6Z" fill="#000" fill-opacity=".3"></path> </g> <path id="arrow" d="M359.9 434.3c-2.6 19.1-21.3 34-40 28.9-26.4-7.3-57-18.7-84.7-20.8l-42.3-3.2a27.9 27.9 0 0 1-18-8.4l-73-75a27.9 27.9 0 0 1-5.4-31s45.1-99 46.8-104.2c1.7-5.1 7.8-50 11.4-74.2a28 28 0 0 1 9-16.6l86.2-77.5a28 28 0 0 1 40.6 3.5l72.5 92a29.7 29.7 0 0 1 6.2 18.3c0 17.4 1.5 53.2 11.1 76.3a303 303 0 0 0 35.6 58.5 14 14 0 0 1 1.1 15.7c-6.4 10.8-18.9 31.4-36.7 57.9a143.3 143.3 0 0 0-20.4 59.8Z" fill="#6C31E3"></path> <path d="M182.7 436.4c33.9-68.7 33-118 18.5-153-13.2-32.4-37.9-52.8-57.3-65.5-.4 1.9-1 3.7-1.8 5.4L96.5 324.8a27.9 27.9 0 0 0 5.5 31l72.9 75c2.3 2.3 5 4.2 7.8 5.6Z" fill="url(#b)"></path> <path d="M274.9 297c9.1.9 18 2.9 26.8 6.1 27.8 10.4 53.1 33.8 74 78.9 1.5-2.6 3-5.1 4.6-7.5a1222 1222 0 0 0 36.7-57.9 14 14 0 0 0-1-15.7 303 303 0 0 1-35.7-58.5c-9.6-23-11-58.9-11.1-76.3 0-6.6-2.1-13.1-6.2-18.3l-72.5-92-1.2-1.5c5.3 17.5 5 31.5 1.7 44.2-3 11.8-8.6 22.5-14.5 33.8-2 3.8-4 7.7-5.9 11.7a140 140 0 0 0-15.8 58c-1 24.2 3.9 54.5 20 95Z" fill="url(#c)"></path> <path d="M274.8 297c-16.1-40.5-21-70.8-20-95 1-24 8-42 15.8-58l6-11.7c5.8-11.3 11.3-22 14.4-33.8a78.5 78.5 0 0 0-1.7-44.2 28 28 0 0 0-39.4-2l-86.2 77.5a28 28 0 0 0-9 16.6L144.2 216c0 .7-.2 1.3-.3 2 19.4 12.6 44 33 57.3 65.3 2.6 6.4 4.8 13.1 6.4 20.4a200 200 0 0 1 67.2-6.8Z" fill="url(#d)"></path> <path d="M320 463.2c18.6 5.1 37.3-9.8 39.9-29a153 153 0 0 1 15.9-52.2c-21-45.1-46.3-68.5-74-78.9-29.5-11-61.6-7.3-94.2.6 7.3 33.1 3 76.4-24.8 132.7 3.1 1.6 6.6 2.5 10.1 2.8l43.9 3.3c23.8 1.7 59.3 14 83.2 20.7Z" fill="url(#e)"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M255 200.5c-1.1 24 1.9 51.4 18 91.8l-5-.5c-14.5-42.1-17.7-63.7-16.6-88 1-24.3 8.9-43 16.7-59 2-4 6.6-11.5 8.6-15.3 5.8-11.3 9.7-17.2 13-27.5 4.8-14.4 3.8-21.2 3.2-28 3.7 24.5-10.4 45.8-21 67.5a145 145 0 0 0-17 59Z" fill="url(#f)"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M206 285.1c2 4.4 3.7 8 4.9 13.5l-4.3 1c-1.7-6.4-3-11-5.5-16.5-14.6-34.3-38-52-57-65 23 12.4 46.7 31.9 61.9 67Z" fill="url(#g)"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M211.1 303c8 37.5-1 85.2-27.5 131.6 22.2-46 33-90.1 24-131l3.5-.7Z" fill="url(#h)"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M302.7 299.5c43.5 16.3 60.3 52 72.8 81.9-15.5-31.2-37-65.7-74.4-78.5-28.4-9.8-52.4-8.6-93.5.7l-.9-4c43.6-10 66.4-11.2 96 0Z" fill="url(#i)"></path></svg></p>
+<h1 id="前言" tabindex="-1">前言</h1>
+<p>虽然我不提倡 all in one，但是我一直希望能使用 Obsidian 管理我的待办。虽然可以用 tasks、reminder 之类的插件来实现 Obsidian 内部的待办管理，但是对于普通人来说，手机才是真正有提醒功能的终端，而移动端 Obsidian 不能调用系统级的通知，即便它能，也会受到启动缓慢且无法常驻后台的短板的制约，因此我们需要更轻量而稳定的实现方法。</p>
+<p>好在 Obsidian 是基于 md 开放格式的软件，我们完全可以用其他软件来读取笔记，然后按照对应规则来解析笔记的待办。除了自行实现外，我也发现了一些应用在努力完成这样的目标。后文会介绍现有的第三方应用与自行实现的方法，宥于个人能力与精力的有限，难以做到全面准确，如有错漏，欢迎批评指正。</p>
+<h1 id="自行实现" tabindex="-1">自行实现</h1>
+<h2 id="原理分析" tabindex="-1">原理分析</h2>
+<p>首先我们要知道自行实现的原理：用 markdown 格式记录的待办就如同你用纸笔在便签上写下“明天记得买菜”，只需要让软件把“明天”和“买菜”这两个信息分别读取为时间与事项内容就好了。</p>
+<h1 id="第三方应用" tabindex="-1">第三方应用</h1>
+<h2 id="quick-capture-for-obsidian" tabindex="-1">QuickCapture-forObsidian</h2>
+<p>支持平台：ios</p>
+<h2 id="supasend" tabindex="-1">Supasend</h2>
+<p>支持平台：ios</p>
+<h2 id="quick-draft" tabindex="-1">Quick Draft</h2>
+<p>支持平台：ios</p>
+<h2 id="task-forge" tabindex="-1">TaskForge</h2>
+<p>支持平台：ios</p>
+<h2 id="obsidian" tabindex="-1">Obsidian小部件</h2>
+<p>支持平台：ios</p>
+<h2 id="sriptable" tabindex="-1">Sriptable</h2>
+<p>支持平台：ios</p>
+<h2 id="markdown-widget" tabindex="-1">MarkdownWidget</h2>
+<p>支持平台：ios</p>
+<h2 id="capsidian" tabindex="-1">Capsidian</h2>
+<p>支持平台：android</p>
+<p>下载地址：<a href="https://play.google.com/store/apps/details?id=com.devindie.keepsidian&amp;pli=1" target="_blank" class="external-link">Google play商店</a></p>
+<p>功能介绍：</p>
+<ul>
+<li>读写笔记中的任务</li>
+<li>写日记</li>
+<li>使用语音写日记
+<ul>
+<li>使用离线模型转录并写入日记，还能保存时间轴（但是只支持英文和某外语）</li>
+<li>同一天记两次，会生成两个日记</li>
+</ul>
+</li>
+<li>支持拍照OCR（离线），但是也不支持中文</li>
+<li>日记路径不支持我常用的 <code>yyyy/yyyy-MM-dd</code>，也就是目录路径不支持变量</li>
+<li>不知道为什么，一天输入两次笔记都会创建两个文件</li>
+</ul>
+<h2 id="notifian" tabindex="-1">notifian</h2>
+<p>支持平台：android</p>
+<p>下载地址：<a href="https://play.google.com/store/apps/details?id=com.notifian&amp;hl=en" target="_blank" class="external-link">Google play 商店</a></p>
+<p>功能介绍：扫描本地的 Obsidian 库，提取其中的待办提醒，然后在对应时间点发起提醒。</p>
+<p>[fold]</p>
+<ul>
+<li><img src="/img/user/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/Obsidian/assets/Pasted%20image%2020250117193514.png" alt="../../../../105-极客/写作工具/Obsidian/assets/Pasted image 20250117193514.png"></li>
+</ul>
+<p>细节：</p>
+<ul>
+<li>支持两种待办格式
+<ul>
+<li>frontmatter
+<ul>
+<li><code>remind at</code> 为提醒时间，支持精确到分钟</li>
+<li><code>repeat</code> 为重复规则，支持
+<ul>
+<li>每月的第 x 天</li>
+<li>每 x 分钟/小时/天/周</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>兼容 tasks 语法（因此只支持到按天提醒，不能精确到小时分钟）</li>
+</ul>
+</li>
+</ul>
+<h2 id="obsi" tabindex="-1">obsi</h2>
+<p>支持平台 ：android</p>
+<p>下载地址：<a href="https://play.google.com/store/apps/details?id=com.scanworks.obsi&amp;hl=en" target="_blank" class="external-link">Google play商店</a></p>
+<p>功能介绍：扫描本地的 Obsidian 库，提取其中的待办提醒，将其渲染为可视化 todo，同时可以用图形 UI 创建新的待办，支持设置截止日期、属性和种类。</p>
+<p>[fold]</p>
+<ul>
+<li><img src="/img/user/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/Obsidian/assets/Pasted%20image%2020250117193049.png" alt="../../../../105-极客/写作工具/Obsidian/assets/Pasted image 20250117193049.png"></li>
+</ul>
+<p>细节：</p>
+<ul>
+<li>通过 <code>obsi</code> app 创建的待办都会被放到 <code>obsi.md</code> 文件中，目前无法分散保存待办</li>
+<li>目前无法发出提醒，只能由用户自行查看</li>
+</ul>
+<h2 id="obsidian-android-widget" tabindex="-1">ObsidianAndroidWidget</h2>
+<p>支持平台：android</p>
+<p>下载地址：<a href="https://github.com/Irony95/ObsidianAndroidWidget" target="_blank" class="external-link">GitHub仓库</a></p>
+<p>功能介绍：</p>
+<p>细节：</p>
+<ul>
+<li>只能手动选定链接的文件，无法按照一定的规则自动切换文件（比如根据当天日期切换当天的日记）</li>
+</ul>
+<h2 id="quick-md-capture" tabindex="-1">QuickMDCapture</h2>
+<p><a href="https://www.reddit.com/r/ObsidianMD/comments/1flev91/adding_notes_through_a_widget_on_the_android_home/" target="_blank" class="external-link">通过 Android 主屏幕上的小部件添加注释：r/ObsidianMD --- Adding notes through a widget on the Android home screen : r/ObsidianMD</a></p>
+<h2 id="kvaesitso" tabindex="-1">Kvaesitso</h2>
+<p>支持平台：android</p>
+<p>下载地址：<a href="https://github.com/MM2-0/Kvaesitso" target="_blank" class="external-link">GitHub仓库</a></p>
+<p>功能介绍：这是一个开源的安卓桌面 app，它有一个自带的小组件，可以链接到一个 md 文件，然后就可以在桌面编辑这个 md 文件</p>
+<p>[fold]</p>
+<ul>
+<li><img src="/img/user/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/Obsidian/assets/Screenshot_20250117_234412_Kvaesitso.jpg" alt="../../../../105-极客/写作工具/Obsidian/assets/Screenshot_20250117_234412_Kvaesitso.jpg"></li>
+</ul>
+<p>细节：</p>
+<ul>
+<li>只能手动选定链接的文件，而且这个文件必须由这 app 新建（当然可以手动替换）</li>
+</ul>
+<h1 id="自行实现-1" tabindex="-1">自行实现</h1>
+<h2 id="tasker" tabindex="-1">使用 tasker</h2>
+<h3 id="网友分享的思路" tabindex="-1">网友分享的思路</h3>
+<ul>
+<li><a href="https://www.reddit.com/r/ObsidianMD/comments/qj7nct/quick_add_note_from_android/" target="_blank" class="external-link">来自 Android 的快速添加注释：r/ObsidianMD --- Quick add note from Android : r/ObsidianMD</a></li>
+<li><a href="https://github.com/Guy-92/QuickNote" target="_blank" class="external-link">Guy-92/QuickNote: A way to take Quick Notes in Obsidian on Android</a>
+<ul>
+<li>另一个网友以此为基础进行了修改</li>
+</ul>
+</li>
+<li><a href="https://www.reddit.com/r/ObsidianMD/comments/1h9tgqh/using_tasker_to_create_an_instant_note_widget_for/" target="_blank" class="external-link">使用 Tasker 为 Android 创建“即时笔记”小部件：r/ObsidianMD --- Using Tasker To Create An &quot;Instant Note&quot; Widget For Android : r/ObsidianMD</a></li>
+<li>一个网友分享的 tasker 创建的思路，但是没有分享具体文件 <a href="https://www.reddit.com/r/ObsidianMD/comments/1h9tgqh/using_tasker_to_create_an_instant_note_widget_for/" target="_blank" class="external-link">使用 Tasker 为 Android 创建“即时笔记”小部件：r/ObsidianMD --- Using Tasker To Create An &quot;Instant Note&quot; Widget For Android : r/ObsidianMD</a></li>
+</ul>
+<h3 id="tasker-widget" tabindex="-1">我的 tasker widget</h3>
+<h2 id="ios" tabindex="-1">使用 ios 捷径</h2>
+<p><a href="https://www.reddit.com/r/ObsidianMD/comments/1i4zpom/ios_shortcut/" target="_blank" class="external-link">iOS 快捷方式 ： r/ObsidianMD --- iOS Shortcut : r/ObsidianMD</a></p>
+<h2 id="fv" tabindex="-1">fv 悬浮球记笔记（偏题）</h2>
+<p><a href="https://forum-zh.obsidian.md/t/topic/5687/2" target="_blank" class="external-link">安卓利用FV悬浮球实现不打开ob进行文本快捷输入（包括图片自动上传图床后的外链） - 经验分享 - Obsidian 中文论坛</a></p>
 </main>
 <aside>
 <div class="sidebar">
@@ -320,6 +446,73 @@ CTRL + K
 <div x-effect="window.graph = renderLocalGraph(graphData, depth, fullScreen)" id="link-graph"></div>
 <div x-show="showFullGraph" id="full-graph" class="show" style="display:none">
 <span id="full-graph-close" x-on:click="fullGraph = closefullGraph(fullGraph); showFullGraph = false;"><i icon-name="x" aria-hidden="true"></i></span><div id="full-graph-container"></div>
+</div>
+</div>
+<div class="toc">
+<div class="toc-title-container">
+<div class="toc-title">
+On this page
+</div>
+</div>
+<div class="toc-container">
+<nav class="toc">
+<ol>
+<li><a href="#前言">前言</a>
+</li>
+<li><a href="#自行实现">自行实现</a>
+<ol>
+<li><a href="#原理分析">原理分析</a>
+</li>
+</ol>
+</li>
+<li><a href="#第三方应用">第三方应用</a>
+<ol>
+<li><a href="#quick-capture-for-obsidian">QuickCapture-forObsidian</a>
+</li>
+<li><a href="#supasend">Supasend</a>
+</li>
+<li><a href="#quick-draft">Quick Draft</a>
+</li>
+<li><a href="#task-forge">TaskForge</a>
+</li>
+<li><a href="#obsidian">Obsidian小部件</a>
+</li>
+<li><a href="#sriptable">Sriptable</a>
+</li>
+<li><a href="#markdown-widget">MarkdownWidget</a>
+</li>
+<li><a href="#capsidian">Capsidian</a>
+</li>
+<li><a href="#notifian">notifian</a>
+</li>
+<li><a href="#obsi">obsi</a>
+</li>
+<li><a href="#obsidian-android-widget">ObsidianAndroidWidget</a>
+</li>
+<li><a href="#quick-md-capture">QuickMDCapture</a>
+</li>
+<li><a href="#kvaesitso">Kvaesitso</a>
+</li>
+</ol>
+</li>
+<li><a href="#自行实现-1">自行实现</a>
+<ol>
+<li><a href="#tasker">使用 tasker</a>
+<ol>
+<li><a href="#网友分享的思路">网友分享的思路</a>
+</li>
+<li><a href="#tasker-widget">我的 tasker widget</a>
+</li>
+</ol>
+</li>
+<li><a href="#ios">使用 ios 捷径</a>
+</li>
+<li><a href="#fv">fv 悬浮球记笔记（偏题）</a>
+</li>
+</ol>
+</li>
+</ol>
+</nav>
 </div>
 </div>
 <div class="backlinks">
