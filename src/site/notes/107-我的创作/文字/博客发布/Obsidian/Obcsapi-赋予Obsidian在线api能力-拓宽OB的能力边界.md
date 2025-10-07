@@ -1,5 +1,5 @@
 ---
-{"uid":20241230193952,"title":"Obcsapi：一个赋予Obsidian在线api能力，再次拓宽OB的能力边界的超级工具","tags":["geek","obsidian插件","obsidian","obsidian同步","memos"],"description":"这是一个基于S3 存储/CouchDb/本地存储的后端 API 项目，可以对外提供WebDAV服务，可借助 Obsidian 的 Remotely-Save 或 Self-hosted LiveSync插件同步，支持多种api方法保存消息到 Obsidian 库。","author":"曲淡歌","modified":20250212225527,"dg-publish":true,"created":"2025-03-08T11:35","updated":"2025-04-15T21:50","dg-path":"Obsidian/Obcsapi-赋予Obsidian在线api能力-拓宽OB的能力边界.md","permalink":"/Obsidian/Obcsapi-赋予Obsidian在线api能力-拓宽OB的能力边界/","dgPassFrontmatter":true,"noteIcon":""}
+{"uid":20241230193952,"title":"Obcsapi：一个赋予Obsidian在线api能力，再次拓宽OB的能力边界的超级工具","tags":["geek","obsidian插件","obsidian","obsidian同步","memos"],"description":"这是一个基于S3 存储/CouchDb/本地存储的后端 API 项目，可以对外提供WebDAV服务，可借助 Obsidian 的 Remotely-Save 或 Self-hosted LiveSync插件同步，支持多种api方法保存消息到 Obsidian 库。","author":"曲淡歌","modified":20250212225527,"dg-publish":true,"created":"2025-03-08T11:35","updated":"2025-04-15T22:24","dg-path":"Obsidian/Obcsapi-赋予Obsidian在线api能力-拓宽OB的能力边界.md","permalink":"/Obsidian/Obcsapi-赋予Obsidian在线api能力-拓宽OB的能力边界/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

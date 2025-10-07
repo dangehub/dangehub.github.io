@@ -1,5 +1,5 @@
 ---
-{"title":"Anyblock插件入门","date":"2024-10-03","lastmod":"2024-10-03","creation date":"2024-10-03 19:33","modification date":"星期四 2024 十月3日 19:42:36","tags":["obsidian插件"],"categories":null,"alases":null,"dg-publish":true,"created":"2025-03-08T11:35","updated":"2025-04-15T21:50","dg-path":"Obsidian/Anyblock插件入门.md","permalink":"/Obsidian/Anyblock插件入门/","dgPassFrontmatter":true,"noteIcon":""}
+{"title":"Anyblock插件入门","date":"2024-10-03","lastmod":"2024-10-03","creation date":"2024-10-03 19:33","modification date":"星期四 2024 十月3日 19:42:36","tags":["obsidian插件"],"categories":null,"alases":null,"dg-publish":true,"created":"2025-03-08T11:35","updated":"2025-04-15T22:25","dg-path":"Obsidian/Anyblock插件入门.md","permalink":"/Obsidian/Anyblock插件入门/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

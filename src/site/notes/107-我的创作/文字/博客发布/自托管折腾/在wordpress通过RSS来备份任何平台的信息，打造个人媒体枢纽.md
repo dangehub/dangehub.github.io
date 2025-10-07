@@ -1,5 +1,5 @@
 ---
-{"title":"在wordpress通过RSS来备份任何平台的信息，打造个人媒体枢纽","date":"2024-04-24","lastmod":"2024-12-16","creation date":"2024-04-24 19:19","modification date":"星期一 2024 十二月16日 12:37:57","tags":["网站建设","wordpress","microblog"],"categories":null,"alases":null,"dg-publish":true,"created":"2025-03-08T11:35","updated":"2025-04-15T21:50","dg-path":"自托管折腾/在wordpress通过RSS来备份任何平台的信息，打造个人媒体枢纽.md","permalink":"/自托管折腾/在wordpress通过RSS来备份任何平台的信息，打造个人媒体枢纽/","dgPassFrontmatter":true,"noteIcon":""}
+{"title":"在wordpress通过RSS来备份任何平台的信息，打造个人媒体枢纽","date":"2024-04-24","lastmod":"2024-12-16","creation date":"2024-04-24 19:19","modification date":"星期一 2024 十二月16日 12:37:57","tags":["网站建设","wordpress","microblog"],"categories":null,"alases":null,"dg-publish":true,"created":"2025-03-08T11:35","updated":"2025-04-15T22:24","dg-path":"自托管折腾/在wordpress通过RSS来备份任何平台的信息，打造个人媒体枢纽.md","permalink":"/自托管折腾/在wordpress通过RSS来备份任何平台的信息，打造个人媒体枢纽/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"title":"把Obsidian发布为网页的各种方式探索","date":"2024-08-26","lastmod":"2024-12-16","creation date":"2024-08-26 13:24","modification date":"星期一 2024 十二月16日 13:21:55","tags":["网站建设","Obsidian","Obsidian插件","自建博客"],"categories":null,"alases":null,"dg-publish":true,"created":"2025-04-17T18:43","updated":"2025-04-17T18:43","dg-path":"Obsidian/把Obsidian发布为网页的各种方式探索.md","permalink":"/Obsidian/把Obsidian发布为网页的各种方式探索/","dgPassFrontmatter":true,"noteIcon":""}
+{"title":"把Obsidian发布为网页的各种方式探索","date":"2024-08-26","lastmod":"2024-12-16","creation date":"2024-08-26 13:24","modification date":"星期一 2024 十二月16日 13:21:55","tags":["网站建设","Obsidian","Obsidian插件","自建博客"],"categories":null,"alases":null,"dg-publish":true,"created":"2025-04-17T18:43","updated":"2025-10-05T21:18","dg-path":"Obsidian/把Obsidian发布为网页的各种方式探索.md","permalink":"/Obsidian/把Obsidian发布为网页的各种方式探索/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
@@ -87,6 +87,20 @@ obcsapi在对象存储模式下可以把渲染好的页面放在对象存储中�
 obcsapi自带一个简易的publish页面，可以把指定目录的下笔记暴露在公开网络上。不过这个功能我并没有成功启动，暂时先记在这里。
 
 据说能配合lua脚本。
+
+## Obsiflask
+
+
+<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
+
+
+
+- 13:54 #Obsidian插件  一个把Obsidian发布到网上的新工具，类似obcsapi ， [bahleg/OBSIFLASK: Simple web service for Obsidian vaults](https://github.com/bahleg/OBSIFLASK)，目前主打功能是编辑、搜索、支持excalidraw 
+
+</div></div>
+
+
+
 
 # 采用第三方服务
 

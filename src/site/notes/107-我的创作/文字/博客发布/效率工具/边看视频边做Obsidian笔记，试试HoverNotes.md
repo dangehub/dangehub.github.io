@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"边看视频边做Obsidian笔记，试试HoverNotes","created":"2025-03-08T11:35","updated":"2025-10-03T17:12","dg-path":"效率工具/边看视频边做Obsidian笔记，试试HoverNotes.md","permalink":"/效率工具/边看视频边做Obsidian笔记，试试HoverNotes/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"title":"边看视频边做Obsidian笔记，试试HoverNotes","created":"2025-03-08T11:35","updated":"2025-10-03T17:13","dg-path":"效率工具/边看视频边做Obsidian笔记，试试HoverNotes.md","permalink":"/效率工具/边看视频边做Obsidian笔记，试试HoverNotes/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

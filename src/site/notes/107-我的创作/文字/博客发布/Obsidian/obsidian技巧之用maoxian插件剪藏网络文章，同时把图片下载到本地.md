@@ -1,5 +1,5 @@
 ---
-{"uid":20241230193952,"title":"Obsidian技巧之用maoxian插件剪藏网络文章，同时把图片下载到本地","tags":["obsidian","网页剪藏"],"description":null,"author":"曲淡歌","type":"other","draft":false,"editable":false,"modified":20250108131402,"dg-publish":true,"dg-path":"Obsidian/obsidian技巧之用maoxian插件剪藏网络文章，同时把图片下载到本地.md","permalink":"/Obsidian/obsidian技巧之用maoxian插件剪藏网络文章，同时把图片下载到本地/","dgPassFrontmatter":true,"noteIcon":""}
+{"uid":20241230193952,"title":"Obsidian技巧之用maoxian插件剪藏网络文章，同时把图片下载到本地","tags":["obsidian","网页剪藏"],"description":null,"author":"曲淡歌","type":"other","draft":false,"editable":false,"modified":20250108131402,"dg-publish":true,"created":"2025-03-08T11:55","updated":"2025-10-05T23:57","dg-path":"Obsidian/obsidian技巧之用maoxian插件剪藏网络文章，同时把图片下载到本地.md","permalink":"/Obsidian/obsidian技巧之用maoxian插件剪藏网络文章，同时把图片下载到本地/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
@@ -37,7 +37,7 @@ mklink /D "C:\Users\62300\Downloads\maoxian摘录" "C:\Users\62300\Documents\liv
 
 使用方法：保存为 json 文件后到 maoxian 的备份中导入
 
-[fold]
+ [fold]
 
 ```
 {

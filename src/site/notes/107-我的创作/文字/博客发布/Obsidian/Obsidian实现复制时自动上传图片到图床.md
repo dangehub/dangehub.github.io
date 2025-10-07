@@ -1,5 +1,5 @@
 ---
-{"uid":20241230193952,"title":"Obsidian 实现复制时自动上传图片到图床","tags":["geek"],"description":null,"author":"曲淡歌","type":"other","draft":false,"editable":false,"modified":20250108105859,"share":true,"git_title":"2024-08-11-obsidian-pic-upload","categories":["geek"],"dg-publish":true,"created":"2025-03-08T11:35","updated":"2025-04-15T21:50","dg-path":"Obsidian/Obsidian实现复制时自动上传图片到图床.md","permalink":"/Obsidian/Obsidian实现复制时自动上传图片到图床/","dgPassFrontmatter":true,"noteIcon":""}
+{"uid":20241230193952,"title":"Obsidian 实现复制时自动上传图片到图床","tags":["geek"],"description":null,"author":"曲淡歌","type":"other","draft":false,"editable":false,"modified":20250108105859,"share":true,"git_title":"2024-08-11-obsidian-pic-upload","categories":["geek"],"dg-publish":true,"created":"2025-03-08T11:35","updated":"2025-04-15T22:25","dg-path":"Obsidian/Obsidian实现复制时自动上传图片到图床.md","permalink":"/Obsidian/Obsidian实现复制时自动上传图片到图床/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
