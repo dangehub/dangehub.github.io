@@ -1,5 +1,5 @@
 ---
-{"uid":20250110223123,"title":"Obsidian插件测评——i18n：汉化插件、翻译词典编辑器、云端共享词典、内置沉浸式翻译","tags":["obsidian插件"],"description":null,"author":"曲淡歌","draft":false,"editable":false,"modified":20250112233751,"dg-publish":true,"created":"2025-04-17T18:43","updated":"2025-04-17T18:43","dg-path":"Obsidian/Obsidian插件测评/Obsidian插件测评-i18n-汉化插件、翻译词典编辑器、云端共享词典、内置沉浸式翻译.md","permalink":"/Obsidian/Obsidian插件测评/Obsidian插件测评-i18n-汉化插件、翻译词典编辑器、云端共享词典、内置沉浸式翻译/","dgPassFrontmatter":true,"noteIcon":""}
+{"uid":20250110223123,"title":"Obsidian插件测评——i18n：汉化插件、翻译词典编辑器、云端共享词典、内置沉浸式翻译","tags":["obsidian插件"],"description":null,"author":"曲淡歌","draft":false,"editable":false,"modified":20250112233751,"dg-publish":true,"created":"2025-04-17T18:43","updated":"2025-04-18T02:00","dg-path":"Obsidian/Obsidian插件测评/Obsidian插件测评-i18n-汉化插件、翻译词典编辑器、云端共享词典、内置沉浸式翻译.md","permalink":"/Obsidian/Obsidian插件测评/Obsidian插件测评-i18n-汉化插件、翻译词典编辑器、云端共享词典、内置沉浸式翻译/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

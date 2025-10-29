@@ -1,5 +1,5 @@
 ---
-{"uid":20250203004253,"title":"ollama离线运行AI模型+反思翻译法+沉浸式翻译=免费又好用的翻译？最具性价比的选择！","tags":["LLM","ai","翻译","自托管","反思翻译法"],"description":null,"author":"曲淡歌","modified":20250205194018,"dg-publish":true,"created":"2025-04-17T18:43","updated":"2025-04-17T18:43","dg-path":"效率工具/ollama离线运行AI模型-反思翻译法-沉浸式翻译-免费又好用的翻译.md","permalink":"/效率工具/ollama离线运行AI模型-反思翻译法-沉浸式翻译-免费又好用的翻译/","dgPassFrontmatter":true,"noteIcon":""}
+{"uid":20250203004253,"title":"ollama离线运行AI模型+反思翻译法+沉浸式翻译=免费又好用的翻译？最具性价比的选择！","tags":["LLM","ai","翻译","自托管","反思翻译法"],"description":null,"author":"曲淡歌","modified":20250205194018,"dg-publish":true,"created":"2025-04-17T18:43","updated":"2025-04-18T02:00","dg-path":"效率工具/ollama离线运行AI模型-反思翻译法-沉浸式翻译-免费又好用的翻译.md","permalink":"/效率工具/ollama离线运行AI模型-反思翻译法-沉浸式翻译-免费又好用的翻译/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

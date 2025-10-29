@@ -1,5 +1,5 @@
 ---
-{"title":"把Obsidian发布为网页的各种方式探索","date":"2024-08-26","lastmod":"2024-12-16","creation date":"2024-08-26 13:24","modification date":"星期一 2024 十二月16日 13:21:55","tags":["网站建设","Obsidian","Obsidian插件","自建博客"],"categories":null,"alases":null,"dg-publish":true,"created":"2025-04-17T18:43","updated":"2025-10-05T21:18","dg-path":"Obsidian/把Obsidian发布为网页的各种方式探索.md","permalink":"/Obsidian/把Obsidian发布为网页的各种方式探索/","dgPassFrontmatter":true,"noteIcon":""}
+{"title":"把Obsidian发布为网页的各种方式探索","date":"2024-08-26","lastmod":"2024-12-16","creation date":"2024-08-26 13:24","modification date":"星期一 2024 十二月16日 13:21:55","tags":["网站建设","Obsidian","Obsidian插件","自建博客"],"categories":null,"alases":null,"dg-publish":true,"created":"2025-04-17T18:43","updated":"2025-10-05T21:19","dg-path":"Obsidian/把Obsidian发布为网页的各种方式探索.md","permalink":"/Obsidian/把Obsidian发布为网页的各种方式探索/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

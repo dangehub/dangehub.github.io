@@ -1,5 +1,5 @@
 ---
-{"uid":20250104142831,"title":"Obsidian轻量级PPT教程","tags":["obsidian","PPT技巧"],"description":null,"author":"曲淡歌","type":"other","draft":false,"editable":false,"modified":20250124113707,"dg-publish":true,"created":"2025-04-17T18:43","updated":"2025-04-17T18:43","dg-path":"Obsidian/Obsidian轻量级PPT教程.md","permalink":"/Obsidian/Obsidian轻量级PPT教程/","dgPassFrontmatter":true,"noteIcon":""}
+{"uid":20250104142831,"title":"Obsidian轻量级PPT教程","tags":["obsidian","PPT技巧"],"description":null,"author":"曲淡歌","type":"other","draft":false,"editable":false,"modified":20250124113707,"dg-publish":true,"created":"2025-04-17T18:43","updated":"2025-04-18T02:00","dg-path":"Obsidian/Obsidian轻量级PPT教程.md","permalink":"/Obsidian/Obsidian轻量级PPT教程/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
