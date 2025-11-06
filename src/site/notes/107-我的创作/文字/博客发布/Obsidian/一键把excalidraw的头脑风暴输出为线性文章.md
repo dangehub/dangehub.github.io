@@ -1,5 +1,5 @@
 ---
-{"uid":20241230193952,"title":"一键把excalidraw的头脑风暴输出为线性文章","tags":["Obsidian","excalidraw","脚本"],"description":null,"author":"曲淡歌","type":"other","draft":false,"editable":false,"categories":["obsidian","geek"],"alases":null,"dg-publish":true,"dg-permalink":"\"nonlinear-output\"","dg-path":"Obsidian/一键把excalidraw的头脑风暴输出为线性文章.md","permalink":"/\"nonlinear-output\"/","dgPassFrontmatter":true,"noteIcon":""}
+{"uid":20241230193952,"title":"一键把excalidraw的头脑风暴输出为线性文章","tags":["Obsidian","excalidraw","脚本"],"description":null,"author":"曲淡歌","type":"other","draft":false,"editable":false,"categories":["obsidian","geek"],"alases":null,"dg-publish":true,"dg-permalink":"nonlinear-output","dg-path":"Obsidian/一键把excalidraw的头脑风暴输出为线性文章.md","permalink":"/nonlinear-output/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
