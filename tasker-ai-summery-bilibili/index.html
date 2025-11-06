@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-<title>把Obsidian发布为网页的各种方式探索</title>
+<title>如何在安卓设备上用tasker实现ai总结b站视频（ios同理）</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -96,7 +96,7 @@ CTRL + K
 <span class="foldername">AI</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><a data-note-icon="" style="text-decoration:none" class="filename" href="/tasker-ai-summery-bilibili/">如何在安卓设备上用tasker实现ai总结b站视频（ios同理） </a>
+<div @click.stop class="notelink active-note"><a data-note-icon="" style="text-decoration:none" class="filename" href="/tasker-ai-summery-bilibili/">如何在安卓设备上用tasker实现ai总结b站视频（ios同理） </a>
 </div>
 </div>
 </div>
@@ -162,7 +162,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><a data-note-icon="" style="text-decoration:none" class="filename" href="/Obsidian/把Obsidian发布为网页的各种方式探索/">把Obsidian发布为网页的各种方式探索 </a>
+<div @click.stop class="notelink"><a data-note-icon="" style="text-decoration:none" class="filename" href="/Obsidian/把Obsidian发布为网页的各种方式探索/">把Obsidian发布为网页的各种方式探索 </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -272,140 +272,120 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-11-06T08:21:23.297Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-11-06T08:21:23.297Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-11-06T08:21:23.297Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">把Obsidian发布为网页的各种方式探索</h1>
+<h1 data-note-icon="">如何在安卓设备上用tasker实现ai总结b站视频（ios同理）</h1>
 <div class="header-meta">
 <div class="header-tags">
 <a class="tag" onclick="toggleTagSearch(this)">
-#网站建设
+#LLM
 </a>
 <a class="tag" onclick="toggleTagSearch(this)">
-#Obsidian
+#ChatGPT
 </a>
 <a class="tag" onclick="toggleTagSearch(this)">
-#Obsidian插件
-</a>
-<a class="tag" onclick="toggleTagSearch(this)">
-#自建博客
+#ai
 </a>
 </div>
-<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-04-17T18:43"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-10-05T21:19"></span></div></div></div>
+<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-04-17T18:43"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-11-06T11:37"></span></div></div></div>
 </header>
-<h1 id="obsidian" tabindex="-1">Obsidian发布方式汇总</h1>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
-<th>方式汇总</th>
-<th>优点</th>
-<th>缺点</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>官方publish</td>
-<td>官方支持，稳定</td>
-<td>要花钱，数据非私有</td>
-</tr>
-<tr>
-<td>digital garden</td>
-<td>更新稳定，支持功能多</td>
-<td>静态页面，无法即时渲染</td>
-</tr>
-<tr>
-<td>Quartz框架</td>
-<td>开发文档全面，可以自行</td>
-<td>静态页面，无法即时渲染</td>
-</tr>
-<tr>
-<td>perlite</td>
-<td>实时渲染，无需等待</td>
-<td>不支持dataview excalidraw等插件功能，需要服务器</td>
-</tr>
-</tbody>
-</table></div>
-<p>对于不想折腾的用户来说，只有一种方案：花钱买官方的publish。本文不再讨论这种方法。</p>
-<p>其实目前主流的Obsidian发布方案就是两种：</p>
+<h1 id="前言" tabindex="-1">前言</h1>
+<p>本文中提到的实现方式受到chrome拓展<a href="https://chromewebstore.google.com/detail/chatgptbox/eobbhoofkanlmddnplfhnmkfbnlhpbbo" target="_blank" class="external-link">ChatGPTBox</a>的启发。</p>
+<p>原理是通过b站的api获取自动生成的字幕，然后用大语言模型（LLM）来总结字幕，从而获得视频的总结。</p>
+<p>本工具可以帮助用户总结视频内容，以提高信息获取的速度。</p>
+<p>诚然，b站自己也推出了ai总结功能，但是那个功能很不稳定，有时候对一个视频能做出详细而结构化的总结，有时却只能得到一句话的概括，即便LLM已经火了两三年了，b站仍没有在这块投入过多，因此只能自己动手，丰衣足食。</p>
+<p>本工具的缺点：</p>
+<ol>
+<li>无法总结没有字幕的视频（但是像bibigpt和b站官方的ai总结有时候能总结没有字幕的视频，我怀疑是有其他途径获取字幕，抑或字幕的显示存在延迟）</li>
+<li>对视频内容和音频内容非强相关的视频无效（例如一个ASMR催眠视频，如果只用声音来判断，可能整个视频都是没有意义的。我们期待在未来多模态的ai能解决这个问题）</li>
+<li>需要使用b站的cookie才能获取视频字幕，而cookie是动态变化的，因此需要cookie刷新机制，我的处理办法是使用cookiecloud（需要自己的服务器/托管在别人的服务器上）</li>
+</ol>
+<h1 id="tasker-ai-b" tabindex="-1">安卓端利用tasker实现ai总结b站</h1>
+<h2 id="工作原理" tabindex="-1">工作原理</h2>
+<ol>
+<li>如果视频是手机分享的短链接形式（<a href="https://b23.tv/xxxxx" target="_blank" class="external-link">https://b23.tv/xxxxx</a> ），则通过域名重定向获取bid（BVxxxxxx）</li>
+<li>已知bid后，获取cid <code>https://api.bilibili.com/x/web-interface/view?bvid=%bid</code></li>
+<li>已知bid和cid后，获取包含字幕链接subtitle_url的信息<code>https://api.bilibili.com/x/player/v2?cid=%cid&amp;bvid=%bid</code></li>
+<li>将字幕发送通过api发送给ai，让ai总结</li>
+</ol>
+<h2 id="案例：" tabindex="-1">案例：</h2>
+<p>以视频<a href="https://www.bilibili.com/video/BV1DC411J7Wy/" target="_blank" class="external-link">【游戏试玩】杀戮尖塔+娃娃机=抓抓地牢？游戏实况</a> 为例，如果采用安卓端国内版bilibili应用分享链接，得到的链接为<code>【【游戏试玩】杀戮尖塔+娃娃机=抓抓地牢？-哔哩哔哩】 https://b23.tv/jpcq7rz</code></p>
+<p>（隐藏的第一步为获取最新的cookie，因为实现方法不唯一，在下一章节介绍）</p>
+<p>因此第一步是要从文字中提取出链接，一般采用正则</p>
+<pre><code>(https?|ftp|file)://[-A-Za-z0-9+&amp;@#/%?=~_|!:,.;]+[-A-Za-z0-9+&amp;@#/%=~_|]
+</code></pre>
+<p>得到结果为<code>https://b23.tv/jpcq7rz</code>，然后我们需要将短链接转为长链接，最简单的办法就是使用浏览器的重定向功能，最终将得到<code>https://www.bilibili.com/video/BV1DC411J7Wy/</code></p>
+<p>然后使用正则提取出bid，正则如下：</p>
+<pre><code>BV([^/?]+)
+</code></pre>
+<p>即得到<code>BV1DC411J7Wy</code></p>
+<p>然后执行<code>http get</code> <code>https://api.bilibili.com/x/web-interface/view?bvid=BV1DC411J7Wy</code> 可以获取一个json文件，需要从中提取cid，因此执行两次正则</p>
+<p>正则1（先匹配cid）:</p>
+<pre><code>&quot;cid&quot;:(\d+)
+</code></pre>
+<p>得到：<code>&quot;cid&quot;:1524209082</code></p>
+<p>正则2（提取cid的值）：</p>
+<pre><code>(\d+)
+</code></pre>
+<p>得到<code>1524209082</code></p>
+<p>然后获取字幕url，执行<code>http get</code> <code>https://api.bilibili.com/x/player/v2?cid=1524209082&amp;bvid=BV1DC411J7Wy</code><br>
+注意，header中需要加入cookie，如</p>
+<pre><code class="language-headers">User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Cookie:%cookieString
+</code></pre>
+<p>然后会获得一个包含键为<code>subtitle_url</code>的json文件（前提是视频有字幕），因此这里为了避免不存在字幕产生的误会，需要做一个有无的判断</p>
+<p>用正则进行匹配</p>
+<pre><code>//[-A-Za-z0-9+&amp;@#/%?=~_|!:,.;]+[-A-Za-z0-9+&amp;@#/%=~_|]
+</code></pre>
+<p>如果不匹配，则提示此视频无字幕，若满足则进行下一步</p>
+<p>对<code>subtitle_url</code>执行<code>http get</code>，获得json，提取键<code>content</code></p>
+<p>然后把<code>content</code>的内容<code>http post</code>给LLM</p>
+<p>headers：</p>
+<pre><code class="language-headers">Authorization: Bearer %api_key
+</code></pre>
+<p>body：</p>
+<pre><code>{
+    &quot;model&quot;: &quot;%llm_model&quot;,
+    &quot;messages&quot;: [
+        {
+            &quot;role&quot;: &quot;user&quot;,
+            &quot;content&quot;: &quot;用尽量简练的语言,采用markdown语法书写（不要用代码块包裹），联系视频标题,对视频进行内容摘要,同时仍要保留重要细节和标题信息,视频标题为:%bili_name,字幕内容为:%subtitle&quot;
+        }
+    ],
+    &quot;use_search&quot;: true,
+    &quot;stream&quot;: false
+}
+</code></pre>
+<p>然后就能获得ai总结的内容了</p>
+<p>这里我附上我的tasker任务</p>
+<h2 id="cookie" tabindex="-1">同步cookie</h2>
+<p>我选择使用开源项目<a href="https://github.com/easychen/CookieCloud" target="_blank" class="external-link">CookieCloud</a>实现cookie的同步</p>
+<p>变量解释：</p>
 <ul>
-<li>通过后端支持实现实时渲染，只需要把ob的md源码上传就能马上看到最终效果</li>
-<li>通过渲染器把md源码编译成一个静态网页，然后把静态网页文件托管到某个平台，好处是网页加载快，缺点是每次增删改笔记都要重新编译，往往需要等待数分钟才能看到新的结果。</li>
+<li><code>%cookiecloud_url</code>：<code>cookiecloud服务器域名</code>，例如：<code>https://cookiecloud.25wz.cn/</code>，注意，结尾没有<code>/</code></li>
+<li><code>%cookiecloud_uuid</code>：见cookiecloud插件文档</li>
+<li><code>%cookiecloud_key</code>：见cookiecloud插件文档</li>
 </ul>
-<p>因此如果发布前能保证已经完成了最终稿，那么静态发布是很好的选择。但是如果发布后还需要频繁修改，最好采用可即时编辑的工具。</p>
-<h1 id="静态页面类" tabindex="-1">静态页面类</h1>
-<p>如果你想要找一个能免费且私有数据的发布obsidian笔记的方案，这可能是最好也是唯一的选择。</p>
-<p>可以简单的把静态页面的发布方式理解为即食食品，只需要拿到这个“静态页面”就可以开袋即食，与之相对的，非静态页面的方法，需要服务器进行渲染操作，因此一般是很难找到支持非静态页面的、大公司提供的、免费的方案。</p>
-<p>其实静态页面发布博客的方法浩如星海，较为出名如Jekyll、Hugo、Hexo、Vuepress、Docsdify都是很成熟且有较多主题可以选择的，不过考虑到我们要发布obsidian笔记，当然需要支持obsidian的wiki链接功能，因此之后不再考虑这些没有针对obsidian优化的框架。</p>
-<h2 id="digital-garden" tabindex="-1">Digital Garden插件</h2>
-<p>项目地址：此插件已上架官方市场。</p>
-<p>优点：</p>
-<ul>
-<li>更新勤快，后续有支持</li>
-<li>功能多样
-<ul>
-<li>支持导入ob主题</li>
-<li>支持excalidraw</li>
-<li>支持dataview</li>
-</ul>
-</li>
-</ul>
-<p>缺点：</p>
-<ul>
-<li>依赖vercel（其实是可以使用github action的，不过需要一定动手能力）</li>
-<li>发布文章需要填写frontmatter，体验不够丝滑（可以使用模板来优化流程）</li>
-</ul>
-<h2 id="quartz" tabindex="-1">Quartz框架</h2>
-<p>项目地址：<a href="https://github.com/jackyzha0/quartz" target="_blank" class="external-link">jackyzha0/quartz: 🌱 a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites</a></p>
-<p>优点：</p>
-<ul>
-<li>原生美观程度是比digital garden高</li>
-<li>原生支持i18n，如果你需要发布多言语版本的文章，这点很重要</li>
-</ul>
-<p>缺点：</p>
-<ul>
-<li>不支持excalidraw</li>
-<li>不支持dataview</li>
-</ul>
-<h2 id="obcsapi" tabindex="-1">Obcsapi+对象存储</h2>
-<p>项目地址：<a href="https://github.com/kkbt0/obcsapi-go" target="_blank" class="external-link">kkbt0/obcsapi-go: 基于 WebDAV，S3 存储或 CouchDb 的后端 API ，Obsidian 笔记的 API</a></p>
-<p>此方案来自和<a href="https://www.ftls.xyz/posts/2024-12-09-hugo-obsidian-wenku/?atk_comment=155&amp;atk_notify_key=GCFXN#:~:text=%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E7%A1%AE%E5%AE%9E,%E5%8F%AF%E8%83%BD%E8%BF%9B%E8%A1%8C%E4%BC%98%E5%8C%96%E3%80%82" target="_blank" class="external-link">和恐咖兵糖的聊天</a></p>
-<p>obcsapi在对象存储模式下可以把渲染好的页面放在对象存储中，obsidian 额外生成一个索引并同步</p>
-<h1 id="实时渲染类" tabindex="-1">实时渲染类</h1>
-<h2 id="perlite" tabindex="-1">Perlite</h2>
-<p>项目地址：<a href="https://github.com/secure-77/Perlite" target="_blank" class="external-link">secure-77/Perlite: A web-based markdown viewer optimized for Obsidian</a></p>
-<p>优势：</p>
-<ul>
-<li>实时，无需渲染</li>
-<li>可以直接把整个库复制进去，保留原库文件树</li>
-</ul>
-<p>缺点：</p>
-<ul>
-<li>支持的功能较少
-<ul>
-<li>html标签不支持</li>
-<li>canvas不支持</li>
-<li>task语法不支持</li>
-<li>todo语法不支持</li>
-</ul>
-</li>
-<li>上次更新是7个月之前，疑似停更，支持力度更小</li>
-</ul>
-<h2 id="obcsapi-publish" tabindex="-1">Obcsapi-publish功能</h2>
-<p>obcsapi自带一个简易的publish页面，可以把指定目录的下笔记暴露在公开网络上。不过这个功能我并没有成功启动，暂时先记在这里。</p>
-<p>据说能配合lua脚本。</p>
-<h2 id="obsiflask" tabindex="-1">Obsiflask</h2>
-<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
-<ul>
-<li>13:54 <a class="tag" onclick="toggleTagSearch(this)" data-content="#Obsidian插件">#Obsidian插件</a> 一个把Obsidian发布到网上的新工具，类似obcsapi ， <a href="https://github.com/bahleg/OBSIFLASK" target="_blank" class="external-link">bahleg/OBSIFLASK: Simple web service for Obsidian vaults</a>，目前主打功能是编辑、搜索、支持excalidraw</li>
-</ul>
-</div></div>
-<h1 id="采用第三方服务" tabindex="-1">采用第三方服务</h1>
-<p>如果能接受把上述两种方案的幕后工作交与第三方进行，我们也可以使用一些方案，但是请注意，你使用其他人提供的免费服务，可能面临对方突然停止服务或数据丢失（如果发布后本地不再留档）的风险，因此我只建议将这些方式作为临时发布方案。</p>
-<p>已上架官方市场的插件：</p>
-<ul>
-<li>Share Note</li>
-<li>Obsius Publish</li>
-<li>Friday</li>
-<li>……</li>
-</ul>
-<p>如果你想探索那些没有上架官方市场的插件，可以在github搜索obsidian，然后去topics里面查看，印象中前5页就有好几个发布用的项目。</p>
+<p>步骤详解：</p>
+<p>执行<code>http get</code> <code>%cookiecloud_url/get/%cookiecloud_uuid</code><br>
+请求的body如下：</p>
+<pre><code>password%cookiecloud_key
+</code></pre>
+<p>这一步会获得解码后的json，包括cookie和localdata</p>
+<p>然后通过JavaScriptlet来格式化cookie</p>
+<pre><code class="language-JavaScript">var jsonData = JSON.parse(local('%http_data'));
+var cookies = jsonData.cookie_data[&quot;.bilibili.com&quot;];
+var result = [];
+
+for (var i = 0; i &lt; cookies.length; i++) {
+    var name = cookies[i].name;
+    var value = cookies[i].value;
+    result.push(name + &quot;=&quot; + value);
+}
+
+// 将结果存储在Tasker的全局变量中
+setGlobal('cookieString', result.join(';'));
+</code></pre>
+<p>注：其实这一步理论上只需要<code>SESSDATA</code>，我为了省事这么写了。<br>
+格式化得到<code>a=1,b=2,c=3</code>格式的cookie信息，然后参见上一章完成目标即可。</p>
 </main>
 <aside>
 <div class="sidebar">
@@ -447,29 +427,17 @@ On this page
 <div class="toc-container">
 <nav class="toc">
 <ol>
-<li><a href="#obsidian">Obsidian发布方式汇总</a>
+<li><a href="#前言">前言</a>
 </li>
-<li><a href="#静态页面类">静态页面类</a>
+<li><a href="#tasker-ai-b">安卓端利用tasker实现ai总结b站</a>
 <ol>
-<li><a href="#digital-garden">Digital Garden插件</a>
+<li><a href="#工作原理">工作原理</a>
 </li>
-<li><a href="#quartz">Quartz框架</a>
+<li><a href="#案例：">案例：</a>
 </li>
-<li><a href="#obcsapi">Obcsapi+对象存储</a>
+<li><a href="#cookie">同步cookie</a>
 </li>
 </ol>
-</li>
-<li><a href="#实时渲染类">实时渲染类</a>
-<ol>
-<li><a href="#perlite">Perlite</a>
-</li>
-<li><a href="#obcsapi-publish">Obcsapi-publish功能</a>
-</li>
-<li><a href="#obsiflask">Obsiflask</a>
-</li>
-</ol>
-</li>
-<li><a href="#采用第三方服务">采用第三方服务</a>
 </li>
 </ol>
 </nav>
@@ -477,7 +445,8 @@ On this page
 </div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><i icon-name="link"></i><a href="/" data-note-icon="" class="backlink">阿曲的荒原</a>
+<div class="backlink-list"><div class="backlink-card">
+<span class="no-backlinks-message">No other pages mentions this page</span>
 </div></div>
 </div>
 </div>
