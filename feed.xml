@@ -3,7 +3,7 @@
     <title>阿曲的荒原</title>
     <link href="https://blog.qudange.top/feed.xml" rel="self" />
     <link href="https://blog.qudange.top" />
-    <updated>2025-11-06T08:04:34Z</updated>
+    <updated>2025-11-06T08:07:04Z</updated>
     <id>https://blog.qudange.top</id>
         <entry>
             <title>
@@ -270,7 +270,7 @@
                 黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录
                 
             </title>
-            <updated>2025-11-06T08:04:11Z</updated>
+            <updated>2025-11-06T08:06:47Z</updated>
             <id>https://blog.qudange.top/save-my-synology/</id>
             <content type="html">
                 &lt;h1 id=&quot;参考文章&quot; tabindex=&quot;-1&quot;&gt;参考文章&lt;/h1&gt;
@@ -954,7 +954,7 @@ body:has(.x-cursor) * {
                 一键把excalidraw的头脑风暴输出为线性文章
                 
             </title>
-            <updated>2025-11-06T08:04:11Z</updated>
+            <updated>2025-11-06T08:06:47Z</updated>
             <id>https://blog.qudange.top/nonlinear-output/</id>
             <content type="html">
                 &lt;h1 id=&quot;非线性思考与线性输出&quot; tabindex=&quot;-1&quot;&gt;非线性思考与线性输出&lt;/h1&gt;
@@ -2900,25 +2900,6 @@ work_wechat_corpid: xxxxxxxxxxxxxx &lt;a class=&quot;tag&quot; onclick=&quot;tog
 
             </content>
             <link href="https://blog.qudange.top/Obsidian/Obcsapi-赋予Obsidian在线api能力-拓宽OB的能力边界/" />
-        </entry>
-        <entry>
-            <title>
-                自托管的类youtube产品——peertube，视频网站
-                
-            </title>
-            <updated>2025-04-17T18:43:00.000Z</updated>
-            <id>https://blog.qudange.top/105-极客/自托管的类youtube产品——peertube，视频网站/</id>
-            <content type="html">
-                &lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.qudange.top/404&quot; target=&quot;&quot;&gt;peertube&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;部署记录&quot; tabindex=&quot;-1&quot;&gt;部署记录&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;使用官方镜像需要修改 &lt;code&gt;docker-compose.yml&lt;/code&gt; 和 &lt;code&gt;.env&lt;/code&gt; 里面的网段，否则就会报错 &lt;code&gt;It does not belong to any of this network&#39;s subnets&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;自带 docker-compose. yml 文件不能自动初始化数据库，要注意用户名与密码&lt;/li&gt;
-&lt;li&gt;走ip访问是不能登录的，必须解析成域名。&lt;/li&gt;
-&lt;/ul&gt;
-
-            </content>
-            <link href="https://blog.qudange.top/105-极客/自托管的类youtube产品——peertube，视频网站/" />
         </entry>
         <entry>
             <title>
