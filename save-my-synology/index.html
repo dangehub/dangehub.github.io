@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-<title>Obsidian轻量级PPT教程</title>
+<title>黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -137,7 +137,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><a data-note-icon="" style="text-decoration:none" class="filename" href="/Obsidian/Obsidian轻量级PPT教程/">Obsidian轻量级PPT教程 </a>
+<div @click.stop class="notelink"><a data-note-icon="" style="text-decoration:none" class="filename" href="/Obsidian/Obsidian轻量级PPT教程/">Obsidian轻量级PPT教程 </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -228,7 +228,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><a data-note-icon="" style="text-decoration:none" class="filename" href="/save-my-synology/">黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录 </a>
+<div @click.stop class="notelink active-note"><a data-note-icon="" style="text-decoration:none" class="filename" href="/save-my-synology/">黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录 </a>
 </div>
 </div>
 </div>
@@ -267,130 +267,52 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-11-06T08:04:24.282Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-11-06T08:04:24.282Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-11-06T08:04:24.282Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">Obsidian轻量级PPT教程</h1>
+<h1 data-note-icon="">黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录</h1>
 <div class="header-meta">
 <div class="header-tags">
-<a class="tag" onclick="toggleTagSearch(this)">
-#obsidian
-</a>
-<a class="tag" onclick="toggleTagSearch(this)">
-#PPT技巧
-</a>
 </div>
-<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-04-17T18:43"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-04-18T02:00"></span></div></div></div>
+<div class="timestamps"></div></div>
 </header>
-<h1 id="前言" tabindex="-1">前言</h1>
-<p>不论是学习还是工作，我们总有需要展示内容的时候，一般会用幻灯片 <sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> 来完成。PPT 相较于传统文稿，可以更直观地将信息传递给观众，通过图文结合的方式展现内容，同时利用动画效果引导视线，减轻演讲者的压力。</p>
-<p>随着我们在 Obsidian（后文简称 ob）笔记系统中的应用日渐深入，用 ob 制作 PPT 的需求变得自然而然。本文将介绍几种在 ob 中制作 PPT 的常见方式，包括 ob 自带的幻灯片与白板核心插件，以及第三方插件 Slides Extend、Advanced Canvas 和 Excalidraw。</p>
-<p>当然，Obsidian 在制作 PPT 领域无法与专业软件相提并论，因此建议大家结合自己的实际需求和 Obsidian 的功能限制，选择最适合的方式进行尝试。</p>
-<p>本文配套示例库：<a href="https://github.com/dangehub/aqu_ob_share/releases/tag/ob-ppt" target="_blank" class="external-link">Release Obsidian轻量级PPT教程配套示例库 · dangehub/aqu_ob_share</a></p>
-<p>本文配套视频：<a href="https://www.bilibili.com/video/BV1BAcAeaEsQ/" target="_blank" class="external-link">如何炫酷的展示你的笔记 —— Obsidian PPT 的三种方法_哔哩哔哩_bilibili</a></p>
-<h1 id="核心插件：幻灯片" tabindex="-1">核心插件：幻灯片</h1>
-<h2 id="相关资料" tabindex="-1">相关资料</h2>
+<h1 id="参考文章" tabindex="-1">参考文章</h1>
 <ul>
-<li>官方文档：<a href="https://publish.obsidian.md/help-zh/%E6%A0%B8%E5%BF%83%E6%8F%92%E4%BB%B6/%E5%B9%BB%E7%81%AF%E7%89%87" target="_blank" class="external-link">幻灯片 - Obsidian 中文帮助 - Obsidian Publish</a></li>
+<li><a href="https://kb.synology.cn/zh-cn/DSM/tutorial/How_can_I_recover_data_from_my_DiskStation_using_a_PC" target="_blank" class="external-link">当 Synology NAS 出现故障时，如何使用计算机恢复数据？ - Synology 知识中心</a></li>
+<li><a href="https://roov.org/2017/11/btrfs-repair/" target="_blank" class="external-link">群晖存储空间损毁 Btrfs 数据恢复教程 | reizhi (roov.org)</a></li>
 </ul>
-<h2 id="使用教程" tabindex="-1">使用教程</h2>
-<p>Ob 提供了一个原生的幻灯片核心插件。启用插件后，可以右键任意文件选择 开始演示，或按下快捷键 Ctrl+P 输入命令 幻灯片：开始演示 来激活模式。</p>
-<p>在演示模式下，当前文档会以幻灯片形式播放，并以 --- 分隔符将文档内容划分为多页。通过键盘左右箭头可以控制翻页。</p>
-<h2 id="优点/推荐使用场景" tabindex="-1">优点/推荐使用场景</h2>
+<h1 id="过程记录" tabindex="-1">过程记录</h1>
 <ul>
-<li>完美支持 Ob 的所有语法</li>
-<li>对已有笔记的改动最小，能快速将笔记转换为演示内容</li>
-</ul>
-<h2 id="缺点/局限性分析" tabindex="-1">缺点/局限性分析</h2>
+<li>下载官方提供的 ubuntu 镜像，用 unraid 虚拟机安装</li>
+<li>在执行 <code>apt-get update</code> 报错，需要执行 <code>sudo apt-get remove libappstream4</code> （这一步上网去查说要卸载 xxxstream3，但是尝试卸载发现这个版本的系统里没有 3, 所以试了试 4，果然是版本号变了）</li>
+<li>然后按教程安装需要的软件，安装完成后关闭虚拟机</li>
+<li>编辑虚拟机，把之前群晖的硬盘全挂载到 ubuntu 虚拟机上 ，重新开机</li>
+<li><code>/dev/vg1/volume 1</code></li>
+<li><code>btrfs-find-root /dev/vg1/volume 1 &amp;&gt; /tmp/root.txt</code></li>
+<li><img src="/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/%E8%87%AA%E6%89%98%E7%AE%A1%E6%8A%98%E8%85%BE/assets/42641.webp" alt="42641.webp"></li>
+<li>尝试恢复失败，为了防止对原盘产生破坏，打算先装一块盘试试能不能恢复</li>
+<li>后面发现必须要将之前组 raid 的四块硬盘同时插入时才能恢复成功，于是立马下单了一块 16T 的矿盘</li>
+<li>2022-01-02 17:50~20: 20，用时一个半小时，完成了大概 1.5T 的数据恢复，进度喜人，但是马上遇见了 unraid 自动重启，不知道是为什么（在恢复开始前我就很担心预期 30~70 小时的恢复过程一旦被打断，会不会发生什么问题）</li>
+<li>刚刚系统重启的原因找到了<img src="/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/%E8%87%AA%E6%89%98%E7%AE%A1%E6%8A%98%E8%85%BE/assets/%E9%98%B5%E5%88%97%E6%83%85%E5%86%B5.webp" alt="assets/阵列情况.webp">
 <ul>
-<li>功能简单，缺少动画等高级功能</li>
-<li>单页内容超出限制时，额外内容会被直接截断，无法滚动查看</li>
+<li>原来是之前 lexar 的那块硬盘又掉盘了，这个问题之前我也遇见过，很恼火，本来以为组了双 ssd 缓存就没问题了，不知道为什么刚刚还是掉盘了。这次为了解决问题，打算直接把 lexar 这块硬盘去掉。</li>
 </ul>
-<h1 id="slides-extend" tabindex="-1">第三方插件：slides extend</h1>
-<p>Slides Extend 插件 <sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup> 是 Ob 原生幻灯片插件的功能扩展版本，由 Reveal.js 提供支持。</p>
-<h2 id="相关资料-1" tabindex="-1">相关资料</h2>
+</li>
+<li>如果需要恢复特定文件，可以参考这篇文章 <a href="https://www.thegeekdiary.com/btrfs-restore-command-examples-in-linux/#:~:text=The%20btrfs%20restore%20command%20is%20a%20command-line%20utility,time%20and%20then%20restore%20it%20later%20if%20needed." target="_blank" class="external-link">btrfs restore Linux 中的命令示例 – 极客日记 (thegeekdiary.com)</a></li>
+<li>在恢复过程中发现多次报错 <img src="/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/%E8%87%AA%E6%89%98%E7%AE%A1%E6%8A%98%E8%85%BE/assets/63018-1762416042308.webp" alt="63018-1762416042308.webp">
 <ul>
-<li>项目开源地址：<a href="https://github.com/ebullient/obsidian-slides-extended" target="_blank" class="external-link">ebullient/obsidian-slides-extended</a></li>
-<li>项目文档：见 GitHub 仓库的 <code>docs</code> 目录（ps：吐槽一下 readme 里也不放链接，需要自己找）</li>
-<li>此插件由 Reveal.js 驱动，因此可以参考 Reveal.js 的文档：<a href="https://revealjs.com/" target="_blank" class="external-link">The HTML presentation framework | reveal.js</a></li>
+<li>这些报错需要手动处理，中途如果没有及时发现就耽搁大量时间</li>
+<li>去 github 上找文档 <a href="https://btrfs.readthedocs.io/en/latest/btrfs-restore.html" target="_blank" class="external-link">btrfs-restore（8） — btrfs 文档</a></li>
+<li>发现可以用<code>-i|--ignore-errors</code>来做忽略进程中的错误</li>
+<li><code>-v|--verbose</code> 可以打印恢复明细</li>
 </ul>
-<h2 id="使用教程-1" tabindex="-1">使用教程</h2>
-<ul>
-<li>基本的操作逻辑与核心插件幻灯片一致，<code>---</code> 作为分页符</li>
-<li>支持动画，参考文档：<a href="https://revealjs.com/auto-animate/" target="_blank" class="external-link">自动动画 | Reveal.js --- Auto-Animate | reveal.js</a></li>
-<li>支持嵌入 Excalidraw 图形，需开启 Excalidraw 的自动导出功能或通过 Frontmatter 配置</li>
+</li>
 </ul>
-<p>其中为了支持 excalidraw 嵌入，需要让 excalidraw 自动生成对应的图片，并且编辑后自动修改图片，下面设置二选一：</p>
+<p>2023-01-09 14: 20，终于完成了绝大部分的数据恢复工作，耗时 165h，恢复文件 506919 个，共计 15.1TB</p>
+<p>接下来的工作：</p>
 <ol>
-<li>打开【嵌入到 Markdown 文档中的绘图】— 【导出】— 【导出设置】— 【自动导出 SVG 副本】或【自动导出 PNG 副本】</li>
-<li>把 excalidraw 文件以 md 视图打开（编辑器右上角三个点或者命令搜索”excalidraw 切换“），手动添加 frontmatter <code>excalidraw-autoexport:svg</code> （值也可以设置为 png/both），这种方法只会让被设置的文件自动生成对应图片。</li>
+<li>检查重要数据是否恢复，如个人照片</li>
+<li>将原来的 4 个盘格式化，安装到群晖上</li>
+<li>把数据拷回去</li>
+<li>把新的16T清空后做为pt专用盘</li>
 </ol>
-<h2 id="优点/推荐使用场景-1" tabindex="-1">优点/推荐使用场景</h2>
-<ul>
-<li>代码编辑与 Ob 的笔记系统无缝衔接，可快速将笔记转换为 PPT</li>
-<li>易于实现自动化流程，例如针对固定格式的笔记（如日记）自动生成 PPT</li>
-<li>内置 web 服务器，可用浏览器播放 PPT</li>
-</ul>
-<h2 id="缺点/局限性分析-1" tabindex="-1">缺点/局限性分析</h2>
-<ul>
-<li>缺少可视化界面，学习成本较高</li>
-<li>编辑过程中容易因代码错误导致演示失效</li>
-</ul>
-<h1 id="advanced-canvas" tabindex="-1">核心插件：白板 + 第三方插件 advanced canvas</h1>
-<p>Ob 自带的白板插件虽无演示功能，但可通过 Advanced Canvas 插件实现扩展。这种方法尤其适合以白板形式记录笔记的场景，如头脑风暴或碎片知识整理，能帮助理清分散的思路</p>
-<h2 id="相关资料-2" tabindex="-1">相关资料</h2>
-<ul>
-<li>白板的官方文档：<a href="https://publish.obsidian.md/help-zh/%E6%A0%B8%E5%BF%83%E6%8F%92%E4%BB%B6/%E7%99%BD%E6%9D%BF" target="_blank" class="external-link">白板 - Obsidian 中文帮助 - Obsidian Publish</a></li>
-<li>advanced canvas 项目开源地址：<a href="https://github.com/Developer-Mike/obsidian-advanced-canvas" target="_blank" class="external-link">Developer-Mike/obsidian-advanced-canvas</a></li>
-</ul>
-<h2 id="使用教程-2" tabindex="-1">使用教程</h2>
-<p>安装好 advanced canvas 插件，无需任何配置，在 ob 里新建一个白板文件，然后在正下方能看到在原有白板的基础上多出来两个按钮，点击或拖拽 <code>Drag to add slide</code> 按钮即可新增 PPT 分页区域。</p>
-<p>每一个区域就是一页 PPT，第一次创建的 PPT 分页就是整个 PPT 的封面，右上角有一个 <code>start</code> 标识。</p>
-<p><img src="/img/user/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/Obsidian/obsidian%E5%81%9Appt/assets/Pasted%20image%2020250101134306.png" alt="../../../../105-极客/写作工具/Obsidian/obsidian做ppt/assets/Pasted image 20250101134306.png"></p>
-<p>在创建了 PPT 分页后，按 <code>ctrl</code>+<code>p</code> 输入命令 <code>Advanced Canvas:Start presentation</code> 即可开始 PPT 展示。</p>
-<p>这种方式制作的 PPT 的展示顺序由 PPT 分页的箭头控制，如果只是添加了多个分页，但是没有使用箭头将 PPT 分页连接起来，播放时则只展示 start 分页。</p>
-<p>可以通过箭头实现 PPT 的复杂跳转逻辑，比如 1--&gt;2--&gt;3--&gt;2--&gt;4--&gt;5，但需要注意，start 分页只能连接一个后续节点，如果连接多个，则只有第一个连接的分页会被识别。</p>
-<h2 id="优点/推荐使用场景-2" tabindex="-1">优点/推荐使用场景</h2>
-<ul>
-<li>充分利用 Ob 原生白板功能，可直接嵌入笔记内容</li>
-<li>制作过程中白板的布局即完成了排版，减少了 PPT 制作的额外工作量</li>
-<li>通过箭头控制分页跳转逻辑，轻松实现复杂的 PPT 演示路径</li>
-</ul>
-<h2 id="缺点/局限性分析-2" tabindex="-1">缺点/局限性分析</h2>
-<ul>
-<li>如果原笔记以文字为主，需手动将内容转换为白板形式，工作量较大</li>
-<li>动画效果有限，仅支持页面切换</li>
-</ul>
-<h1 id="excalidraw" tabindex="-1">第三方插件：excalidraw</h1>
-<h2 id="相关资料-3" tabindex="-1">相关资料</h2>
-<ul>
-<li>项目开源地址：<a href="https://github.com/zsviczian/obsidian-excalidraw-plugin" target="_blank" class="external-link">zsviczian/obsidian-excalidraw-plugin: A plugin to edit and view Excalidraw drawings in Obsidian</a></li>
-<li>项目文档：<a href="https://excalidraw-obsidian.online/Welcome" target="_blank" class="external-link">欢迎 - Excalidraw --- Welcome - Excalidraw</a> （建设中）</li>
-<li>（强烈推荐）<a href="https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian%E7%A4%BE%E5%8C%BA%E6%8F%92%E4%BB%B6/excalidraw/excalidraw%E8%84%9A%E6%9C%AC-slideshow%E5%AE%8C%E7%BE%8E%E5%AE%9E%E7%8E%B0%E7%94%BB%E6%9D%BF%E5%B9%BB%E7%81%AF%E7%89%87%E6%BC%94%E7%A4%BA%E7%9A%84%E8%84%9A%E6%9C%AC/" target="_blank" class="external-link">PKMer_Excalidraw 脚本：Slideshow 完美实现画板幻灯片演示的脚本</a></li>
-</ul>
-<h2 id="使用教程-3" tabindex="-1">使用教程</h2>
-<p>具体教程见 pkmer 文章：<a href="https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian%E7%A4%BE%E5%8C%BA%E6%8F%92%E4%BB%B6/excalidraw/excalidraw%E8%84%9A%E6%9C%AC-slideshow%E5%AE%8C%E7%BE%8E%E5%AE%9E%E7%8E%B0%E7%94%BB%E6%9D%BF%E5%B9%BB%E7%81%AF%E7%89%87%E6%BC%94%E7%A4%BA%E7%9A%84%E8%84%9A%E6%9C%AC/" target="_blank" class="external-link">PKMer_Excalidraw 脚本：Slideshow 完美实现画板幻灯片演示的脚本</a></p>
-<p>需要先在 excalidraw 的脚本库中安装 <code>slideshow</code> 脚本，然后可以通过箭头和 frames 的编号来控制幻灯片顺序。</p>
-<h2 id="优点/推荐使用场景-3" tabindex="-1">优点/推荐使用场景</h2>
-<ul>
-<li>excalidraw 有着 ob 里最强的画图能力，用它来做 PPT，内容丰富的上限极高</li>
-<li>frame 编号和箭头这两种方式来控制 PPT 的镜头运动，兼顾了简单出图与复杂运动轨迹的需求</li>
-</ul>
-<h2 id="缺点/局限性分析-3" tabindex="-1">缺点/局限性分析</h2>
-<ul>
-<li>excalidraw 相对重量级，对设备性能要求更高</li>
-<li>同白板一样，都需要根据文字内容再创作，不能直接转换</li>
-</ul>
-<h1 id="后话" tabindex="-1">后话</h1>
-<p>为什么坚持用 Ob 做 PPT？最初是因为工作电脑性能较低，且由于网络限制，难以使用现代化工具。相比老旧的 Office，Ob 简洁的风格反而更适合理工科的表达需求。此外，我日常习惯用 Ob 写工作笔记，用它制作 PPT 显得顺理成章。</p>
-<p>当然，用 Ob 制作 PPT 需要量力而行，明确目标。如果只是单纯追求好看效果，专业软件仍然是不二之选。若只是为了“玩”或者“炫技”，这套方法也有相当高的上限，世界也需要更多“无意义”的探索。</p>
-<hr>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>严格意义上“PPT”指代的是微软公司的 PowerPoint 软件，而“幻灯片”才是这种方式的名称，但是由于 PowerPoint 其广泛使用，所以人们把“幻灯片”与“PPT”划上了等号。因为本文中会频繁出现 obsidian 软件自带的幻灯片插件，为了避免混淆二者，因此本文以“PPT” 指代严格意义上的“幻灯片”，而用“幻灯片”指代 obsidian 中的幻灯片插件。 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p>这个项目继承自 <code>advanced slides</code> 插件，原插件作者表示在盈利路径上和 ob 官方有矛盾，做插件赚不到钱，导致他决定停止发布插件的后续更新。 <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
 </main>
 <aside>
 <div class="sidebar">
@@ -432,57 +354,9 @@ On this page
 <div class="toc-container">
 <nav class="toc">
 <ol>
-<li><a href="#前言">前言</a>
+<li><a href="#参考文章">参考文章</a>
 </li>
-<li><a href="#核心插件：幻灯片">核心插件：幻灯片</a>
-<ol>
-<li><a href="#相关资料">相关资料</a>
-</li>
-<li><a href="#使用教程">使用教程</a>
-</li>
-<li><a href="#优点/推荐使用场景">优点/推荐使用场景</a>
-</li>
-<li><a href="#缺点/局限性分析">缺点/局限性分析</a>
-</li>
-</ol>
-</li>
-<li><a href="#slides-extend">第三方插件：slides extend</a>
-<ol>
-<li><a href="#相关资料-1">相关资料</a>
-</li>
-<li><a href="#使用教程-1">使用教程</a>
-</li>
-<li><a href="#优点/推荐使用场景-1">优点/推荐使用场景</a>
-</li>
-<li><a href="#缺点/局限性分析-1">缺点/局限性分析</a>
-</li>
-</ol>
-</li>
-<li><a href="#advanced-canvas">核心插件：白板 + 第三方插件 advanced canvas</a>
-<ol>
-<li><a href="#相关资料-2">相关资料</a>
-</li>
-<li><a href="#使用教程-2">使用教程</a>
-</li>
-<li><a href="#优点/推荐使用场景-2">优点/推荐使用场景</a>
-</li>
-<li><a href="#缺点/局限性分析-2">缺点/局限性分析</a>
-</li>
-</ol>
-</li>
-<li><a href="#excalidraw">第三方插件：excalidraw</a>
-<ol>
-<li><a href="#相关资料-3">相关资料</a>
-</li>
-<li><a href="#使用教程-3">使用教程</a>
-</li>
-<li><a href="#优点/推荐使用场景-3">优点/推荐使用场景</a>
-</li>
-<li><a href="#缺点/局限性分析-3">缺点/局限性分析</a>
-</li>
-</ol>
-</li>
-<li><a href="#后话">后话</a>
+<li><a href="#过程记录">过程记录</a>
 </li>
 </ol>
 </nav>
@@ -490,7 +364,8 @@ On this page
 </div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><i icon-name="link"></i><a href="/" data-note-icon="" class="backlink">阿曲的荒原</a>
+<div class="backlink-list"><div class="backlink-card">
+<span class="no-backlinks-message">No other pages mentions this page</span>
 </div></div>
 </div>
 </div>
