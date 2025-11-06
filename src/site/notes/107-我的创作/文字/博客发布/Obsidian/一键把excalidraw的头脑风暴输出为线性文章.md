@@ -1,9 +1,9 @@
 ---
-{"uid":20241230193952,"title":"发散性思考与线性输出","tags":["Obsidian","excalidraw","脚本"],"description":null,"author":"曲淡歌","type":"other","draft":false,"editable":false,"modified":20250108131100,"categories":["obsidian","geek"],"alases":null,"dg-publish":true,"created":"2025-04-17T18:43","updated":"2025-04-17T18:43","dg-path":"Obsidian/一键把excalidraw的头脑风暴输出为线性文章.md","permalink":"/Obsidian/一键把excalidraw的头脑风暴输出为线性文章/","dgPassFrontmatter":true,"noteIcon":""}
+{"uid":20241230193952,"title":"一键把excalidraw的头脑风暴输出为线性文章","tags":["Obsidian","excalidraw","脚本"],"description":null,"author":"曲淡歌","type":"other","draft":false,"editable":false,"categories":["obsidian","geek"],"alases":null,"dg-publish":true,"dg-permalink":"\"nonlinear-output\"","dg-path":"Obsidian/一键把excalidraw的头脑风暴输出为线性文章.md","permalink":"/\"nonlinear-output\"/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
-# 发散性思考与线性输出
+# 非线性思考与线性输出
 
 我以前一直都是采用传统的笔记方法，从上往下写。
 
@@ -12,9 +12,9 @@
 接近的概念就是头脑风暴之类的思考组织方式，无意掉书袋，因此本文不再就此概念做过多讨论，我们姑且定义两种方式，不再深究其描述是否准确：
 
 1. 从上往下的一维：线性
-2. 上下左右都有：发散性
+2. 上下左右都有：非线性
 
-这里就会引入一个问题，当你的大脑在发散性思考的时候，用线性的笔记辅助思考，就会出现脑子和手打架的窘境。
+这里就会引入一个问题，当你的大脑在非线性思考的时候，用线性的笔记辅助思考，就会出现脑子和手打架的窘境。
 
 举例来说：我在写某个主题的时候，会突然联想到一个分支想法，它不适合放进当前的正文，但是与之又有关联。如果是传统的笔记方法，这里可以使用便签（callout），但这样终究不太适合内容组织。因此类似 mindmap 的工具都会提供二维的内容输出方式。
 
@@ -24,7 +24,9 @@
 
 这就是非线性（发散性）内容的弊端，除非是自己生产（即已完成内化）的内容，否则非线性内容先天就更难理解。
 
-因此我们需要找到一个允许我们发散性思考，但是又能快捷的输出线性内容的的方法。
+因此我们需要找到一个允许我们非线性思考，但是又能快捷的输出线性内容的的方法。
+
+
 
 # 线性输出脚本的前身
 
@@ -44,7 +46,7 @@
 
 后者直接把 excalidraw 中的图形引用过来，能更好的保留 excalidraw 的功能，不过这样也导致如果有发布文章的需求，后续可能需要再手动去把 excalidraw 引用转换为图片。
 
-在学习两位的过程中，我厘清了 `发散性思考` 、` 线性输出 ` 的概念，同时基于我自己的日记工作流，对熊猫别熬夜的脚本进行了修改，最终我的线性输出脚本诞生了。
+在学习两位的过程中，我厘清了 `非线性思考` 、` 线性输出 ` 的概念，同时基于我自己的日记工作流，对熊猫别熬夜的脚本进行了修改，最终我的线性输出脚本诞生了。
 
 # 线性输出脚本
 
