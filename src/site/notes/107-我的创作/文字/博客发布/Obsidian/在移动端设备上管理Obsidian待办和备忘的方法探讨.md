@@ -9,12 +9,19 @@
 
 好在 Obsidian 是基于 md 开放格式的软件，我们完全可以用其他软件来读取笔记，然后按照对应规则来解析笔记的待办。除了自行实现外，我也发现了一些应用在努力完成这样的目标。后文会介绍现有的第三方应用与自行实现的方法，宥于个人能力与精力的有限，难以做到全面准确，如有错漏，欢迎批评指正。
 
-# 第三方应用
+# 省流
+
+- 三星手机用户推荐用obsidian mstodo sync
+- 全平台用户可以用tickticksync+滴答清单
+- Google生态用户且愿意折腾可以用tasknotes
+- 不想同步信息给大厂的用taskforge（会员买断30美元）
+
+# 第三方应用解析ob笔记
 
 
 ## QuickCapture-forObsidian
 
-支持平台：ios
+支持平台：ios，android
 
 ## Supasend
 
@@ -29,6 +36,10 @@
 
 支持平台：ios，Android
 
+功能介绍：
+- 识别笔记中的任务，并且可以调用系统提醒
+- 支持tasks与tasknote语法
+
 ## Obsidian小部件
 
 支持平台：ios
@@ -37,10 +48,12 @@
 
 支持平台：ios
 
+这是一个支持自定义脚本的小部件工具，可以去Reddit上找关于ob的脚本，就能把笔记解析出来
 ## MarkdownWidget
 
 支持平台：ios
 
+自定义脚本的小部件工具
 ## Capsidian
 
 支持平台：android
@@ -126,6 +139,33 @@
 细节：
 
 - 只能手动选定链接的文件，而且这个文件必须由这 app 新建（当然可以手动替换）
+
+# 将ob待办同步到待办app
+
+## obsidian mstodo sync
+
+支持在ob内一键同步待办到微软todo中 ![PixPin_2025-11-30_10-43-52-1764470655555.webp](/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/Obsidian/assets/PixPin_2025-11-30_10-43-52-1764470655555.webp)
+
+
+优点：微软todo大厂软件，跑路可能性低，国内网络能正常同步，免费。如果用的是三星手机，可以与系统待办集成。
+
+缺点：ob-->微软todo单向同步，且无法自动同步，需手动触发
+
+分析：适合只需要手动挑选重要待办在移动端获取提醒的用户，三星用户额外加分
+
+注：插件未上架，仓库地址：[LumosLovegood/obsidian-mstodo-sync: microsoft-todo for obsidian.md](https://github.com/LumosLovegood/obsidian-mstodo-sync "LumosLovegood/obsidian-mstodo-sync: microsoft-todo for obsidian.md")
+
+
+## tickticksync
+
+实现ob与滴答清单的双向同步
+
+## tasknotes
+
+实现ob与Google日历/task的双向同步
+
+缺点：配置繁琐，要走google的开发者控制台
+
 
 # 自行实现
 
