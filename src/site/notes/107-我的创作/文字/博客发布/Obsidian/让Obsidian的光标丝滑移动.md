@@ -1,7 +1,12 @@
 ---
-{"uid":20250124130303,"title":"让Obsidian的光标丝滑移动","tags":["Obsidian美化","Obsidian","CSS"],"description":null,"author":"曲淡歌","draft":false,"editable":false,"modified":20250124133146,"dg-publish":true,"created":"2025-04-17T18:43","updated":"2025-04-17T18:43","dg-path":"Obsidian/让Obsidian的光标丝滑移动.md","permalink":"/Obsidian/让Obsidian的光标丝滑移动/","dgPassFrontmatter":true,"noteIcon":""}
+{"uid":20250124130303,"title":"让Obsidian的光标丝滑移动","tags":["Obsidian美化","Obsidian","CSS"],"description":null,"author":"曲淡歌","draft":false,"editable":false,"modified":20250124133146,"dg-publish":true,"created":"2025-04-17T18:43","updated":"2025-04-18T02:00","dg-path":"Obsidian/让Obsidian的光标丝滑移动.md","permalink":"/Obsidian/让Obsidian的光标丝滑移动/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
+# 更新版本
+
+下面提到的 [[003-功能页面/BPM/Ninja Cursor\|Ninja Cursor]] 配合CSS会在一些情况下出现bug，现在我更推荐使用 [[003-功能页面/BPM/Animated Cursor\|Animated Cursor]] 插件，安装这个插件无须配合CSS。
+
+** ↓↓下文已过时！↓↓**
 
 # 前言
 
