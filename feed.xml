@@ -3,7 +3,7 @@
     <title>阿曲的荒原</title>
     <link href="https://blog.qudange.top/feed.xml" rel="self" />
     <link href="https://blog.qudange.top" />
-    <updated>2025-12-18T03:58:22Z</updated>
+    <updated>2025-12-18T04:04:44Z</updated>
     <id>https://blog.qudange.top</id>
         <entry>
             <title>
@@ -282,7 +282,7 @@
                 黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录
                 
             </title>
-            <updated>2025-12-18T03:58:06Z</updated>
+            <updated>2025-12-18T04:04:34Z</updated>
             <id>https://blog.qudange.top/save-my-synology/</id>
             <content type="html">
                 &lt;h1 id=&quot;参考文章&quot; tabindex=&quot;-1&quot;&gt;参考文章&lt;/h1&gt;
@@ -885,7 +885,7 @@ body:has(.x-cursor) * {
             <updated>2025-12-18T11:51:00.000Z</updated>
             <id>https://blog.qudange.top/I-modded-Anchor-Link-Display-Text/</id>
             <content type="html">
-                &lt;p&gt;我修改了 &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.qudange.top/404&quot; target=&quot;&quot;&gt;Anchor Link Display Text&lt;/a&gt; 来解决这个问题。&lt;/p&gt;
+                &lt;p&gt;我修改了 &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.qudange.top/404&quot; target=&quot;&quot;&gt;Anchor Link Display Text&lt;/a&gt; 来解决这个问题。已经给原作者提PR了，在他合并我的PR之前，可以去我fork的仓库下载：&lt;a href=&quot;https://github.com/dangehub/anchor-link-display-text/releases/tag/1.3.1&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Release 1.3.1 · dangehub/anchor-link-display-text&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;在插件设置中打开 &amp;quot;Auto alias note links&amp;quot; 就可以将&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;[[../../../003-功能页面/BPM/VCF Contacts]]&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;自动补全成&lt;/p&gt;
@@ -1051,7 +1051,7 @@ body:has(.x-cursor) * {
                 一键把excalidraw的头脑风暴输出为线性文章
                 
             </title>
-            <updated>2025-12-18T03:58:06Z</updated>
+            <updated>2025-12-18T04:04:34Z</updated>
             <id>https://blog.qudange.top/nonlinear-output/</id>
             <content type="html">
                 &lt;h1 id=&quot;非线性思考与线性输出&quot; tabindex=&quot;-1&quot;&gt;非线性思考与线性输出&lt;/h1&gt;
