@@ -1,5 +1,5 @@
 ---
-{"uid":20250109102534,"title":"Obsidian插件测评——BetterPluginsManager：插件分组、标签管理，插件备注，延迟启动","tags":["obsidian插件"],"description":null,"author":"曲淡歌","draft":false,"editable":false,"modified":20250109112404,"dg-publish":true,"created":"2025-03-08T11:35","updated":"2025-04-15T21:50","dg-path":"Obsidian/Obsidian插件测评/Obsidian插件测评-BetterPluginsManager-插件分组、标签管理，插件备注，延迟启动.md","permalink":"/Obsidian/Obsidian插件测评/Obsidian插件测评-BetterPluginsManager-插件分组、标签管理，插件备注，延迟启动/","dgPassFrontmatter":true,"noteIcon":""}
+{"uid":20250109102534,"title":"Obsidian插件测评——BetterPluginsManager：插件分组、标签管理，插件备注，延迟启动","tags":["obsidian插件"],"description":null,"author":"曲淡歌","draft":false,"editable":false,"modified":20250109112404,"dg-publish":true,"created":"2025-03-08T11:35","updated":"2025-04-15T22:24","dg-path":"Obsidian/Obsidian插件测评/Obsidian插件测评-BetterPluginsManager-插件分组、标签管理，插件备注，延迟启动.md","permalink":"/Obsidian/Obsidian插件测评/Obsidian插件测评-BetterPluginsManager-插件分组、标签管理，插件备注，延迟启动/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

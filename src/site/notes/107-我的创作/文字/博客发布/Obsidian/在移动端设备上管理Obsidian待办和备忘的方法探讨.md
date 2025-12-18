@@ -99,9 +99,7 @@
 
 功能介绍：扫描本地的 Obsidian 库，提取其中的待办提醒，将其渲染为可视化 todo，同时可以用图形 UI 创建新的待办，支持设置截止日期、属性和种类。
 
-[fold]
-
--  ![../../../../105-极客/写作工具/Obsidian/assets/Pasted image 20250117193049.png](/img/user/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/Obsidian/assets/Pasted%20image%2020250117193049.png)
+![../../../../105-极客/写作工具/Obsidian/assets/Pasted image 20250117193049.png](/img/user/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/Obsidian/assets/Pasted%20image%2020250117193049.png)
 
 细节：
 
@@ -132,9 +130,8 @@
 
 功能介绍：这是一个开源的安卓桌面 app，它有一个自带的小组件，可以链接到一个 md 文件，然后就可以在桌面编辑这个 md 文件
 
-[fold]
 
--  ![../../../../105-极客/写作工具/Obsidian/assets/Screenshot_20250117_234412_Kvaesitso.jpg](/img/user/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/Obsidian/assets/Screenshot_20250117_234412_Kvaesitso.jpg)
+![../../../../105-极客/写作工具/Obsidian/assets/Screenshot_20250117_234412_Kvaesitso.jpg](/img/user/105-%E6%9E%81%E5%AE%A2/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/Obsidian/assets/Screenshot_20250117_234412_Kvaesitso.jpg)
 
 细节：
 
@@ -178,6 +175,12 @@
 	- 另一个网友以此为基础进行了修改
 - [使用 Tasker 为 Android 创建“即时笔记”小部件：r/ObsidianMD --- Using Tasker To Create An "Instant Note" Widget For Android : r/ObsidianMD](https://www.reddit.com/r/ObsidianMD/comments/1h9tgqh/using_tasker_to_create_an_instant_note_widget_for/)
 - 一个网友分享的 tasker 创建的思路，但是没有分享具体文件 [使用 Tasker 为 Android 创建“即时笔记”小部件：r/ObsidianMD --- Using Tasker To Create An "Instant Note" Widget For Android : r/ObsidianMD](https://www.reddit.com/r/ObsidianMD/comments/1h9tgqh/using_tasker_to_create_an_instant_note_widget_for/)
+
+## obcsapi
+
+obcsapi可以扫描库里的待办，然后用微信/邮件来发送提醒
+
+![PixPin_2025-11-30_11-20-20-1764472827938.webp](/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/Obsidian/assets/PixPin_2025-11-30_11-20-20-1764472827938.webp)
 
 ### 我的 tasker widget
 

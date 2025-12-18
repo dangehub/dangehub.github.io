@@ -1,5 +1,5 @@
 ---
-{"uid":20250207201714,"title":"Thino与Mac软件popclip联动，实现系统级全局划词摘录","tags":["obsidian","obsidian插件"],"description":null,"author":"曲淡歌","modified":20250207202127,"dg-publish":true,"关联笔记":["[[../../../../105-极客/写作工具/我的工作流之如何快速记录灵感Memos|我的工作流之如何快速记录灵感Memos]]","[[memos]]","[[obcsapi]]"],"created":"2025-04-17T18:43","updated":"2025-10-06T18:07","dg-path":"Obsidian/Thino与Mac软件popclip联动-实现系统级全局划词摘录.md","permalink":"/Obsidian/Thino与Mac软件popclip联动-实现系统级全局划词摘录/","dgPassFrontmatter":true,"noteIcon":""}
+{"uid":20250207201714,"title":"Thino与Mac软件popclip联动，实现系统级全局划词摘录","tags":["obsidian","obsidian插件"],"description":null,"author":"曲淡歌","modified":20250207202127,"dg-publish":true,"关联笔记":["[[../../../../105-极客/写作工具/我的工作流之如何快速记录灵感Memos|我的工作流之如何快速记录灵感Memos]]","[[memos]]","[[obcsapi]]"],"created":"2025-04-17T18:43","updated":"2025-10-06T18:08","dg-path":"Obsidian/Thino与Mac软件popclip联动-实现系统级全局划词摘录.md","permalink":"/Obsidian/Thino与Mac软件popclip联动-实现系统级全局划词摘录/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"uid":20241230193952,"title":"迈向爱折腾的geek的第一步：学会提问、学会查资料","tags":["geek","元知识","学习方法论"],"description":null,"author":"曲淡歌","draft":false,"editable":false,"modified":20250109141258,"dg-publish":true,"created":"2025-03-08T11:35","updated":"2025-10-03T17:32","dg-path":"迈向爱折腾的geek的第一步——学会提问、学会查资料.md","permalink":"/迈向爱折腾的geek的第一步——学会提问、学会查资料/","dgPassFrontmatter":true,"noteIcon":""}
+{"uid":20241230193952,"title":"迈向爱折腾的geek的第一步：学会提问、学会查资料","tags":["geek","元知识","学习方法论"],"description":null,"author":"曲淡歌","draft":false,"editable":false,"modified":20250109141258,"dg-publish":true,"created":"2025-03-08T11:35","updated":"2025-10-03T17:33","dg-path":"迈向爱折腾的geek的第一步——学会提问、学会查资料.md","permalink":"/迈向爱折腾的geek的第一步——学会提问、学会查资料/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
