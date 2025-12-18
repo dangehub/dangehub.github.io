@@ -3,7 +3,7 @@
 ---
 
 
-我修改了 [[003-功能页面/BPM/Anchor Link Display Text\|Anchor Link Display Text]] 来解决这个问题。
+我修改了 [[003-功能页面/BPM/Anchor Link Display Text\|Anchor Link Display Text]] 来解决这个问题。已经给原作者提PR了，在他合并我的PR之前，可以去我fork的仓库下载：[Release 1.3.1 · dangehub/anchor-link-display-text](https://github.com/dangehub/anchor-link-display-text/releases/tag/1.3.1)
 
 在插件设置中打开 "Auto alias note links" 就可以将
 
