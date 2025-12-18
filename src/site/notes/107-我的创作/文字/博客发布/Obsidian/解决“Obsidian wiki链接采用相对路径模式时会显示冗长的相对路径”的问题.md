@@ -3,18 +3,10 @@
 ---
 
 
-我修改了 [[003-功能页面/BPM/Anchor Link Display Text\|Anchor Link Display Text]] 来解决这个问题。已经给原作者提PR了，在他合并我的PR之前，可以去我fork的仓库下载：[Release 1.3.1 · dangehub/anchor-link-display-text](https://github.com/dangehub/anchor-link-display-text/releases/tag/1.3.1)
+我修改了 [[003-功能页面/BPM/Anchor Link Display Text\|Anchor Link Display Text]] 来解决这个问题。已经给原作者提 PR 了，在他合并我的 PR 之前，可以去我 fork 的仓库下载：[Release 1.3.1 · dangehub/anchor-link-display-text](https://github.com/dangehub/anchor-link-display-text/releases/tag/1.3.1)
 
-在插件设置中打开 "Auto alias note links" 就可以将
+![image-1766030740267.webp](/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/Obsidian/assets/image-1766030740267.webp)
 
-`[[../../../003-功能页面/BPM/VCF Contacts]]`
-
-自动补全成
-
-`[[../../../003-功能页面/BPM/VCF Contacts|VCF Contacts]]`
-
-最终显示的效果就是
-
-`[[VCF Contacts]]`
+这样就能让带有一长串相对路径的链接仅显示笔记名称本身。
 
 这样既能保证使用相对路径这种最强兼容性能的书写格式，又不会在书写时增加摩擦力。
