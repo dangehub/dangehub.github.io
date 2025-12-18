@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-<title>Obsidian技巧之用maoxian插件剪藏网络文章，同时把图片下载到本地</title>
+<title>安卓党狂喜！开源语音输入法「言犀键盘」：Rime 用户终于不用来回切输入法了</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -116,7 +116,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><a data-note-icon="" style="text-decoration:none" class="filename" href="/Obsidian/obsidian技巧之用maoxian插件剪藏网络文章，同时把图片下载到本地/">Obsidian技巧之用maoxian插件剪藏网络文章，同时把图片下载到本地 </a>
+<div @click.stop class="notelink"><a data-note-icon="" style="text-decoration:none" class="filename" href="/Obsidian/obsidian技巧之用maoxian插件剪藏网络文章，同时把图片下载到本地/">Obsidian技巧之用maoxian插件剪藏网络文章，同时把图片下载到本地 </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -182,7 +182,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><a data-note-icon="" style="text-decoration:none" class="filename" href="/效率工具/安卓党狂喜！开源语音输入法「言犀键盘」：Rime 用户终于不用来回切输入法了/">安卓党狂喜！开源语音输入法「言犀键盘」：Rime 用户终于不用来回切输入法了 </a>
+<div @click.stop class="notelink active-note"><a data-note-icon="" style="text-decoration:none" class="filename" href="/效率工具/安卓党狂喜！开源语音输入法「言犀键盘」：Rime 用户终于不用来回切输入法了/">安卓党狂喜！开源语音输入法「言犀键盘」：Rime 用户终于不用来回切输入法了 </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -258,268 +258,45 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-12-18T03:58:21.819Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-12-18T03:58:21.819Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-12-18T03:58:21.819Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">Obsidian技巧之用maoxian插件剪藏网络文章，同时把图片下载到本地</h1>
+<h1 data-note-icon="">安卓党狂喜！开源语音输入法「言犀键盘」：Rime 用户终于不用来回切输入法了</h1>
 <div class="header-meta">
 <div class="header-tags">
 <a class="tag" onclick="toggleTagSearch(this)">
-#obsidian
+#语音输入
 </a>
 <a class="tag" onclick="toggleTagSearch(this)">
-#网页剪藏
+#android
 </a>
 </div>
-<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-03-08T11:55"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-10-05T23:57"></span></div></div></div>
+<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-10-25T10:07"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-10-25T10:07"></span></div></div></div>
 </header>
-<h1 id="前言" tabindex="-1">前言</h1>
-<p>今天在学习隐写术的时候看到一篇挺有价值的文章，本来想用 ob 官方的剪藏工具保存下来，但是发现官方工具到现在还不能把网络图片下载下来，这对于剪藏防丢失这个目的来说，这种级别就是不可用的，于是还是换工具了，调研了一下，发现 maoxian 可能是最适合我的。</p>
-<p>maoxian 的优势：</p>
-<ul>
-<li>在浏览器环境下下载图片，可以使用浏览器的代理、cookie 等环境信息，做到所见即可得</li>
-<li>开源</li>
-<li>文件保存的名称、内容格式、路径高度可自定义</li>
-</ul>
-<h1 id="maoxian-web-clipper" tabindex="-1">maoxian web clipper 配置过程记录</h1>
-<p>Obsidian 库： <code>C:\Users\62300\Documents\livesync</code></p>
-<p>网摘入口：<code>C:\Users\62300\Documents\livesync\201-文章摘录</code></p>
-<p>浏览器默认下载地址：<code>C:\Users\62300\Downloads</code></p>
-<p>maoxian 根目录：<code>maoxian摘录</code></p>
-<p>你需要根据电脑的用户名、obsidian 库名称、剪藏存放的文件夹来替换部分内容。</p>
-<p>创建软链接（路径有中文就必须要有引号）</p>
-<pre><code>mklink /D &quot;C:\Users\62300\Downloads\maoxian摘录&quot; &quot;C:\Users\62300\Documents\livesync\201-文章摘录&quot;
-</code></pre>
-<p>调整 maoxian 的设置，由于内容过多，我直接把我的配置文件贴在文章末尾，详见 <a class="internal-link" target="" data-note-icon="" href="/Obsidian/obsidian技巧之用maoxian插件剪藏网络文章，同时把图片下载到本地/#maoxian">Obsidian技巧之用maoxian插件剪藏网络文章，同时把图片下载到本地#我的maoxian配置文件</a></p>
-<h1 id="maoxian" tabindex="-1">我的 maoxian 配置文件</h1>
-<p>使用方法：保存为 json 文件后到 maoxian 的备份中导入</p>
-<p>[fold]</p>
-<pre><code>{
-  &quot;data&quot;: {
-    &quot;assistant.default-tag-status&quot;: &quot;&quot;,
-    &quot;assistant.public-plan.default.20240502&quot;: [
-      {
-        &quot;actions&quot;: [
-          {
-            &quot;hide&quot;: [
-              &quot;div#toc&quot;,
-              &quot;table.infobox&quot;,
-              &quot;span.mw-editsection&quot;,
-              &quot;table.navbox&quot;,
-              &quot;div.thumb&quot;,
-              &quot;div.dablink&quot;,
-              &quot;table.metadata&quot;
-            ]
-          },
-          {
-            &quot;pick&quot;: &quot;div.mw-parser-output&quot;
-          }
-        ],
-        &quot;excludePattern&quot;: &quot;https://*.m.wikipedia.org/*/&quot;,
-        &quot;name&quot;: &quot;wikipedia.org&quot;,
-        &quot;pattern&quot;: &quot;https://*.wikipedia.org/wiki/*&quot;,
-        &quot;tags&quot;: [
-          &quot;knowledge&quot;,
-          &quot;wiki&quot;
-        ],
-        &quot;version&quot;: 20240502
-      },
-      {
-        &quot;actions&quot;: [
-          {
-            &quot;hide&quot;: [
-              &quot;.page-actions-menu&quot;,
-              &quot;#toc&quot;,
-              &quot;.mw-editsection&quot;,
-              &quot;h2 &gt; div.mw-ui-icon&quot;,
-              &quot;table.box-Unreferenced&quot;,
-              &quot;table.box-More_citations_needed&quot;
-            ]
-          },
-          {
-            &quot;chAttr&quot;: {
-              &quot;attr&quot;: &quot;style&quot;,
-              &quot;pick&quot;: &quot;h2.section-heading&quot;,
-              &quot;sep&quot;: &quot;;&quot;,
-              &quot;type&quot;: &quot;split2list.add&quot;,
-              &quot;value&quot;: &quot;width: 100%&quot;
-            }
-          }
-        ],
-        &quot;contributors&quot;: [
-          &quot;Altair Wei (author)&quot;
-        ],
-        &quot;name&quot;: &quot;Wikipedia Mobile View&quot;,
-        &quot;pattern&quot;: &quot;https://*.m.wikipedia.org/*/&quot;,
-        &quot;tags&quot;: [
-          &quot;knowledge&quot;,
-          &quot;wiki&quot;
-        ],
-        &quot;version&quot;: 20240502
-      },
-      {
-        &quot;actions&quot;: [
-          {
-            &quot;hide&quot;: [
-              &quot;.avatar&quot;,
-              &quot;.avatar-parent-child&quot;,
-              &quot;.inline-comment-form-actions&quot;,
-              &quot;.flex-items-center.d-sm-flex.d-none&quot;,
-              &quot;.d-inline-block&quot;
-            ]
-          },
-          {
-            &quot;pick&quot;: [
-              &quot;.js-discussion&quot;,
-              &quot;.markdown-body&quot;
-            ]
-          }
-        ],
-        &quot;contributors&quot;: [
-          &quot;yzqzss (author)&quot;
-        ],
-        &quot;name&quot;: &quot;Github&quot;,
-        &quot;pattern&quot;: &quot;https://github.com/&quot;,
-        &quot;tags&quot;: [
-          &quot;IT&quot;,
-          &quot;geek&quot;,
-          &quot;git&quot;
-        ],
-        &quot;version&quot;: 20240502
-      },
-      {
-        &quot;actions&quot;: [
-          {
-            &quot;pick&quot;: &quot;#bodyContent&quot;
-          }
-        ],
-        &quot;contributors&quot;: [
-          &quot;Mika&quot;
-        ],
-        &quot;name&quot;: &quot;ArchWiki&quot;,
-        &quot;pattern&quot;: &quot;https://wiki.archlinux.org/title/*&quot;,
-        &quot;tags&quot;: [
-          &quot;IT&quot;,
-          &quot;wiki&quot;,
-          &quot;doc&quot;
-        ],
-        &quot;version&quot;: 20240502
-      }
-    ],
-    &quot;assistant.public-plan.default.latest&quot;: &quot;assistant.public-plan.default.20240502&quot;,
-    &quot;assistant.public-plan.default.text&quot;: &quot;[\n  {\n    \&quot;name\&quot;: \&quot;wikipedia.org\&quot;,\n    \&quot;pattern\&quot;: \&quot;https://*.wikipedia.org/wiki/*\&quot;,\n    \&quot;excludePattern\&quot;: \&quot;https://*.m.wikipedia.org/*/\&quot;,\n    \&quot;version\&quot;: 20240502,\n    \&quot;actions\&quot;: [\n      {\n        \&quot;hide\&quot;: [\n          \&quot;div#toc\&quot;,\n          \&quot;table.infobox\&quot;,\n          \&quot;span.mw-editsection\&quot;,\n          \&quot;table.navbox\&quot;,\n          \&quot;div.thumb\&quot;,\n          \&quot;div.dablink\&quot;,\n          \&quot;table.metadata\&quot;\n        ]\n      },\n      {\n        \&quot;pick\&quot;: \&quot;div.mw-parser-output\&quot;\n      }\n    ],\n    \&quot;tags\&quot;: [\n      \&quot;knowledge\&quot;,\n      \&quot;wiki\&quot;\n    ]\n  },\n  {\n    \&quot;name\&quot;: \&quot;Wikipedia Mobile View\&quot;,\n    \&quot;pattern\&quot;: \&quot;https://*.m.wikipedia.org/*/\&quot;,\n    \&quot;version\&quot;: 20240502,\n    \&quot;actions\&quot;: [\n      {\n        \&quot;hide\&quot;: [\n          \&quot;.page-actions-menu\&quot;,\n          \&quot;#toc\&quot;,\n          \&quot;.mw-editsection\&quot;,\n          \&quot;h2 &gt; div.mw-ui-icon\&quot;,\n          \&quot;table.box-Unreferenced\&quot;,\n          \&quot;table.box-More_citations_needed\&quot;\n        ]\n      },\n      {\n        \&quot;chAttr\&quot;: {\n          \&quot;type\&quot;: \&quot;split2list.add\&quot;,\n          \&quot;pick\&quot;: \&quot;h2.section-heading\&quot;,\n          \&quot;attr\&quot;: \&quot;style\&quot;,\n          \&quot;value\&quot;: \&quot;width: 100%\&quot;,\n          \&quot;sep\&quot;: \&quot;;\&quot;\n        }\n      }\n    ],\n    \&quot;tags\&quot;: [\n      \&quot;knowledge\&quot;,\n      \&quot;wiki\&quot;\n    ],\n    \&quot;contributors\&quot;: [\n      \&quot;Altair Wei (author)\&quot;\n    ]\n  },\n  {\n    \&quot;name\&quot;: \&quot;Github\&quot;,\n    \&quot;pattern\&quot;: \&quot;https://github.com/\&quot;,\n    \&quot;version\&quot;: 20240502,\n    \&quot;actions\&quot;: [\n      {\n        \&quot;hide\&quot;: [\n          \&quot;.avatar\&quot;,\n          \&quot;.avatar-parent-child\&quot;,\n          \&quot;.inline-comment-form-actions\&quot;,\n          \&quot;.flex-items-center.d-sm-flex.d-none\&quot;,\n          \&quot;.d-inline-block\&quot;\n        ]\n      },\n      {\n        \&quot;pick\&quot;: [\n          \&quot;.js-discussion\&quot;,\n          \&quot;.markdown-body\&quot;\n        ]\n      }\n    ],\n    \&quot;tags\&quot;: [\n      \&quot;IT\&quot;,\n      \&quot;geek\&quot;,\n      \&quot;git\&quot;\n    ],\n    \&quot;contributors\&quot;: [\n      \&quot;yzqzss (author)\&quot;\n    ]\n  },\n  {\n    \&quot;name\&quot;: \&quot;ArchWiki\&quot;,\n    \&quot;pattern\&quot;: \&quot;https://wiki.archlinux.org/title/*\&quot;,\n    \&quot;version\&quot;: 20240502,\n    \&quot;actions\&quot;: [\n      {\n        \&quot;pick\&quot;: \&quot;#bodyContent\&quot;\n      }\n    ],\n    \&quot;tags\&quot;: [\n      \&quot;IT\&quot;,\n      \&quot;wiki\&quot;,\n      \&quot;doc\&quot;\n    ],\n    \&quot;contributors\&quot;: [\n      \&quot;Mika\&quot;\n    ]\n  }\n]&quot;,
-    &quot;assistant.public-plan.pointers&quot;: [
-      &quot;assistant.public-plan.default.20240502&quot;
-    ],
-    &quot;assistant.public-plan.subscription-urls&quot;: [
-      &quot;https://mika-cn.github.io/maoxian-web-clipper/assistant/plans/default/index.json&quot;
-    ],
-    &quot;assistant.public-plan.subscriptions&quot;: [
-      {
-        &quot;description&quot;: &quot;Default channel hosts plans that relative to international websites&quot;,
-        &quot;latestVersion&quot;: 20240502,
-        &quot;name&quot;: &quot;default&quot;,
-        &quot;size&quot;: 4,
-        &quot;updateUrl&quot;: &quot;https://mika-cn.github.io/maoxian-web-clipper/assistant/plans/default/20240502.json&quot;,
-        &quot;url&quot;: &quot;https://mika-cn.github.io/maoxian-web-clipper/assistant/plans/default/index.json&quot;
-      }
-    ],
-    &quot;config&quot;: {
-      &quot;allowFileSchemeAccess&quot;: true,
-      &quot;assetFileName&quot;: &quot;$TIME-INTSEC-$MD5URL$EXT&quot;,
-      &quot;assetFolder&quot;: &quot;$ROOT-FOLDER/assets&quot;,
-      &quot;assistantEnabled&quot;: false,
-      &quot;autoInputLastCategory&quot;: true,
-      &quot;autoInputLastTags&quot;: true,
-      &quot;autoRefreshHistory&quot;: false,
-      &quot;autoRunContentScripts&quot;: false,
-      &quot;autoUpdatePublicPlan&quot;: false,
-      &quot;autogenerateClippingJs&quot;: false,
-      &quot;backupAssistantData&quot;: true,
-      &quot;backupHistoryPageConfig&quot;: true,
-      &quot;backupSelectionData&quot;: true,
-      &quot;backupSettingPageConfig&quot;: true,
-      &quot;clippingFolderName&quot;: &quot;$YYYY-$MM-$DD-$TIME-INTSEC&quot;,
-      &quot;clippingHandler&quot;: &quot;Browser&quot;,
-      &quot;clippingJsPath&quot;: &quot;$STORAGE-PATH/history/clippings.js&quot;,
-      &quot;communicateWithThirdParty&quot;: false,
-      &quot;defaultCategory&quot;: &quot;default&quot;,
-      &quot;frameFileFolder&quot;: &quot;$ROOT-FOLDER/frames&quot;,
-      &quot;frameFileName&quot;: &quot;$TIME-INTSEC-$MD5URL.frame.html&quot;,
-      &quot;handlerBrowserEnabled&quot;: true,
-      &quot;handlerNativeAppEnabled&quot;: false,
-      &quot;handlerWizNotePlusEnabled&quot;: false,
-      &quot;htmlCaptureApplet&quot;: &quot;remove&quot;,
-      &quot;htmlCaptureAudio&quot;: &quot;remove&quot;,
-      &quot;htmlCaptureCssImage&quot;: &quot;remove&quot;,
-      &quot;htmlCaptureCssRules&quot;: &quot;saveUsed&quot;,
-      &quot;htmlCaptureEmbed&quot;: &quot;saveImage&quot;,
-      &quot;htmlCaptureIcon&quot;: &quot;remove&quot;,
-      &quot;htmlCaptureImage&quot;: &quot;saveAll&quot;,
-      &quot;htmlCaptureObject&quot;: &quot;saveImage&quot;,
-      &quot;htmlCaptureVideo&quot;: &quot;remove&quot;,
-      &quot;htmlCaptureWebFont&quot;: &quot;remove&quot;,
-      &quot;htmlCompressCss&quot;: false,
-      &quot;htmlCustomBodyBgCssEnabled&quot;: false,
-      &quot;htmlCustomBodyBgCssValue&quot;: &quot;#000000&quot;,
-      &quot;htmlEmbedFilter&quot;: &quot;&lt;images&gt;&quot;,
-      &quot;htmlObjectFilter&quot;: &quot;&lt;images&gt;&quot;,
-      &quot;htmlSaveClippingInformation&quot;: false,
-      &quot;htmlWebFontFilterList&quot;: &quot;woff2|woff|otf|ttf&quot;,
-      &quot;infoFileFolder&quot;: &quot;$CLIPPING-PATH&quot;,
-      &quot;infoFileName&quot;: &quot;index.json&quot;,
-      &quot;mainFileFolder&quot;: &quot;$ROOT-FOLDER&quot;,
-      &quot;mainFileName&quot;: &quot;$TITLE.$FORMAT&quot;,
-      &quot;markdownOptionBulletListMarker&quot;: &quot;-&quot;,
-      &quot;markdownOptionCodeBlockStyle&quot;: &quot;fenced&quot;,
-      &quot;markdownOptionEmDelimiter&quot;: &quot;*&quot;,
-      &quot;markdownOptionFence&quot;: &quot;```&quot;,
-      &quot;markdownOptionFormulaBlockWrapper&quot;: &quot;padSameLine&quot;,
-      &quot;markdownOptionHeadingStyle&quot;: &quot;atx&quot;,
-      &quot;markdownOptionHr&quot;: &quot;- - -&quot;,
-      &quot;markdownOptionLinkReferenceStyle&quot;: &quot;full&quot;,
-      &quot;markdownOptionLinkStyle&quot;: &quot;inlined&quot;,
-      &quot;markdownOptionPreformattedCode&quot;: false,
-      &quot;markdownOptionStrongDelimiter&quot;: &quot;**&quot;,
-      &quot;markdownTemplate&quot;: &quot;\n{{content}}\n&quot;,
-      &quot;mouseModeEnabled&quot;: true,
-      &quot;offlinePageHandler&quot;: &quot;Browser&quot;,
-      &quot;refreshHistoryHandler&quot;: &quot;NativeApp&quot;,
-      &quot;rememberSelection&quot;: false,
-      &quot;requestCache&quot;: &quot;default&quot;,
-      &quot;requestCacheCss&quot;: true,
-      &quot;requestCacheImage&quot;: true,
-      &quot;requestCacheWebFont&quot;: false,
-      &quot;requestCredentials&quot;: &quot;same-origin&quot;,
-      &quot;requestMaxTries&quot;: 3,
-      &quot;requestReferrerPolicy&quot;: &quot;strict-origin-when-cross-origin&quot;,
-      &quot;requestTimeout&quot;: 300,
-      &quot;rootFolder&quot;: &quot;maoxian摘录&quot;,
-      &quot;saveDomainAsTag&quot;: false,
-      &quot;saveFormat&quot;: &quot;md&quot;,
-      &quot;saveInfoFile&quot;: false,
-      &quot;saveTitleFile&quot;: false,
-      &quot;selectSaveFormatOnMenus&quot;: false,
-      &quot;shortcutSlot0&quot;: &quot;_openLastClipping&quot;,
-      &quot;shortcutSlot1&quot;: &quot;_clipAsDefault&quot;,
-      &quot;shortcutSlot2&quot;: &quot;_clipAsHTML&quot;,
-      &quot;shortcutSlot3&quot;: &quot;_clipAsMarkdown&quot;,
-      &quot;shortcutSlot4&quot;: &quot;_doNothing&quot;,
-      &quot;shortcutSlot5&quot;: &quot;_doNothing&quot;,
-      &quot;shortcutSlot6&quot;: &quot;_doNothing&quot;,
-      &quot;shortcutSlot7&quot;: &quot;_doNothing&quot;,
-      &quot;shortcutSlot8&quot;: &quot;_doNothing&quot;,
-      &quot;shortcutSlot9&quot;: &quot;_doNothing&quot;,
-      &quot;titleFileFolder&quot;: &quot;$CLIPPING-PATH&quot;,
-      &quot;titleFileName&quot;: &quot;a-title_$TITLE&quot;,
-      &quot;userCommandsText&quot;: &quot;{\n  \&quot;doNothing\&quot;: {\&quot;exec\&quot;: \&quot;doNothing\&quot;}\n}&quot;,
-      &quot;version&quot;: &quot;2.16&quot;
-    },
-    &quot;history.page.cache.enableAdvancedSearchMode&quot;: false,
-    &quot;history.page.cache.enableConfirmMode&quot;: true,
-    &quot;history.page.cache.localstorage.migrated&quot;: true,
-    &quot;history.page.cache.search.keyword&quot;: &quot;&quot;
-  },
-  &quot;backupAt&quot;: &quot;2024-12-17 16:25:24&quot;
-}
-</code></pre>
+<p>作为安卓 + Rime 输入法深度用户，我之前一直被语音输入搞得很崩溃 —— 想用语音就得切到讯飞，输完再切回 Rime，来回切换又麻烦又打断思路。直到发现 Linux Do 论坛用户开发的「言犀键盘」，不仅解决了我的痛点，体验甚至追上了 iOS 上的标杆软件，今天必须认真安利给大家！</p>
+<p>先跟用过 iOS 的朋友提一嘴，好的语音输入工具该有的样子，比如 Spokenly 那种：能选本地 / 在线模型、支持 LLM 后处理文本（去语气词、口语转书面）。但 iOS 第三方键盘权限太死，用的时候得跳应用、还会占语音通道，听音乐时语音输入甚至会降音质，而且永远没法和自己常用的键盘共存。</p>
+<p>而安卓的「言犀键盘」，直接把这些问题全解决了，还加了不少惊喜功能：</p>
+<p><img src="/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/assets/7ac7117e7bc312ca7762cd8344531bdef02bd790.png" alt="assets/7ac7117e7bc312ca7762cd8344531bdef02bd790.png"></p>
+<ol>
+<li>
+<p><strong>悬浮球 + 任意键盘共存，Rime 党狂喜</strong> 不用切换输入法！悬浮球只在有输入框时出现，点一下就能语音输入，输完直接用自己熟悉的键盘（比如 Rime）微调。我现在写文档都是先语音输大段内容，再用 Rime 改错别字，效率直接翻倍。当然言犀键盘也支持键盘模式。</p>
+<ol>
+<li>键盘模式展示 <img src="/img/user/001-Inbox/assets/%E5%AE%89%E5%8D%93%E5%85%9A%E7%8B%82%E5%96%9C%EF%BC%81%E5%BC%80%E6%BA%90%E8%AF%AD%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95%E3%80%8C%E8%A8%80%E7%8A%80%E9%94%AE%E7%9B%98%E3%80%8D%EF%BC%9ARime%20%E7%94%A8%E6%88%B7%E7%BB%88%E4%BA%8E%E4%B8%8D%E7%94%A8%E6%9D%A5%E5%9B%9E%E5%88%87%E8%BE%93%E5%85%A5%E6%B3%95%E4%BA%86-1761713876963.webp" alt="../../../../001-Inbox/assets/安卓党狂喜！开源语音输入法「言犀键盘」：Rime 用户终于不用来回切输入法了-1761713876963.webp"></li>
+<li>悬浮球模式展示（还能调节透明度，展示图中为50%） <img src="/img/user/001-Inbox/assets/%E5%AE%89%E5%8D%93%E5%85%9A%E7%8B%82%E5%96%9C%EF%BC%81%E5%BC%80%E6%BA%90%E8%AF%AD%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95%E3%80%8C%E8%A8%80%E7%8A%80%E9%94%AE%E7%9B%98%E3%80%8D%EF%BC%9ARime%20%E7%94%A8%E6%88%B7%E7%BB%88%E4%BA%8E%E4%B8%8D%E7%94%A8%E6%9D%A5%E5%9B%9E%E5%88%87%E8%BE%93%E5%85%A5%E6%B3%95%E4%BA%86-1761713937856.webp" alt="../../../../001-Inbox/assets/安卓党狂喜！开源语音输入法「言犀键盘」：Rime 用户终于不用来回切输入法了-1761713937856.webp"></li>
+<li>悬浮球长按唤出菜单展示 <img src="/img/user/001-Inbox/assets/%E5%AE%89%E5%8D%93%E5%85%9A%E7%8B%82%E5%96%9C%EF%BC%81%E5%BC%80%E6%BA%90%E8%AF%AD%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95%E3%80%8C%E8%A8%80%E7%8A%80%E9%94%AE%E7%9B%98%E3%80%8D%EF%BC%9ARime%20%E7%94%A8%E6%88%B7%E7%BB%88%E4%BA%8E%E4%B8%8D%E7%94%A8%E6%9D%A5%E5%9B%9E%E5%88%87%E8%BE%93%E5%85%A5%E6%B3%95%E4%BA%86-1761714018956.webp" alt="../../../../001-Inbox/assets/安卓党狂喜！开源语音输入法「言犀键盘」：Rime 用户终于不用来回切输入法了-1761714018956.webp"></li>
+</ol>
+</li>
+<li>
+<p><strong>权限友好，用着不折腾</strong> 不用跳转应用加载模型，也不占用语音通道。之前用 iOS 软件时，听着歌语音输入就会降音质，用言犀键盘完全没这问题，后台放歌、前台语音输入两不误。</p>
+</li>
+<li>
+<p><strong>LLM 后处理 + 高自定义， accuracy 拉满</strong> 我目前用的是豆包语音模型，准确率很高，配合 LLM 后处理，基本不用手动改。而且悬浮球上能直接开关 LLM 优化、切换提示词或 API 供应商，想自定义功能也不用翻复杂设置。</p>
+</li>
+<li>
+<p><strong>集成开源的剪贴板同步项目</strong> 甚至还能把手机作为全终端的语音输入工具</p>
+</li>
+<li>
+<p><strong>开源免费，安全感拉满</strong> 毕竟是开源项目，代码都在 GitHub 上（后附链接），不用担心隐私问题，有能力的朋友还能自己改功能，这点比很多闭源软件靠谱多了。</p>
+</li>
+</ol>
+<p>最后再总结下，如果你是安卓用户，尤其是习惯用 Rime 等小众键盘、需要高频语音输入的人，「言犀键盘」绝对值得试！直接去 GitHub（<a href="https://github.com/BryceWG/LexiSharp-Keyboard" target="_blank" class="external-link">BryceWG/LexiSharp-Keyboard</a>）就能下载，亲测用下来，比我之前试过的所有安卓语音输入法都顺手～</p>
 </main>
 <aside>
 <div class="sidebar">
@@ -550,25 +327,6 @@ CTRL + K
 <div x-effect="window.graph = renderLocalGraph(graphData, depth, fullScreen)" id="link-graph"></div>
 <div x-show="showFullGraph" id="full-graph" class="show" style="display:none">
 <span id="full-graph-close" x-on:click="fullGraph = closefullGraph(fullGraph); showFullGraph = false;"><i icon-name="x" aria-hidden="true"></i></span><div id="full-graph-container"></div>
-</div>
-</div>
-<div class="toc">
-<div class="toc-title-container">
-<div class="toc-title">
-On this page
-</div>
-</div>
-<div class="toc-container">
-<nav class="toc">
-<ol>
-<li><a href="#前言">前言</a>
-</li>
-<li><a href="#maoxian-web-clipper">maoxian web clipper 配置过程记录</a>
-</li>
-<li><a href="#maoxian">我的 maoxian 配置文件</a>
-</li>
-</ol>
-</nav>
 </div>
 </div>
 <div class="backlinks">
