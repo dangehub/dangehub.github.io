@@ -3,7 +3,7 @@
     <title>阿曲的荒原</title>
     <link href="https://blog.qudange.top/feed.xml" rel="self" />
     <link href="https://blog.qudange.top" />
-    <updated>2025-12-18T04:08:03Z</updated>
+    <updated>2025-12-18T04:20:48Z</updated>
     <id>https://blog.qudange.top</id>
         <entry>
             <title>
@@ -282,7 +282,7 @@
                 黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录
                 
             </title>
-            <updated>2025-12-18T04:07:52Z</updated>
+            <updated>2025-12-18T04:20:32Z</updated>
             <id>https://blog.qudange.top/save-my-synology/</id>
             <content type="html">
                 &lt;h1 id=&quot;参考文章&quot; tabindex=&quot;-1&quot;&gt;参考文章&lt;/h1&gt;
@@ -885,12 +885,17 @@ body:has(.x-cursor) * {
             <updated>2025-12-18T11:51:00.000Z</updated>
             <id>https://blog.qudange.top/I-modded-Anchor-Link-Display-Text/</id>
             <content type="html">
-                &lt;p&gt;我修改了 &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.qudange.top/404&quot; target=&quot;&quot;&gt;Anchor Link Display Text&lt;/a&gt; 来解决这个问题。已经给原作者提 PR 了，在他合并我的 PR 之前，可以去我 fork 的仓库下载：&lt;a href=&quot;https://github.com/dangehub/anchor-link-display-text/releases/tag/1.3.1&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Release 1.3.1 · dangehub/anchor-link-display-text&lt;/a&gt;&lt;/p&gt;
+                &lt;h1 id=&quot;正文&quot; tabindex=&quot;-1&quot;&gt;正文&lt;/h1&gt;
+&lt;p&gt;我修改了 &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.qudange.top/404&quot; target=&quot;&quot;&gt;Anchor Link Display Text&lt;/a&gt; 来解决这个问题。已经给原作者提 PR 了，在他合并我的 PR 之前，可以去我 fork 的仓库下载：&lt;a href=&quot;https://github.com/dangehub/anchor-link-display-text/releases/tag/1.3.1&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Release 1.3.1 · dangehub/anchor-link-display-text&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;需要在插件设置中打开 &lt;code&gt;Auto alias note links&lt;/code&gt; 选项。&lt;/p&gt;
-&lt;p&gt;效果展示：&lt;br /&gt;
-&lt;img src=&quot;https://blog.qudange.top/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/Obsidian/assets/image-1766030740267.webp&quot; alt=&quot;image-1766030740267.webp&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;效果展示：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.qudange.top/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/Obsidian/assets/image-1766030740267.webp&quot; alt=&quot;image-1766030740267.webp&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;这样就能让带有一长串相对路径的链接仅显示笔记名称本身。&lt;/p&gt;
 &lt;p&gt;这样既能保证使用相对路径这种最强兼容性能的书写格式，又不会在书写时增加摩擦力。&lt;/p&gt;
+&lt;h1 id=&quot;吐槽&quot; tabindex=&quot;-1&quot;&gt;吐槽&lt;/h1&gt;
+&lt;p&gt;在搜索“相对链接太长”这个话题时，发现 2020 年就有人反馈过这个问题，而官方在 2023 年给出的答复是“会在 1.2”版本中解决这个问题，而快三年过去了，Obsidian 都更新到 1.11 了，这个问题依然存在。&lt;/p&gt;
+&lt;p&gt;而我现在的实现方式也是不够完美的，如果链接的对象被修改了，Obsidian 会自动更新链接，但是 &lt;code&gt;display text&lt;/code&gt; 不会被自动更新。&lt;/p&gt;
+&lt;p&gt;所以可能目前最好的方式还是使用 &lt;code&gt;尽可能简短的形式&lt;/code&gt;，并且在未来有需求的时候，使用脚本/插件转换之。&lt;/p&gt;
 
             </content>
             <link href="https://blog.qudange.top/I-modded-Anchor-Link-Display-Text/" />
@@ -1049,7 +1054,7 @@ body:has(.x-cursor) * {
                 一键把excalidraw的头脑风暴输出为线性文章
                 
             </title>
-            <updated>2025-12-18T04:07:52Z</updated>
+            <updated>2025-12-18T04:20:32Z</updated>
             <id>https://blog.qudange.top/nonlinear-output/</id>
             <content type="html">
                 &lt;h1 id=&quot;非线性思考与线性输出&quot; tabindex=&quot;-1&quot;&gt;非线性思考与线性输出&lt;/h1&gt;
