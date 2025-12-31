@@ -3,7 +3,7 @@
     <title>阿曲的荒原</title>
     <link href="https://blog.qudange.top/feed.xml" rel="self" />
     <link href="https://blog.qudange.top" />
-    <updated>2025-12-18T04:32:13Z</updated>
+    <updated>2025-12-31T03:31:28Z</updated>
     <id>https://blog.qudange.top</id>
         <entry>
             <title>
@@ -282,7 +282,7 @@
                 黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录
                 
             </title>
-            <updated>2025-12-18T04:32:05Z</updated>
+            <updated>2025-12-31T03:31:17Z</updated>
             <id>https://blog.qudange.top/save-my-synology/</id>
             <content type="html">
                 &lt;h1 id=&quot;参考文章&quot; tabindex=&quot;-1&quot;&gt;参考文章&lt;/h1&gt;
@@ -462,6 +462,40 @@ Edit: I actually think this is why I lose interest in this game so quickly. In t
 
             </content>
             <link href="https://blog.qudange.top/自托管折腾/follow认证文件/" />
+        </entry>
+        <entry>
+            <title>
+                解决vivaldi浏览器Crtl+E无法在Discord中唤出面板的问题
+                
+            </title>
+            <updated>2025-12-31T11:30:00.000Z</updated>
+            <id>https://blog.qudange.top/vivaldi-discord-hotkey-issue/</id>
+            <content type="html">
+                &lt;p&gt;我个人比较喜欢用的 chrome 系浏览器就是 &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.qudange.top/404&quot; target=&quot;&quot;&gt;Vivaldi&lt;/a&gt;，它有一个很好用的全局命令面板，默认使用 &lt;code&gt;Ctrl+E&lt;/code&gt; 唤出，但是 &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.qudange.top/404&quot; target=&quot;&quot;&gt;Discord&lt;/a&gt; 会劫持这个快捷键，并且设置中无法关闭。&lt;/p&gt;
+&lt;p&gt;这个时候我们可以使用 &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.qudange.top/404&quot; target=&quot;&quot;&gt;TamperMonkey&lt;/a&gt; 脚本来实现禁用网页快捷键，以下脚本使用 ChatGPT 编写&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// ==UserScript==
+// @name         Let browser Ctrl+E work on Discord
+// @match        https://discord.com/*
+// @run-at       document-start
+// ==/UserScript==
+
+window.addEventListener(
+  &amp;quot;keydown&amp;quot;,
+  (e) =&amp;gt; {
+    if (e.ctrlKey &amp;amp;&amp;amp; !e.altKey &amp;amp;&amp;amp; !e.metaKey &amp;amp;&amp;amp; e.key.toLowerCase() === &amp;quot;e&amp;quot;) {
+      // 关键：不要 preventDefault()，否则浏览器快捷键也被你取消了
+      e.stopImmediatePropagation();
+      // 可选：e.stopPropagation();
+    }
+  },
+  true // capture
+);
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+            </content>
+            <link href="https://blog.qudange.top/vivaldi-discord-hotkey-issue/" />
         </entry>
         <entry>
             <title>
@@ -1054,7 +1088,7 @@ body:has(.x-cursor) * {
                 一键把excalidraw的头脑风暴输出为线性文章
                 
             </title>
-            <updated>2025-12-18T04:32:05Z</updated>
+            <updated>2025-12-31T03:31:17Z</updated>
             <id>https://blog.qudange.top/nonlinear-output/</id>
             <content type="html">
                 &lt;h1 id=&quot;非线性思考与线性输出&quot; tabindex=&quot;-1&quot;&gt;非线性思考与线性输出&lt;/h1&gt;
