@@ -3,7 +3,7 @@
     <title>阿曲的荒原</title>
     <link href="https://blog.qudange.top/feed.xml" rel="self" />
     <link href="https://blog.qudange.top" />
-    <updated>2025-12-31T03:31:28Z</updated>
+    <updated>2025-12-31T03:32:41Z</updated>
     <id>https://blog.qudange.top</id>
         <entry>
             <title>
@@ -48,6 +48,10 @@
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.qudange.top/vivaldi-discord-hotkey-issue/&quot;&gt;解决vivaldi浏览器Crtl+E无法在Discord中唤出面板的问题&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;2025-12-31&lt;/td&gt;
+&lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.qudange.top/I-modded-Anchor-Link-Display-Text/&quot;&gt;解决“Obsidian wiki链接采用相对路径模式时会显示冗长的相对路径”的问题&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;2025-12-18&lt;/td&gt;
@@ -282,7 +286,7 @@
                 黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录
                 
             </title>
-            <updated>2025-12-31T03:31:17Z</updated>
+            <updated>2025-12-31T03:32:27Z</updated>
             <id>https://blog.qudange.top/save-my-synology/</id>
             <content type="html">
                 &lt;h1 id=&quot;参考文章&quot; tabindex=&quot;-1&quot;&gt;参考文章&lt;/h1&gt;
@@ -1088,7 +1092,7 @@ body:has(.x-cursor) * {
                 一键把excalidraw的头脑风暴输出为线性文章
                 
             </title>
-            <updated>2025-12-31T03:31:17Z</updated>
+            <updated>2025-12-31T03:32:27Z</updated>
             <id>https://blog.qudange.top/nonlinear-output/</id>
             <content type="html">
                 &lt;h1 id=&quot;非线性思考与线性输出&quot; tabindex=&quot;-1&quot;&gt;非线性思考与线性输出&lt;/h1&gt;
