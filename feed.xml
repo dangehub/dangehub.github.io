@@ -3,7 +3,7 @@
     <title>阿曲的荒原</title>
     <link href="https://blog.qudange.top/feed.xml" rel="self" />
     <link href="https://blog.qudange.top" />
-    <updated>2025-12-31T03:32:41Z</updated>
+    <updated>2026-01-10T09:03:17Z</updated>
     <id>https://blog.qudange.top</id>
         <entry>
             <title>
@@ -286,7 +286,7 @@
                 黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录
                 
             </title>
-            <updated>2025-12-31T03:32:27Z</updated>
+            <updated>2026-01-10T09:03:05Z</updated>
             <id>https://blog.qudange.top/save-my-synology/</id>
             <content type="html">
                 &lt;h1 id=&quot;参考文章&quot; tabindex=&quot;-1&quot;&gt;参考文章&lt;/h1&gt;
@@ -1092,7 +1092,7 @@ body:has(.x-cursor) * {
                 一键把excalidraw的头脑风暴输出为线性文章
                 
             </title>
-            <updated>2025-12-31T03:32:27Z</updated>
+            <updated>2026-01-10T09:03:05Z</updated>
             <id>https://blog.qudange.top/nonlinear-output/</id>
             <content type="html">
                 &lt;h1 id=&quot;非线性思考与线性输出&quot; tabindex=&quot;-1&quot;&gt;非线性思考与线性输出&lt;/h1&gt;
@@ -3038,6 +3038,210 @@ work_wechat_corpid: xxxxxxxxxxxxxx &lt;a class=&quot;tag&quot; onclick=&quot;tog
 
             </content>
             <link href="https://blog.qudange.top/Obsidian/Obcsapi-赋予Obsidian在线api能力-拓宽OB的能力边界/" />
+        </entry>
+        <entry>
+            <title>
+                microblog_demo
+                
+            </title>
+            <updated>2026-01-10T17:02:00.000Z</updated>
+            <id>https://blog.qudange.top/001-Inbox/microblog_demo/</id>
+            <content type="html">
+                &lt;style&gt;
+:root {
+    --bg-color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#f5f7fa&quot;&gt;#f5f7fa&lt;/a&gt;;
+    --card-bg: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#ffffff&quot;&gt;#ffffff&lt;/a&gt;;
+    --text-primary: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#333333&quot;&gt;#333333&lt;/a&gt;;
+    --text-secondary: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#666666&quot;&gt;#666666&lt;/a&gt;;
+    --accent-color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#007bff&quot;&gt;#007bff&lt;/a&gt;;
+    --border-radius: 12px;
+    --box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: transparent;
+        --card-bg: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#2d2d2d&quot;&gt;#2d2d2d&lt;/a&gt;;
+        --text-primary: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#e0e0e0&quot;&gt;#e0e0e0&lt;/a&gt;;
+        --text-secondary: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#aaaaaa&quot;&gt;#aaaaaa&lt;/a&gt;;
+        --box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+}
+
+/* Digital Garden compatibility overrides */
+.markdown-preview-view {
+    padding: 0 !important;
+}
+
+.timeline {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    border-bottom: none !important;
+}
+
+.header p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.memo-card {
+    background-color: var(--card-bg);
+    border-radius: var(--border-radius);
+    padding: 16px;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    gap: 12px;
+    transition: transform 0.2s;
+    border: 1px solid rgba(128,128,128,0.1);
+}
+
+.memo-card:hover {
+    transform: translateY(-2px);
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#ddd&quot;&gt;#ddd&lt;/a&gt;;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0 !important;
+}
+
+.content-area {
+    flex: 1;
+}
+
+.meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.author {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.time {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+}
+
+.text {
+    line-height: 1.6;
+    margin-bottom: 12px;
+    white-space: pre-wrap;
+}
+
+.text a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.text .tag {
+    color: var(--accent-color);
+    background-color: rgba(0, 123, 255, 0.1);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+
+.images-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.image-item {
+    aspect-ratio: 1;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#eee&quot;&gt;#eee&lt;/a&gt;;
+    cursor: pointer;
+}
+
+.image-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0 !important;
+    transition: transform 0.3s;
+}
+
+.image-item:hover img {
+    transform: scale(1.05);
+}
+&lt;/style&gt;
+&lt;div class=&quot;timeline&quot;&gt;
+    &lt;div class=&quot;header&quot;&gt;
+        &lt;h1&gt;我的微博客&lt;/h1&gt;
+        &lt;p&gt;Using Digital Garden + MD Bro&lt;/p&gt;
+    &lt;/div&gt;
+&lt;p&gt;&lt;!-- Memo 1: Text Only --&gt;&lt;br /&gt;
+&lt;/p&gt;&lt;div class=&quot;memo-card&quot;&gt;&lt;br /&gt;
+&lt;div class=&quot;avatar&quot;&gt;&lt;br /&gt;
+&lt;img src=&quot;https://ui-avatars.com/api/?name=User&amp;background=0D8ABC&amp;color=fff&quot; alt=&quot;Avatar&quot; /&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;content-area&quot;&gt;&lt;br /&gt;
+&lt;div class=&quot;meta&quot;&gt;&lt;br /&gt;
+&lt;span class=&quot;author&quot;&gt;Me&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&quot;time&quot;&gt;2026-01-10 14:30&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;text&quot;&gt;今天天气真不错，适合写代码！#coding &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#life&quot;&gt;#life&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- Memo 2: With Images --&gt;&lt;br /&gt;
+&lt;/p&gt;&lt;div class=&quot;memo-card&quot;&gt;&lt;br /&gt;
+&lt;div class=&quot;avatar&quot;&gt;&lt;br /&gt;
+&lt;img src=&quot;https://ui-avatars.com/api/?name=User&amp;background=0D8ABC&amp;color=fff&quot; alt=&quot;Avatar&quot; /&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;content-area&quot;&gt;&lt;br /&gt;
+&lt;div class=&quot;meta&quot;&gt;&lt;br /&gt;
+&lt;span class=&quot;author&quot;&gt;Me&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&quot;time&quot;&gt;2026-01-09 20:15&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;text&quot;&gt;测试 Digital Garden 的渲染效果。&lt;br /&gt;
+如果图片能正常显示，说明这个方案是可行的。&lt;br /&gt;
+&lt;a href=&quot;https://blog.qudange.top/#&quot;&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#test&quot;&gt;#test&lt;/a&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;images-grid&quot;&gt;&lt;br /&gt;
+&lt;div class=&quot;image-item&quot;&gt;&lt;br /&gt;
+&lt;img src=&quot;https://picsum.photos/200/200?random=1&quot; alt=&quot;Image&quot; /&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;image-item&quot;&gt;&lt;br /&gt;
+&lt;img src=&quot;https://picsum.photos/200/200?random=2&quot; alt=&quot;Image&quot; /&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+            </content>
+            <link href="https://blog.qudange.top/001-Inbox/microblog_demo/" />
         </entry>
         <entry>
             <title>
