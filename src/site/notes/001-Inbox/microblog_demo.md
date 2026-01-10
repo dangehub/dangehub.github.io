@@ -1,0 +1,200 @@
+---
+{"dg-publish":true,"title":"我的微博客","created":"2024-01-10","updated":"2026-01-10T17:02","permalink":"/001-Inbox/microblog_demo/","dgPassFrontmatter":true,"noteIcon":""}
+---
+
+
+<style>
+:root {
+    --bg-color: #f5f7fa;
+    --card-bg: #ffffff;
+    --text-primary: #333333;
+    --text-secondary: #666666;
+    --accent-color: #007bff;
+    --border-radius: 12px;
+    --box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: transparent;
+        --card-bg: #2d2d2d;
+        --text-primary: #e0e0e0;
+        --text-secondary: #aaaaaa;
+        --box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+}
+
+/* Digital Garden compatibility overrides */
+.markdown-preview-view {
+    padding: 0 !important;
+}
+
+.timeline {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    border-bottom: none !important;
+}
+
+.header p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.memo-card {
+    background-color: var(--card-bg);
+    border-radius: var(--border-radius);
+    padding: 16px;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    gap: 12px;
+    transition: transform 0.2s;
+    border: 1px solid rgba(128,128,128,0.1);
+}
+
+.memo-card:hover {
+    transform: translateY(-2px);
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ddd;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0 !important;
+}
+
+.content-area {
+    flex: 1;
+}
+
+.meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.author {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.time {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+}
+
+.text {
+    line-height: 1.6;
+    margin-bottom: 12px;
+    white-space: pre-wrap;
+}
+
+.text a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.text .tag {
+    color: var(--accent-color);
+    background-color: rgba(0, 123, 255, 0.1);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+
+.images-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.image-item {
+    aspect-ratio: 1;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.image-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0 !important;
+    transition: transform 0.3s;
+}
+
+.image-item:hover img {
+    transform: scale(1.05);
+}
+</style>
+
+<div class="timeline">
+    <div class="header">
+        <h1>我的微博客</h1>
+        <p>Using Digital Garden + MD Bro</p>
+    </div>
+
+    <!-- Memo 1: Text Only -->
+    <div class="memo-card">
+        <div class="avatar">
+            <img src="https://ui-avatars.com/api/?name=User&background=0D8ABC&color=fff" alt="Avatar">
+        </div>
+        <div class="content-area">
+            <div class="meta">
+                <span class="author">Me</span>
+                <span class="time">2026-01-10 14:30</span>
+            </div>
+            <div class="text">今天天气真不错，适合写代码！#coding #life</div>
+        </div>
+    </div>
+
+    <!-- Memo 2: With Images -->
+    <div class="memo-card">
+         <div class="avatar">
+            <img src="https://ui-avatars.com/api/?name=User&background=0D8ABC&color=fff" alt="Avatar">
+        </div>
+        <div class="content-area">
+            <div class="meta">
+                <span class="author">Me</span>
+                <span class="time">2026-01-09 20:15</span>
+            </div>
+            <div class="text">测试 Digital Garden 的渲染效果。
+如果图片能正常显示，说明这个方案是可行的。
+<a href="#">#test</a></div>
+            <div class="images-grid">
+                <div class="image-item">
+                    <img src="https://picsum.photos/200/200?random=1" alt="Image">
+                </div>
+                <div class="image-item">
+                    <img src="https://picsum.photos/200/200?random=2" alt="Image">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
