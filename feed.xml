@@ -3,7 +3,7 @@
     <title>阿曲的荒原</title>
     <link href="https://blog.qudange.top/feed.xml" rel="self" />
     <link href="https://blog.qudange.top" />
-    <updated>2026-01-13T09:46:44Z</updated>
+    <updated>2026-01-13T09:49:51Z</updated>
     <id>https://blog.qudange.top</id>
         <entry>
             <title>
@@ -301,7 +301,7 @@
                 黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录
                 
             </title>
-            <updated>2026-01-13T09:46:36Z</updated>
+            <updated>2026-01-13T09:49:37Z</updated>
             <id>https://blog.qudange.top/save-my-synology/</id>
             <content type="html">
                 &lt;h1 id=&quot;参考文章&quot; tabindex=&quot;-1&quot;&gt;参考文章&lt;/h1&gt;
@@ -1107,7 +1107,7 @@ body:has(.x-cursor) * {
                 一键把excalidraw的头脑风暴输出为线性文章
                 
             </title>
-            <updated>2026-01-13T09:46:36Z</updated>
+            <updated>2026-01-13T09:49:37Z</updated>
             <id>https://blog.qudange.top/nonlinear-output/</id>
             <content type="html">
                 &lt;h1 id=&quot;非线性思考与线性输出&quot; tabindex=&quot;-1&quot;&gt;非线性思考与线性输出&lt;/h1&gt;
@@ -3059,11 +3059,10 @@ work_wechat_corpid: xxxxxxxxxxxxxx &lt;a class=&quot;tag&quot; onclick=&quot;tog
                 治疗“不会提问”：试试让AI“反向采访”你
                 
             </title>
-            <updated>2026-01-13T09:46:36Z</updated>
+            <updated>2026-01-13T09:49:37Z</updated>
             <id>https://blog.qudange.top/llm-reverse-interview/</id>
             <content type="html">
-                &lt;h1 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;治疗“不会提问”：试试让 AI“反向采访”你&lt;/h1&gt;
-&lt;h2 id=&quot;痛点在于“算命”：低效提问的日常困境&quot; tabindex=&quot;-1&quot;&gt;痛点在于“算命”：低效提问的日常困境&lt;/h2&gt;
+                &lt;h2 id=&quot;痛点在于“算命”：低效提问的日常困境&quot; tabindex=&quot;-1&quot;&gt;痛点在于“算命”：低效提问的日常困境&lt;/h2&gt;
 &lt;p&gt;我经常在一些技术社群回答问题。最让我头疼的，不是难题，而是这样的提问：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“报错了，怎么办？”&lt;br /&gt;
@@ -3157,7 +3156,7 @@ work_wechat_corpid: xxxxxxxxxxxxxx &lt;a class=&quot;tag&quot; onclick=&quot;tog
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;通过这种方法，你会发现自己提的问题更有价值，得到的 AI 回答更实用，同时也学会了如何更高效地使用 AI。&lt;/p&gt;
-&lt;h2 id=&quot;ai-1&quot; tabindex=&quot;-1&quot;&gt;从“算命”到“导航”：让 AI 成为你的思维外挂&lt;/h2&gt;
+&lt;h2 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;从“算命”到“导航”：让 AI 成为你的思维外挂&lt;/h2&gt;
 &lt;p&gt;我们无法瞬间变成那个“能精准提问”的人，这需要长期的思维训练。但“反向采访”给了我们一个强大的外挂：一个不知疲倦、充满逻辑的“提问教练”。&lt;/p&gt;
 &lt;p&gt;它的价值不在于最终生成的那段文字，而在于那个引导你自我剖析、层层深入的过程。你会在回答中，被迫审视自己那些未曾言明的假设、隐藏的优先级和真实的恐惧。&lt;/p&gt;
 &lt;p&gt;下次，当你面对一个复杂任务、一团乱麻的想法，或是一个不知如何描述的难题时，别急着让 AI 或他人“算命”。&lt;/p&gt;
@@ -3232,7 +3231,7 @@ work_wechat_corpid: xxxxxxxxxxxxxx &lt;a class=&quot;tag&quot; onclick=&quot;tog
                 microblog_demo_long
                 
             </title>
-            <updated>2026-01-13T09:46:36Z</updated>
+            <updated>2026-01-13T09:49:37Z</updated>
             <id>https://blog.qudange.top/001-Inbox/microblog_demo_long/</id>
             <content type="html">
                 &lt;style&gt;
