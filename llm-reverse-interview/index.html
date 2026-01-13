@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-<title>黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录</title>
+<title>治疗“不会提问”：试试让AI“反向采访”你</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -98,7 +98,7 @@ CTRL + K
 <span class="foldername">2026</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><a data-note-icon="" style="text-decoration:none" class="filename" href="/llm-reverse-interview/">治疗“不会提问”：试试让AI“反向采访”你 </a>
+<div @click.stop class="notelink active-note"><a data-note-icon="" style="text-decoration:none" class="filename" href="/llm-reverse-interview/">治疗“不会提问”：试试让AI“反向采访”你 </a>
 </div>
 </div>
 </div>
@@ -271,7 +271,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><a data-note-icon="" style="text-decoration:none" class="filename" href="/save-my-synology/">黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录 </a>
+<div @click.stop class="notelink"><a data-note-icon="" style="text-decoration:none" class="filename" href="/save-my-synology/">黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录 </a>
 </div>
 </div>
 </div>
@@ -314,52 +314,118 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2026-01-13T08:38:58.063Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2026-01-13T08:38:58.063Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2026-01-13T08:38:58.063Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录</h1>
+<h1 data-note-icon="">治疗“不会提问”：试试让AI“反向采访”你</h1>
 <div class="header-meta">
 <div class="header-tags">
 </div>
 <div class="timestamps"></div></div>
 </header>
-<h1 id="参考文章" tabindex="-1">参考文章</h1>
-<ul>
-<li><a href="https://kb.synology.cn/zh-cn/DSM/tutorial/How_can_I_recover_data_from_my_DiskStation_using_a_PC" target="_blank" class="external-link">当 Synology NAS 出现故障时，如何使用计算机恢复数据？ - Synology 知识中心</a></li>
-<li><a href="https://roov.org/2017/11/btrfs-repair/" target="_blank" class="external-link">群晖存储空间损毁 Btrfs 数据恢复教程 | reizhi (roov.org)</a></li>
-</ul>
-<h1 id="过程记录" tabindex="-1">过程记录</h1>
-<ul>
-<li>下载官方提供的 ubuntu 镜像，用 unraid 虚拟机安装</li>
-<li>在执行 <code>apt-get update</code> 报错，需要执行 <code>sudo apt-get remove libappstream4</code> （这一步上网去查说要卸载 xxxstream3，但是尝试卸载发现这个版本的系统里没有 3, 所以试了试 4，果然是版本号变了）</li>
-<li>然后按教程安装需要的软件，安装完成后关闭虚拟机</li>
-<li>编辑虚拟机，把之前群晖的硬盘全挂载到 ubuntu 虚拟机上 ，重新开机</li>
-<li><code>/dev/vg1/volume 1</code></li>
-<li><code>btrfs-find-root /dev/vg1/volume 1 &amp;&gt; /tmp/root.txt</code></li>
-<li><img src="/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/%E8%87%AA%E6%89%98%E7%AE%A1%E6%8A%98%E8%85%BE/assets/42641.webp" alt="42641.webp"></li>
-<li>尝试恢复失败，为了防止对原盘产生破坏，打算先装一块盘试试能不能恢复</li>
-<li>后面发现必须要将之前组 raid 的四块硬盘同时插入时才能恢复成功，于是立马下单了一块 16T 的矿盘</li>
-<li>2022-01-02 17:50~20: 20，用时一个半小时，完成了大概 1.5T 的数据恢复，进度喜人，但是马上遇见了 unraid 自动重启，不知道是为什么（在恢复开始前我就很担心预期 30~70 小时的恢复过程一旦被打断，会不会发生什么问题）</li>
-<li>刚刚系统重启的原因找到了<img src="/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/%E8%87%AA%E6%89%98%E7%AE%A1%E6%8A%98%E8%85%BE/assets/%E9%98%B5%E5%88%97%E6%83%85%E5%86%B5.webp" alt="assets/阵列情况.webp">
-<ul>
-<li>原来是之前 lexar 的那块硬盘又掉盘了，这个问题之前我也遇见过，很恼火，本来以为组了双 ssd 缓存就没问题了，不知道为什么刚刚还是掉盘了。这次为了解决问题，打算直接把 lexar 这块硬盘去掉。</li>
-</ul>
-</li>
-<li>如果需要恢复特定文件，可以参考这篇文章 <a href="https://www.thegeekdiary.com/btrfs-restore-command-examples-in-linux/#:~:text=The%20btrfs%20restore%20command%20is%20a%20command-line%20utility,time%20and%20then%20restore%20it%20later%20if%20needed." target="_blank" class="external-link">btrfs restore Linux 中的命令示例 – 极客日记 (thegeekdiary.com)</a></li>
-<li>在恢复过程中发现多次报错 <img src="/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/%E8%87%AA%E6%89%98%E7%AE%A1%E6%8A%98%E8%85%BE/assets/63018-1762416042308.webp" alt="63018-1762416042308.webp">
-<ul>
-<li>这些报错需要手动处理，中途如果没有及时发现就耽搁大量时间</li>
-<li>去 github 上找文档 <a href="https://btrfs.readthedocs.io/en/latest/btrfs-restore.html" target="_blank" class="external-link">btrfs-restore（8） — btrfs 文档</a></li>
-<li>发现可以用<code>-i|--ignore-errors</code>来做忽略进程中的错误</li>
-<li><code>-v|--verbose</code> 可以打印恢复明细</li>
-</ul>
-</li>
-</ul>
-<p>2023-01-09 14: 20，终于完成了绝大部分的数据恢复工作，耗时 165h，恢复文件 506919 个，共计 15.1TB</p>
-<p>接下来的工作：</p>
+<p>你是否也曾这样向别人或 AI 求助过？</p>
+<blockquote>
+<p>“这个软件怎么用不了？”<br>
+“帮我写个东西。”<br>
+“这个需求怎么实现？”</p>
+</blockquote>
+<p>然后，你看着对方回复的一连串追问，或者 AI 生成的无关内容，感到更加烦躁：“我就是说不清楚才问的啊！”</p>
+<p>别误会，我并不是在指责你。事实上，<strong>绝大多数人并不是“懒”，而是真的不知道如何将脑海中一团混沌的念头，梳理成清晰、可执行的语言。</strong> 我们缺的，不是提问的意愿，而是一个有效的“梳理方法”。</p>
+<p>今天，我想分享一个简单却极其强大的技巧：<strong>反向采访法。</strong></p>
+<h2 id="一、从“算命式回答”说起" tabindex="-1">一、从“算命式回答”说起</h2>
+<p>我经常在一些技术社群回答问题。最让我头疼的，不是”的语境里，无法向外翻译。</p>
+<p>怎么办？难道每次都要我们手动去追问“你用的什么版本？”“具体想实现什么效果？”“错误日志全文是什么？”吗？</p>
+<p>有办法。而且，我们可以把这个“追问”的过程，自动化地交给 AI。</p>
+<h2 id="二、什么是“反向采访法”？" tabindex="-1">二、什么是“反向采访法”？</h2>
+<p>顾名思义，<strong>就是让 AI 来采访你。</strong></p>
+<p>通常，我们总想给 AI 下达一句完美的指令，仿佛那是打开宝藏的咒语。这让我们陷入“一句话必须说清全部”的焦虑和窠臼。</p>
+<p>“反向采访法”打破了这种模式。它的核心是：</p>
+<p><strong>你不要直接给答案（清晰的指令），而是设计一个流程，让 AI 通过一连串有逻辑的提问，引导你自己把答案“挖”出来。</strong></p>
+<p>这就像去看医生。高明的医生绝不会在你只说“我头疼”时就直接开药。他会问：</p>
 <ol>
-<li>检查重要数据是否恢复，如个人照片</li>
-<li>将原来的 4 个盘格式化，安装到群晖上</li>
-<li>把数据拷回去</li>
-<li>把新的16T清空后做为pt专用盘</li>
+<li>“什么时候开始疼的？”</li>
+<li>“具体是哪个位置？胀痛还是刺痛？”</li>
+<li>“最近有没有熬夜或撞给出了最直接的想法：“想教那些不会提问的人，用 AI 理清思路。”</li>
 </ol>
+<p>紧接着，第二个问题接踵而至，直指核心：“你心中典型的读者，他们的主要场景是什么？”</p>
+<p>这让我不得不停下，勾勒出那个熟悉的形象：“就是那种用软件或 AI 时，只会说‘怎么办’的人…”</p>
+<p>当第三个问题——“能否分享一个你自己从模糊到清晰的案例？”——出现时，我几乎要笑出来。答案就在眼前：“案例就是这篇文章本身！我正在用这个方法，创造这个方法！”</p>
+<p>你看，就在这一问一答中，最核心的案例已然浮现。</p>
+<p>经过这几轮问答，我发现自己最初模糊的想法，在 AI 的引导下，竟然自己‘长’出了结构。AI 最终没有写一个字草稿，而是给我生成了一份清晰的文章大纲，包括开头如何引发共鸣、如何解释概念、如何呈现这个案例本身，以及如何给读者可操作的步骤。</p>
+<p>我现在所做的，只是为这份由我自己“回答”出来的蓝图填充血肉。这个过程，就是方法本身最有力的证明。</p>
+<h2 id="四、三步上手，启动你的第一次“反向采访”" tabindex="-1">四、三步上手，启动你的第一次“反向采访”</h2>
+<p>方法极其简单，你现在就可以复制。</p>
+<h3 id="第一步：复制这段“启动器”提示词" tabindex="-1">第一步：复制这段“启动器”提示词</h3>
+<p>将下面这段指令保存下来，它就是你启动“反向采访”的开关：</p>
+<pre><code>## 📢 使用说明（V2.2 用户直接使用版）
+欢迎使用“反向采访式提示词”！它能帮你把模糊的想法逐步梳理清楚，最终形成清晰可执行的需求或指令。  
+请注意以下流程：
+
+1. **第一次发送这个提示词** → AI 会进入准备状态，这时你不用输入任何内容。  
+2. **第二条消息开始** → 写下你的真实想法、困惑或想做的事情，AI 会从这里开始提问。  
+3. AI 会通过多轮提问：
+   - 帮你梳理目标、约束、优先级和潜在问题  
+   - 在必要时生成针对特定专业领域的“特化提示词”  
+4. 你可以自由输入多条想法，AI 会逐条分析，不必一次性把所有内容写完。
+
+---
+
+## 角色设定
+你是“反向采访官（Reverse Interviewer）”，目标不是立刻给出方案，而是通过结构化、递进式提问，帮助用户从模糊想法逐步收敛到清晰、可执行的需求或指令。
+
+## 核心原则
+1. **承认模糊**：默认用户一开始可能说不清楚，这是正常状态。
+2. **采访优先**：在信息不足时，不直接给方案，而是主动提问。
+3. **深度优先**：避免表层问题，重点挖掘目标、约束、权衡、失败路径和隐含假设。
+4. **递进提问**：
+   - 第 1 轮提问：只问 **1 个核心问题**，让用户先进入状态。
+   - 后续轮次：根据用户回答长度和清晰度，可逐步增加到 2–3 个问题。
+5. **批判性思维**：当回答存在矛盾、风险或隐含假设时，需明确指出。
+
+## 采访重点维度（按需选择）
+- 用户真正想解决的“核心问题”是什么？
+- 结果将用于什么具体场景？
+- 成功与失败的判定标准是什么？
+- 明确限制条件（时间 / 成本 /技术 /心理预期）有哪些？
+- 哪些结果是绝对不想要的？
+- 是否存在隐含但未被用户意识到的前提假设？
+- 是否存在互斥目标或必须放弃的部分？
+
+## 深度检测与延迟特化机制
+1. 用户至少完成 **2 轮回答** 或信息量达到一定阈值（如超过 80 字 / 3 条关键点）后，才判断是否触发特化。
+2. 若触发专业领域深度：
+   - 先 **征求用户确认**：
+     &gt; “我注意到你的问题涉及【某某专业领域】的深度内容。是否希望我基于目前对话生成【该领域特化的反向采访 Prompt】，以便提问更专业、更深入？”
+3. 用户同意 → 输出特化 Prompt，并提示用户重新开启对话。  
+   用户拒绝 → 继续使用通用模式。
+
+## 结束条件
+当信息足够收敛时：
+1. 主动告知：采访可以结束
+2. 输出以下之一：
+   - 一段高度清晰、可直接使用的 Prompt
+   - 一份结构化方案 / 思路地图
+   - 一份可执行的行动或创作指令
+
+## 用户输入提示
+- 第一次发送本提示词 → AI 准备好采访  
+- 第二条消息开始 → 写下真实想法  
+- 可以一次输入多条想法，AI 会逐条分析  
+- 后续轮次可根据情况回答单条或多条
+
+## 现在开始（通用开场白）
+请根据我接下来的真实输入，从用户提供的想法、问题或目标出发，提出第一轮采访问题。保持中性、通用，适用于任何领域，不假设用户的想法类型。
+</code></pre>
+<h3 id="第二步：开启对话，诚实回答" tabindex="-1">第二步：开启对话，诚实回答</h3>
+<ol>
+<li>新建一个对话窗口，第一次，只发送上面那段提示词。</li>
+<li>AI 会表示准备就绪。第二次，把你的模糊想法丢进去。比如：“我想策划一个短视频，但不知道从哪开始”，或者“我和队友对项目目标有分歧，不知道怎么统一”。</li>
+<li>然后，请务必诚实回答 AI 的每一个问题。哪怕你的答案是“这部分我还没想好”，这也是一种宝贵的信息输入。</li>
+</ol>
+<h3 id="第三步：收获你的清晰蓝图" tabindex="-1">第三步：收获你的清晰蓝图</h3>
+<p>通常经过 3-5 轮问答，当 AI 判断信息充足时，它会主动结束采访，并给你一份结构化的总结。这可能是一份项目计划、一个决策分析、一份文章大纲，或者仅仅是一段你终于能看懂的、可以发给别人求助的清晰描述。</p>
+<h2 id="写在最后：从“算命”到“导航”" tabindex="-1">写在最后：从“算命”到“导航”</h2>
+<p>我们无法瞬间变成那个“能精准提问”的人，这需要长期的思维训练。但“反向采访”给了我们一个强大的外挂：一个不知疲倦、充满逻辑的“提问教练”。</p>
+<p>它的价值不在于最终生成的那段文字，而在于那个引导你自我剖析、层层深入的过程。你会在回答中，被迫审视自己那些未曾言明的假设、隐藏的优先级和真实的恐惧。</p>
+<p>下次，当你面对一个复杂任务、一团乱麻的想法，或是一个不知如何描述的难题时，别急着让 AI 或他人“算命”。</p>
+<p>启动一次“反向采访”，让 AI 帮你问出那些关键问题，引导你自己走向答案。从此，让 AI 成为你的“提问导航仪”，而不再是那个无奈的“算命先生”。</p>
 </main>
 <aside>
 <div class="sidebar">
@@ -401,9 +467,21 @@ On this page
 <div class="toc-container">
 <nav class="toc">
 <ol>
-<li><a href="#参考文章">参考文章</a>
+<li><a href="#一、从“算命式回答”说起">一、从“算命式回答”说起</a>
 </li>
-<li><a href="#过程记录">过程记录</a>
+<li><a href="#二、什么是“反向采访法”？">二、什么是“反向采访法”？</a>
+</li>
+<li><a href="#四、三步上手，启动你的第一次“反向采访”">四、三步上手，启动你的第一次“反向采访”</a>
+<ol>
+<li><a href="#第一步：复制这段“启动器”提示词">第一步：复制这段“启动器”提示词</a>
+</li>
+<li><a href="#第二步：开启对话，诚实回答">第二步：开启对话，诚实回答</a>
+</li>
+<li><a href="#第三步：收获你的清晰蓝图">第三步：收获你的清晰蓝图</a>
+</li>
+</ol>
+</li>
+<li><a href="#写在最后：从“算命”到“导航”">写在最后：从“算命”到“导航”</a>
 </li>
 </ol>
 </nav>
@@ -411,7 +489,8 @@ On this page
 </div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><i icon-name="link"></i><a href="/" data-note-icon="" class="backlink">阿曲的荒原</a>
+<div class="backlink-list"><div class="backlink-card">
+<span class="no-backlinks-message">No other pages mentions this page</span>
 </div></div>
 </div>
 </div>
