@@ -2,9 +2,6 @@
 {"uid":20260113163123,"title":"治疗“不会提问”：试试让AI“反向采访”你","tags":[],"description":null,"author":"曲淡歌","modified":20260113174620,"dg-publish":true,"dg-permalink":"llm-reverse-interview","dg-path":"AI/治疗“不会提问”：试试让AI“反向采访”你.md","permalink":"/llm-reverse-interview/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
-
-# 治疗“不会提问”：试试让 AI“反向采访”你
-
 ## 痛点在于“算命”：低效提问的日常困境
 
 我经常在一些技术社群回答问题。最让我头疼的，不是难题，而是这样的提问：
