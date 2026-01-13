@@ -3,14 +3,14 @@
     <title>阿曲的荒原</title>
     <link href="https://blog.qudange.top/feed.xml" rel="self" />
     <link href="https://blog.qudange.top" />
-    <updated>2026-01-13T11:16:24Z</updated>
+    <updated>2026-01-13T11:24:03Z</updated>
     <id>https://blog.qudange.top</id>
         <entry>
             <title>
                 microblog
                 
             </title>
-            <updated>2026-01-10T19:06:00.000Z</updated>
+            <updated>2026-01-10T20:19:00.000Z</updated>
             <id>https://blog.qudange.top/microblog/</id>
             <content type="html">
                 &lt;style&gt;:root{--bg-color:#f5f7fa;--card-bg:#ffffff;--text-primary:#333333;--text-secondary:#666666;--accent-color:#007bff;--border-radius:12px;--box-shadow:0 2px 8px rgba(0,0,0,0.05)}@media(prefers-color-scheme:dark){:root{--bg-color:transparent;--card-bg:#2d2d2d;--text-primary:#e0e0e0;--text-secondary:#aaaaaa;--box-shadow:0 2px 8px rgba(0,0,0,0.2)}}.markdown-preview-view{padding:0!important}.timeline{max-width:600px;width:100%;margin:0 auto;display:flex;flex-direction:column;gap:20px;padding-top:20px}.header{text-align:center;margin-bottom:20px}.header h1{margin:0;font-size:1.5rem;border-bottom:none!important}.header p{color:var(--text-secondary);font-size:0.9rem}.memo-card{background-color:var(--card-bg);border-radius:var(--border-radius);padding:16px;box-shadow:var(--box-shadow);display:flex;gap:12px;transition:transform .2s;border:1px solid rgba(128,128,128,0.1)}.memo-card:hover{transform:translateY(-2px)}.avatar{width:40px;height:40px;border-radius:50%;background-color:#ddd;flex-shrink:0;overflow:hidden}.avatar img{width:100%;height:100%;object-fit:cover;margin:0!important;display:block}.content-area{flex:1}.meta{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}.author{font-weight:600;font-size:.95rem}.time{color:var(--text-secondary);font-size:.8rem}.text{line-height:1.6;margin-bottom:12px;white-space:pre-wrap}.text a{color:var(--accent-color);text-decoration:none}.text .tag{color:var(--accent-color);background-color:rgba(0,123,255,0.1);padding:2px 6px;border-radius:4px;font-size:.85rem}.images-grid{display:flex;flex-direction:column;gap:12px;margin-top:12px}.image-item{border-radius:8px;overflow:hidden;background-color:#eee}.image-item img{width:100%;height:auto;object-fit:contain;margin:0!important;display:block;max-height:500px}&lt;/style&gt;
@@ -63,6 +63,10 @@
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.qudange.top/llm-reverse-interview/&quot;&gt;治疗“不会提问”：试试让AI“反向采访”你&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;2026-01-13&lt;/td&gt;
+&lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.qudange.top/vivaldi-discord-hotkey-issue/&quot;&gt;解决vivaldi浏览器Crtl+E无法在Discord中唤出面板的问题&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;2025-12-31&lt;/td&gt;
@@ -301,7 +305,7 @@
                 黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录
                 
             </title>
-            <updated>2026-01-13T11:16:09Z</updated>
+            <updated>2026-01-13T11:23:52Z</updated>
             <id>https://blog.qudange.top/save-my-synology/</id>
             <content type="html">
                 &lt;h1 id=&quot;参考文章&quot; tabindex=&quot;-1&quot;&gt;参考文章&lt;/h1&gt;
@@ -1107,7 +1111,7 @@ body:has(.x-cursor) * {
                 一键把excalidraw的头脑风暴输出为线性文章
                 
             </title>
-            <updated>2026-01-13T11:16:09Z</updated>
+            <updated>2026-01-13T11:23:52Z</updated>
             <id>https://blog.qudange.top/nonlinear-output/</id>
             <content type="html">
                 &lt;h1 id=&quot;非线性思考与线性输出&quot; tabindex=&quot;-1&quot;&gt;非线性思考与线性输出&lt;/h1&gt;
@@ -3059,7 +3063,7 @@ work_wechat_corpid: xxxxxxxxxxxxxx &lt;a class=&quot;tag&quot; onclick=&quot;tog
                 治疗“不会提问”：试试让AI“反向采访”你
                 
             </title>
-            <updated>2026-01-13T11:16:09Z</updated>
+            <updated>2026-01-13T11:23:52Z</updated>
             <id>https://blog.qudange.top/llm-reverse-interview/</id>
             <content type="html">
                 &lt;h2 id=&quot;痛点在于“算命”：低效提问的日常困境&quot; tabindex=&quot;-1&quot;&gt;痛点在于“算命”：低效提问的日常困境&lt;/h2&gt;
@@ -3083,6 +3087,7 @@ work_wechat_corpid: xxxxxxxxxxxxxx &lt;a class=&quot;tag&quot; onclick=&quot;tog
 &lt;p&gt;值得一提的是，这个方法并不局限于编程。无论你是在写文章、做创意，还是规划工作，它都适用。我以前用 AI 时，常让 AI 自己帮自己改提示词，现在回看，这和反向采访法有异曲同工之妙：都是通过&lt;strong&gt;多轮互动，让思路逐步清晰&lt;/strong&gt;，而不是一开始就期望把所有东西塞进去。&lt;/p&gt;
 &lt;h2 id=&quot;多说无益：举个例子请你看看&quot; tabindex=&quot;-1&quot;&gt;多说无益：举个例子请你看看&lt;/h2&gt;
 &lt;p&gt;最有说服力的，莫过于我自己的实践。这篇文章本身，就是“反向采访法”最好的案例。如果你觉得概念还有点抽象，那么请看看下面这个关于&lt;strong&gt;如何准备一场令人焦虑的季度汇报&lt;/strong&gt;的完整对话。这是我们工作中都会遇到的经典困境。&lt;/p&gt;
+&lt;hr /&gt;
 &lt;p&gt;&lt;strong&gt;（虚拟对话开始）&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;用户&lt;/strong&gt;：我要准备一个季度总结会，好焦虑，完全不知道从哪里开始下手。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;AI（反向采访官）&lt;/strong&gt;：理解你的压力。我们先不急着想“怎么做”，而是明确“做什么”。你提到的“季度总结会”，核心目标是&lt;strong&gt;向谁汇报&lt;/strong&gt;？是直属领导、跨部门同事，还是公司管理层？&lt;/p&gt;
@@ -3103,6 +3108,7 @@ work_wechat_corpid: xxxxxxxxxxxxxx &lt;a class=&quot;tag&quot; onclick=&quot;tog
 &lt;p&gt;&lt;strong&gt;AI&lt;/strong&gt;：&lt;strong&gt;这个例子非常完美！&lt;/strong&gt; 请务必在汇报中使用它。现在，你的汇报主线已经从“迷茫地罗列工作”聚焦为 &lt;strong&gt;“展示我如何解决数据核对难题，并为团队带来了效率提升”&lt;/strong&gt;。接下来，你可以围绕我们刚梳理出的四点逻辑来制作幻灯片了。还需要我就其中某一点帮你进一步细化吗？&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;用户&lt;/strong&gt;：不用了，我现在清楚多了！我知道该怎么搭框架和找材料了，谢谢！&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;（虚拟对话结束）&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
 &lt;p&gt;你看，就在这一问一答中，最核心的案例已然浮现。经过这几轮问答，一个模糊的焦虑被引导成了一个清晰、可执行的汇报框架。这个过程，就是方法本身最有力的证明。&lt;/p&gt;
 &lt;h2 id=&quot;亲测有效：这是你可以直接复用的操作步骤&quot; tabindex=&quot;-1&quot;&gt;亲测有效：这是你可以直接复用的操作步骤&lt;/h2&gt;
 &lt;p&gt;文末我会附上一份我自己编写的提示词，你可以按照以下步骤使用，让 AI 高效帮你梳理想法：&lt;/p&gt;
