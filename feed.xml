@@ -3,7 +3,7 @@
     <title>阿曲的荒原</title>
     <link href="https://blog.qudange.top/feed.xml" rel="self" />
     <link href="https://blog.qudange.top" />
-    <updated>2026-01-13T12:48:38Z</updated>
+    <updated>2026-01-17T05:44:48Z</updated>
     <id>https://blog.qudange.top</id>
         <entry>
             <title>
@@ -305,7 +305,7 @@
                 黑群晖意外移除SSD读写缓存后开机，导致raid1存储空间损毁的挽救记录
                 
             </title>
-            <updated>2026-01-13T12:48:24Z</updated>
+            <updated>2026-01-17T05:44:37Z</updated>
             <id>https://blog.qudange.top/save-my-synology/</id>
             <content type="html">
                 &lt;h1 id=&quot;参考文章&quot; tabindex=&quot;-1&quot;&gt;参考文章&lt;/h1&gt;
@@ -1111,7 +1111,7 @@ body:has(.x-cursor) * {
                 一键把excalidraw的头脑风暴输出为线性文章
                 
             </title>
-            <updated>2026-01-13T12:48:24Z</updated>
+            <updated>2026-01-17T05:44:37Z</updated>
             <id>https://blog.qudange.top/nonlinear-output/</id>
             <content type="html">
                 &lt;h1 id=&quot;非线性思考与线性输出&quot; tabindex=&quot;-1&quot;&gt;非线性思考与线性输出&lt;/h1&gt;
@@ -3063,20 +3063,12 @@ work_wechat_corpid: xxxxxxxxxxxxxx &lt;a class=&quot;tag&quot; onclick=&quot;tog
                 治疗“不会提问”：试试让AI“反向采访”你
                 
             </title>
-            <updated>2026-01-13T12:48:24Z</updated>
+            <updated>2026-01-17T05:44:37Z</updated>
             <id>https://blog.qudange.top/llm-reverse-interview/</id>
             <content type="html">
                 &lt;h2 id=&quot;痛点在于“算命”：低效提问的日常困境&quot; tabindex=&quot;-1&quot;&gt;痛点在于“算命”：低效提问的日常困境&lt;/h2&gt;
 &lt;p&gt;我经常在一些技术社群回答问题。最让我头疼的，不是难题，而是这样的提问：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“报错了，怎么办？”&lt;br /&gt;
-（附一张只有感叹号的截图）&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“功能做不出来，急！”&lt;br /&gt;
-（再无下文）&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;业界有个笑话：面对这种提问，我们不是在解答，而是在&lt;strong&gt;算命&lt;/strong&gt;。你需要从寥寥几个字和模糊的截图里，揣测对方的操作环境、心路历程、未言明的假设，以及他真正想达成的目标。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.qudange.top/img/user/107-%E6%88%91%E7%9A%84%E5%88%9B%E4%BD%9C/%E6%96%87%E5%AD%97/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/AI/assets/9e7d9f7c8ec8114e463c51aea301abb8-1768628650920.webp&quot; alt=&quot;9e7d9f7c8ec8114e463c51aea301abb8-1768628650920.webp&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;这既不高效，也不愉快。但核心问题在于：提问者并非故意隐瞒，他们只是被困在了“自己知道”的语境里，无法向外翻译。&lt;/p&gt;
 &lt;p&gt;提问者固然有自己的难处，那难道每次都要解答者手动去追问“你用的什么版本？”“具体想实现什么效果？”“错误日志全文是什么？”吗？&lt;/p&gt;
 &lt;p&gt;有办法。而且，我们可以把这个“追问”的过程，自动化地交给 AI。&lt;/p&gt;
